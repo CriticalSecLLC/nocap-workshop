@@ -1,0 +1,26 @@
+# One entry per day. Add sessions as speakers confirm; the table on the landing
+# page grows with this file. `start` is an ISO 8601 timestamp WITH offset; the
+# browser converts it to each visitor's local time.
+#
+# sessions:
+#   - start: "2027-01-26T15:00:00Z"
+#     title: "Session title"
+#     speaker: "Name"
+#     org: "Company"
+#     track: "Cloud service provider"   # cloud service provider | auditor | advisor | vendor
+#     link: "https://..."               # webinar / recording, once it exists
+- day: 1
+  date: "2027-01-26"
+  theme: Evidence collection
+  blurb: What to collect, from where, and how often. Scanner coverage, asset inventory, and the evidence that shows both are real.
+  sessions: []
+- day: 2
+  date: "2027-01-27"
+  theme: Vulnerability evaluation
+  blurb: Turning findings into decisions. Internet-reachability, exploitability, and the calculations behind VDR.
+  sessions: []
+- day: 3
+  date: "2027-01-28"
+  theme: Remediation and reporting
+  blurb: Fixing and mitigating on the clock, then reporting it to agencies and auditors.
+  sessions: []

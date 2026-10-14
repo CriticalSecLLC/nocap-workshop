@@ -1,0 +1,32 @@
+{{ define "main" }}
+<header class="hero hero-page">
+  <div class="wrap">
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>No Cap Workshop</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</header>
+<main class="section page">
+  <div class="wrap">
+    <div class="prose long">
+      {{ if hugo.Data.speakers }}
+      <ul class="roster">
+        {{ range hugo.Data.speakers }}
+        <li><h3>{{ .name }}</h3><p class="s-meta">{{ with .role }}{{ . }}, {{ end }}{{ .org }}{{ with .track }} · {{ . }}{{ end }}</p>{{ with .bio }}<p>{{ . }}</p>{{ end }}</li>
+        {{ end }}
+      </ul>
+      {{ else }}
+      <p>Speakers will be announced here as they confirm. Sessions are drawn from active practitioners in four groups:</p>
+      <ul>
+        <li>Cloud service providers</li>
+        <li>Auditors</li>
+        <li>Advisors</li>
+        <li>Vendors</li>
+      </ul>
+      {{ end }}
+      <h2>Call for speakers</h2>
+      <p>We want sessions on what you have actually done: the tooling, the tradeoffs, the numbers. Tracks follow the three days: evidence collection, vulnerability evaluation, and remediation and reporting. Sessions are recorded and posted publicly, and you may link your own webinar or write-up from the schedule.</p>
+      <p><a href="mailto:{{ site.Params.contact }}?subject=Speaking%20at%20No%20Cap%20Workshop">Propose a session →</a></p>
+    </div>
+  </div>
+</main>
+{{ end }}

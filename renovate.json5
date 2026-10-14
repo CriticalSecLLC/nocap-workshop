@@ -1,0 +1,40 @@
+// Renovate config for nocap-workshop. Same posture as unified-systems-com/tap:
+// PR-only (no automerge), every `uses:` pinned to an immutable commit SHA with a
+// version comment that Renovate maintains. This repo has no runtime dependencies
+// at all — no npm, no CDN scripts, no fonts — so the only things that move are
+// the four GitHub Actions in .github/workflows/hugo.yml and the Hugo release the
+// workflow downloads.
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "config:recommended",
+    ":dependencyDashboard",
+    "helpers:pinGitHubActionDigests",
+  ],
+  enabledManagers: ["github-actions", "custom.regex"],
+  labels: ["renovate"],
+  automerge: false,
+  osvVulnerabilityAlerts: true,
+  vulnerabilityAlerts: {
+    labels: ["renovate", "security"],
+  },
+  packageRules: [
+    {
+      matchManagers: ["github-actions"],
+      groupName: "github-actions",
+    },
+  ],
+  customManagers: [
+    {
+      // The Hugo binary the deploy workflow installs. The line above it in
+      // hugo.yml names the datasource and package, so a Hugo release becomes a
+      // normal bump PR: `# renovate: datasource=github-releases depName=gohugoio/hugo`
+      customType: "regex",
+      managerFilePatterns: ["/^\\.github/workflows/hugo\\.yml$/"],
+      matchStrings: [
+        "# renovate: datasource=(?<datasource>[a-z-]+) depName=(?<depName>[^\\s]+)\\n\\s*HUGO_VERSION: (?<currentValue>[0-9.]+)",
+      ],
+      extractVersionTemplate: "^v(?<version>.*)$",
+    },
+  ],
+}

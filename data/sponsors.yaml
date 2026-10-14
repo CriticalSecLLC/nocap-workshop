@@ -1,0 +1,10 @@
+# Add sponsors under their tier. `logo` is a path under assets/images/sponsors/.
+# - name: "Company"
+#   url: "https://..."
+#   logo: "images/sponsors/company.svg"
+- tier: Founder
+  sponsors: []
+- tier: Gold
+  sponsors: []
+- tier: Silver
+  sponsors: []

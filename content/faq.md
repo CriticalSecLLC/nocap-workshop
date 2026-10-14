@@ -1,0 +1,53 @@
+---
+title: Frequently asked questions
+description: Answers about attending, speaking, sponsoring, and the FedRAMP terms behind No Cap Workshop.
+---
+
+## Do I need to register?
+
+No. There is no registration. Join the announcement list on the home page if you want to hear when
+the schedule and viewing links are ready.
+
+## What does the announcement list collect?
+
+An email address, used only to announce the workshop. Attending does not require being on it.
+
+## Can I attend anonymously?
+
+Yes. You can watch and ask questions without identifying yourself. Participate at whatever level you are comfortable with.
+
+## What does it cost?
+
+Nothing. Sponsors cover the cost.
+
+## Will the sessions be recorded?
+
+Yes. Every session will be recorded and posted online for everyone to use.
+
+## What are CR26, VDR, and a CAP?
+
+CR26 is FedRAMP's Consolidated Rules for 2026. VDR is Vulnerability Detection and Response, the rule
+set that governs how providers find, evaluate, and fix vulnerabilities. A CAP is a corrective action
+plan. Per [FedRAMP notice NTC-0014](https://www.fedramp.gov/notices/0014/), the rules are mandatory
+December 7, 2026, and certified offerings under a CAP keep certification through March 7, 2027.
+
+## Who is this for?
+
+Providers under a CAP, providers who are not, and providers in good shape who want to share. Auditors,
+advisors, and vendors who serve them are welcome too.
+
+## Is this a vendor pitch?
+
+No. Sessions are practitioner-led and focus on strategies and tactics people have actually used.
+
+## How do I speak?
+
+See the [speakers page](/speakers/).
+
+## How do I sponsor?
+
+See the [sponsor section](/#sponsors) on the home page and write to the address in the footer.
+
+## Is this affiliated with FedRAMP or the government?
+
+No. It is an independent initiative of Critical Sec.

@@ -1,0 +1,139 @@
+{{ define "main" }}
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>{{ .Params.eyebrow }}</p>
+    <h1>{{ .Params.headline }}</h1>
+    <p class="lede">{{ .Params.lede }}</p>
+    {{ partial "signup.html" . }}
+    <p class="name-note">{{ .Params.name_note | markdownify }}</p>
+  </div>
+</header>
+
+<main>
+  <section id="how" class="section">
+    <div class="wrap section-inner">
+      <div class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2>{{ .Params.how_heading }}</h2>
+      </div>
+      <div class="prose"><p>{{ .Params.how }}</p></div>
+    </div>
+  </section>
+
+  <section id="days" class="section">
+    <div class="wrap section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Schedule</p>
+        <h2>{{ .Params.days_heading }}</h2>
+        <p class="note"><span id="tz-note">{{ .Params.days_note }}</span></p>
+      </div>
+      <ol class="days">
+        {{ range hugo.Data.schedule }}
+        {{ $date := .date | time.AsTime }}
+        <li class="day">
+          <div class="day-head">
+            <span class="num" aria-hidden="true">{{ printf "%02d" .day }}</span>
+            <div>
+              <p class="day-date">{{ $date.Format "Monday, January 2, 2006" }}</p>
+              <h3>{{ .theme }}</h3>
+            </div>
+          </div>
+          <p class="blurb">{{ .blurb }}</p>
+          {{ if .sessions }}
+          <ul class="sessions">
+            {{ range .sessions }}
+            {{ $t := .start | time.AsTime }}
+            <li>
+              <time datetime="{{ $t.UTC.Format "2006-01-02T15:04:05Z" }}" data-local>{{ $t.UTC.Format "Mon Jan 2, 15:04 UTC" }}</time>
+              <span class="s-title">{{ if .link }}<a href="{{ .link }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</span>
+              <span class="s-meta">{{ with .speaker }}{{ . }}{{ end }}{{ with .org }}, {{ . }}{{ end }}{{ with .track }} · {{ . }}{{ end }}</span>
+            </li>
+            {{ end }}
+          </ul>
+          {{ else }}
+          <p class="tba">Sessions announced soon.</p>
+          {{ end }}
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+  </section>
+
+  <section id="attend" class="section">
+    <div class="wrap section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Audience</p>
+        <h2>{{ .Params.attend_heading }}</h2>
+      </div>
+      <ol class="items">
+        {{ range $i, $d := .Params.attend }}
+        <li class="item">
+          <span class="num" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
+          <div><h3>{{ $d.title }}</h3><p>{{ $d.text }}</p></div>
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+  </section>
+
+  <section id="speakers" class="section">
+    <div class="wrap section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Speakers</p>
+        <h2>{{ .Params.speakers_heading }}</h2>
+      </div>
+      <div class="prose">
+        <p>{{ .Params.speakers_text }}</p>
+        <p><a href="/speakers/">Speakers and call for speakers →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="measure" class="section">
+    <div class="wrap section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Success</p>
+        <h2>{{ .Params.measure_heading }}</h2>
+      </div>
+      <div class="prose"><p>{{ .Params.measure }}</p></div>
+    </div>
+  </section>
+
+  <section id="sponsors" class="section">
+    <div class="wrap section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Sponsors</p>
+        <h2>{{ .Params.sponsors_heading }}</h2>
+      </div>
+      <div>
+        <div class="prose"><p>{{ .Params.sponsors_text }}</p></div>
+        <div class="tiers">
+          {{ range hugo.Data.sponsors }}
+          <div class="tier">
+            <h3>{{ .tier }}</h3>
+            {{ if .sponsors }}
+            <ul class="logos">
+              {{ range .sponsors }}
+              {{ $name := .name }}
+              <li><a href="{{ .url }}">{{ with .logo }}{{ with resources.Get . }}<img src="{{ .RelPermalink }}" alt="{{ $name }}">{{ end }}{{ else }}{{ $name }}{{ end }}</a></li>
+              {{ end }}
+            </ul>
+            {{ else }}
+            <p class="tba">Open</p>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+        <p class="note"><a href="mailto:{{ site.Params.contact }}?subject=Sponsoring%20No%20Cap%20Workshop">Talk to us about sponsoring →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="closing" class="section closing">
+    <div class="wrap">
+      <h2>{{ .Params.closing_heading }}</h2>
+      <p class="lede">{{ .Params.closing }}</p>
+    </div>
+  </section>
+</main>
+{{ end }}
