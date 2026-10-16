@@ -6,12 +6,12 @@ lede: The No Cap Workshop is three days of free, practical, practitioner-led ses
 
 name_note: >-
   **Why “No Cap”?** CAP is a Corrective Action Plan, the status a Cloud Service Provider lands in if it misses the
-  December 7 deadline. Offerings under a CAP keep their certification only through March 7, 2027.
+  [December 7 deadline](https://www.fedramp.gov/notices/0014/) for implementing FedRAMP's [CR-26](https://fedramp.gov/2026/) rules for Vulnerability Detection and Response  ([VDR](https://fedramp.gov/2026/agencies/rules/vulnerability-evaluation-and-reporting/)). Offerings under a CAP are at risk of having their FedRAMP certification revoked if they are not compliant by March 7, 2027. <br/><br/>
   This workshop is about staying out of a CAP, or getting out if you're already in.
 
 how_heading: Free, open, and accessible.
 how: >-
-  This is a free online event open to anyone who wants to take part. There is no pre-registration
+  This is a free online event open to anyone who wants to take part. There is no registration
   and no identification. Show up, watch, learn, ask questions, and
   participate at whatever level of engagement works for you. Each session will be recorded and posted
   online for everyone to use afterward.
@@ -33,7 +33,7 @@ speakers_text: >-
   Speakers are active practitioners from Cloud Service Providers, auditors, advisors, and vendors.
   We organize tracks and sessions around the work. If your product has answers, this is a forum to let everyone know.
 
-measure_heading: The Goal
+measure_heading: The Mission
 measure: >-
   Support teams to come off a CAP, or avoid going on one, then position everyone to succeed by the
   March 7 deadline and beyond.
