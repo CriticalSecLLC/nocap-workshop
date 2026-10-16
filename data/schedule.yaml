@@ -11,7 +11,7 @@
 #     link: "https://..."               # webinar / recording, once it exists
 - day: 1
   date: "2027-01-26"
-  theme: Inventory Collection
+  theme: Data Collection
   blurb: What to collect, from where, and how often. Scanner coverage, asset inventory, and the evidence that shows both are complete.
   sessions: []
 - day: 2
