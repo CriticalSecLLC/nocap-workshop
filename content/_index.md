@@ -12,7 +12,7 @@ name_note: >-
 how_heading: Free, open, and accessible.
 how: >-
   This is a free online event open to anyone who wants to take part. There is no pre-registration
-  and no required identification. Show up, watch, learn, ask questions, and
+  and no identification. Show up, watch, learn, ask questions, and
   participate at whatever level of engagement works for you. Each session will be recorded and posted
   online for everyone to use afterward.
 

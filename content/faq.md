@@ -27,8 +27,8 @@ Yes. Every session will be recorded and posted online for collective use.
 ## What are CR26, VDR, and a CAP?
 
 CR26 is FedRAMP's Consolidated Rules for 2026. VDR is Vulnerability Detection and Response, the rule
-set that governs how providers find, evaluate, and fix vulnerabilities. A CAP is a corrective action
-plan. Per [FedRAMP notice NTC-0014](https://www.fedramp.gov/notices/0014/), the rules are mandatory
+set that governs how providers find, evaluate, and fix vulnerabilities. A CAP is a Corrective Action
+Plan. Per [FedRAMP notice NTC-0014](https://www.fedramp.gov/notices/0014/), the rules are mandatory
 December 7, 2026, and certified offerings under a CAP keep certification through March 7, 2027.
 
 ## Who is this for?
