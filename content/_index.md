@@ -7,7 +7,7 @@ lede: The No Cap Workshop is three days of free, practical, practitioner-led ses
 name_note: >-
   **Why “No Cap”?** CAP is a Corrective Action Plan, the status a Cloud Service Provider lands in if it misses the
   December 7 deadline. Offerings under a CAP keep their certification only through March 7, 2027.
-  This workshop is about staying out from a CAP, or getting out if you're already in.
+  This workshop is about staying out of a CAP, or getting out if you're already in.
 
 how_heading: Free, open, and accessible.
 how: >-
@@ -31,12 +31,12 @@ attend:
 speakers_heading: Who speaks
 speakers_text: >-
   Speakers are active practitioners from Cloud Service Providers, auditors, advisors, and vendors.
-  We organize tracks and sessions around the work. If your product has answers this is a forum to let everyone know.
+  We organize tracks and sessions around the work. If your product has answers, this is a forum to let everyone know.
 
 measure_heading: The Goal
 measure: >-
   Support teams to come off a CAP, or avoid going on one, then position everyone to succeed by the
-  March 7 deadline and beyond. 
+  March 7 deadline and beyond.
 
 sponsors_heading: Sponsors
 sponsors_text: >-
@@ -46,5 +46,5 @@ sponsors_text: >-
 
 closing_heading: This is bigger than the rules.
 closing: >-
-  The VDR refactor is a dramatic, complex change to security compliance, and something that many teams are struggling to understand, implement, and maintain.  It's also one of the most timely changes we could be facing.  Think about it this way - at some point in the future we'll look back on the 12 Hr SLA and chuckle that we used to have so much time to respond.
+  The VDR refactor is a dramatic, complex change to security compliance, and something that many teams are struggling to understand, implement, and maintain. It's also one of the most timely changes we could be facing. Think about it this way - at some point in the future we'll look back on the 12-hour SLA and chuckle that we used to have so much time to respond.
 ---

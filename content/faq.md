@@ -38,7 +38,7 @@ advisors, and vendors who serve them are welcome too.
 
 ## Is this a vendor pitch?
 
-No. Sessions are practitioner-led and focus on strategies and tactics people have actually used.  Vendors are invited to present on their solutions.  If they can convince you they've got the cure for what ails you, more power to them.  This is 100% about solutions.
+No. Sessions are practitioner-led and focus on strategies and tactics people have actually used. Vendors are invited to present on their solutions. If they can convince you they've got the cure for what ails you, more power to them. This is 100% about solutions.
 
 ## How do I sign up to lead a workshop?
 
