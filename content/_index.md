@@ -16,10 +16,10 @@ how: >-
   participate at whatever level of engagement works for you. Each session will be recorded and posted
   online for everyone to use afterward.
 
-days_heading: Three days, One Goal.
+days_heading: Three Days, Strategic Deliverables.
 days_note: Session times are shown in your local time.
 
-attend_heading: Who should attend
+attend_heading: Who Should Attend
 attend:
   - title: Teams under a CAP
     text: Learn the strategies and approaches that get you out from under it by March 7, 2027.
@@ -28,7 +28,7 @@ attend:
   - title: Teams in a Good Place
     text: Show up to share what is working, and learn a few new tricks along the way.
 
-speakers_heading: Who speaks
+speakers_heading: Who Speaks
 speakers_text: >-
   Speakers are active practitioners from Cloud Service Providers, auditors, advisors, and vendors.
   We organize tracks and sessions around the work. If your product has answers, this is a forum to let everyone know.
@@ -44,7 +44,7 @@ sponsors_text: >-
   and publication, and share the room with a security-minded audience that is working
   on this exact problem.
 
-closing_heading: This is bigger than the rules.
+closing_heading: This is bigger than the deadline.
 closing: >-
   The VDR refactor is a dramatic, complex change to security compliance, and something that many teams are struggling to understand, implement, and maintain. It's also one of the most timely changes we could be facing. Think about it this way - at some point in the future we'll look back on the 12-hour SLA and chuckle that we used to have so much time to respond.
 ---
