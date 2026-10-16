@@ -5,7 +5,7 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term", "RSS"]
 
 [params]
-  description = "Three free days of practitioner-led sessions on meeting FedRAMP's VDR rules before the December 7, 2026 deadline."
+  description = "Three free days of practitioner-led sessions on meeting FedRAMP's VDR rules before the March 7, 2027 deadline."
   org = "https://criticalsec.com"
   repo = "https://github.com/criticalsecllc/nocap-workshop"
   # Announcement-list form posts here. Buttondown embed-subscribe endpoint; the
