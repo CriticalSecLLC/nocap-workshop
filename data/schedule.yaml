@@ -11,16 +11,16 @@
 #     link: "https://..."               # webinar / recording, once it exists
 - day: 1
   date: "2027-01-26"
-  theme: Evidence collection
-  blurb: What to collect, from where, and how often. Scanner coverage, asset inventory, and the evidence that shows both are real.
+  theme: Inventory Collection
+  blurb: What to collect, from where, and how often. Scanner coverage, asset inventory, and the evidence that shows both are complete.
   sessions: []
 - day: 2
   date: "2027-01-27"
-  theme: Vulnerability evaluation
-  blurb: Turning findings into decisions. Internet-reachability, exploitability, and the calculations behind VDR.
+  theme: Vulnerability Evaluation
+  blurb: Internet-reachability, likely exploitability, and the Potential Agency Impact N Rating.
   sessions: []
 - day: 3
   date: "2027-01-28"
-  theme: Remediation and reporting
-  blurb: Fixing and mitigating on the clock, then reporting it to agencies and auditors.
+  theme: Remediation and Reporting
+  blurb: Driving decisions.  Fixing and mitigating on the clock, then reporting it to agencies and auditors.
   sessions: []

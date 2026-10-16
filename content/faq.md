@@ -18,11 +18,11 @@ Yes. You can watch and ask questions without identifying yourself. Participate a
 
 ## What does it cost?
 
-Nothing. Sponsors cover the cost.
+Nothing for attendees. We want you to show up and benefit without having to deal with procurement / travel / etc.
 
 ## Will the sessions be recorded?
 
-Yes. Every session will be recorded and posted online for everyone to use.
+Yes. Every session will be recorded and posted online for collective use.
 
 ## What are CR26, VDR, and a CAP?
 
@@ -38,9 +38,9 @@ advisors, and vendors who serve them are welcome too.
 
 ## Is this a vendor pitch?
 
-No. Sessions are practitioner-led and focus on strategies and tactics people have actually used.
+No. Sessions are practitioner-led and focus on strategies and tactics people have actually used.  Vendors are invited to present on their solutions.  If they can convince you they've got the cure for what ails you, more power to them.  This is 100% about solutions.
 
-## How do I speak?
+## How do I sign up to lead a workshop?
 
 See the [speakers page](/speakers/).
 
@@ -50,4 +50,4 @@ See the [sponsor section](/#sponsors) on the home page and write to the address 
 
 ## Is this affiliated with FedRAMP or the government?
 
-No. It is an independent initiative of Critical Sec.
+No. It is an independent initiative led by practitioners.

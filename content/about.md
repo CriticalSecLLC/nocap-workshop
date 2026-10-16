@@ -3,15 +3,15 @@ title: About
 description: Who is behind No Cap Workshop and why it exists.
 ---
 
-No Cap Workshop is a [Critical Sec](https://criticalsec.com) initiative. It exists because FedRAMP's
-Consolidated Rules for 2026 (CR26) make the Vulnerability Detection and Response (VDR) rules mandatory
-on December 7, 2026, and many cloud service providers will not be ready.
+No Cap Workshop is driven by a small team of FedRAMP professionals who understand just how hard it is to make any of this work. 
+We're all working to meet FedRAMP's Consolidated Rules for 2026 (CR26) to implement the Vulnerability Detection and Response (VDR) rules and keep ourselves and our customer in good standing and positioned to defend against the high-velocity threats that we now all face.
 
 ## The premise
 
 As an industry we compete on features, but we collaborate on security. The systems we run hold
 government data, and a weakness in one provider's practice is a weakness in everyone's. So we are
-putting practitioners in the same virtual room and asking them to share what works.
+creating a space for practitioners to gather, collaborate and share what works.  That information
+strengthen our common defense and building trust between teams.
 
 ## What it is
 
@@ -21,8 +21,8 @@ putting practitioners in the same virtual room and asking them to share what wor
 
 ## What it is not
 
-It is not a sales event and it is not a certification program. Nothing here is advice from FedRAMP
-or any agency. Read the [official notice](https://www.fedramp.gov/notices/0014/) for the rules themselves.
+This is not a sales event and it is not a certification program (although feel free to put in for continuing education credits). Vendors are highly encouraged to attend and present on what their products do to meet these requirements.
+Nothing here is advice from FedRAMP or any agency. Read the [official notice](https://www.fedramp.gov/notices/0014/) for the CR26 rules themselves.
 
 ## Get involved
 
