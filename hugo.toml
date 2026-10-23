@@ -22,23 +22,23 @@ disableKinds = ["taxonomy", "term", "RSS"]
   [[menus.main]]
     name = "FAQ"
     pageRef = "/faq"
-    weight = 50
+    weight = 60
   [[menus.main]]
     name = "Sessions"
     pageRef = "/sessions"
     weight = 20
   [[menus.main]]
-    name = "Private Workshops"
+    name = "Private"
     pageRef = "/private-workshops"
-    weight = 10
+    weight = 30
   [[menus.main]]
     name = "Leads"
     pageRef = "/leads"
-    weight = 30
+    weight = 10
   [[menus.main]]
     name = "Resources"
     pageRef = "/resources"
-    weight = 60
+    weight = 50
 
 [markup.goldmark.renderer]
   unsafe = true
