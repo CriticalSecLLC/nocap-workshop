@@ -173,3 +173,8 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .session-card .tagline { margin: 0 0 .45rem; color: var(--muted); font-style: italic; }
 .track-url { margin: .75rem 0 0; font-family: var(--mono); font-size: .95rem; }
 .track-leaders { margin: .4rem 0 0; color: var(--muted); }
+.speaker { display: grid; grid-template-columns: 160px 1fr; gap: 1.5rem; align-items: start; margin: 0 0 2rem; }
+.speaker h3 { margin-top: 0; }
+.headshot { width: 160px; height: 160px; border-radius: 6px; object-fit: cover; border: 1px solid var(--line); }
+@media (max-width: 560px) { .speaker { grid-template-columns: 1fr; } .headshot { width: 120px; height: 120px; } }
+.prose .roster { padding-left: 0; margin-left: 0; }

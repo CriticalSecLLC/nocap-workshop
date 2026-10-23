@@ -13,3 +13,6 @@
   name: George Chamales
   org: CriticalSec
   org_url: https://criticalsec.com
+  photo: img/george-chamales.jpg
+  bio: >-
+    George Chamales built Cisco Security Cloud for Government, the company's flagship FedRAMP delivery platform. He was the first hire for the project responsible for its architecture, led the development and implementation, coordinated the audits, collaborated with Agencies (including building an integration with DHS CISA Protective DNS), and served as the FIPS lead because nobody else wanted the job. Coincidentally he's the author of The Analogy Platform and the driving force behind the Rampart Strategy.

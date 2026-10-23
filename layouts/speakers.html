@@ -11,7 +11,14 @@
       {{ if hugo.Data.speakers }}
       <ul class="roster">
         {{ range hugo.Data.speakers }}
-        <li><h3>{{ .name }}</h3><p class="s-meta">{{ with .role }}{{ . }}, {{ end }}{{ .org }}{{ with .group }} · {{ . }}{{ end }}</p>{{ with .bio }}<p>{{ . }}</p>{{ end }}</li>
+        <li class="speaker" id="{{ .id }}">
+          {{ with .photo }}{{ with resources.Get . }}{{ $img := .Fill "320x320 q85" }}<img class="headshot" src="{{ $img.RelPermalink }}" width="160" height="160" alt="" loading="lazy">{{ end }}{{ end }}
+          <div>
+            <h3>{{ .name }}</h3>
+            <p class="s-meta">{{ with .role }}{{ . }}, {{ end }}{{ if .org_url }}<a href="{{ .org_url }}">{{ .org }}</a>{{ else }}{{ .org }}{{ end }}{{ with .group }} · {{ . }}{{ end }}</p>
+            {{ with .bio }}<p>{{ . }}</p>{{ end }}
+          </div>
+        </li>
         {{ end }}
       </ul>
       {{ else }}
