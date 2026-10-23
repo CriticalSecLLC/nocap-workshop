@@ -191,9 +191,9 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .teaser a:hover { color: var(--accent); }
 .feature { background: var(--panel); border-top: 3px solid var(--accent); border-bottom: 1px solid var(--line); }
 .feature .eyebrow { margin-bottom: 1rem; }
-.feature .wrap { text-align: center; }
+.feature .wrap { max-width: 54rem; }
 .feature h2 { font-size: clamp(1.75rem, 4.2vw, 2.75rem); line-height: 1.1; max-width: none; margin-bottom: 1.25rem; }
-.feature-text { max-width: 50rem; margin: 0 auto; font-size: clamp(1.1rem, 2vw, 1.3rem); line-height: 1.6; }
+.feature-text { margin: 0; font-size: clamp(1.1rem, 2vw, 1.3rem); line-height: 1.6; }
 .feature-link { margin: 1.5rem 0 0; font-family: var(--mono); font-size: .9rem; }
 
 /* Lead booking link and the Private Workshops provider table. */
