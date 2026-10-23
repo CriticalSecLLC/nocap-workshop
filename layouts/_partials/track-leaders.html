@@ -1,0 +1,6 @@
+{{- /* Context: a track page. Prints "Led by ..." for everyone leading any session in the track, in session order, de-duplicated. */ -}}
+{{- $ids := slice -}}
+{{- range sort (where site.RegularPages "Params.track" .File.ContentBaseName) "Params.start" -}}
+  {{- range partial "speaker-ids.html" .Params.speakers }}{{ $ids = $ids | append . }}{{ end -}}
+{{- end -}}
+{{- partial "session-people.html" ($ids | uniq) -}}

@@ -7,14 +7,31 @@
 </header>
 <main class="section page">
   <div class="wrap">
+    <h2 class="track-sessions first">Tracks</h2>
+    <p class="note">A track is a set of sessions from one team, run across the three days.</p>
+    <div class="session-list">
+      {{ range (site.GetPage "/tracks").Pages }}
+      {{ $slug := .File.ContentBaseName }}
+      {{ $n := len (where site.RegularPages "Params.track" $slug) }}
+      <article class="session-card">
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+        <p class="s-meta">{{ $n }} session{{ if ne $n 1 }}s{{ end }} · {{ partial "track-leaders.html" . }}{{ with .Params.link }} · <a href="{{ . }}">{{ . | replaceRE "^https?://" "" }}</a>{{ end }}</p>
+      </article>
+      {{ end }}
+    </div>
+
+    <h2 class="track-sessions">All sessions</h2>
     <p class="note"><span id="tz-note">Session times are shown in your local time.</span></p>
     {{ $all := sort .Pages "Params.start" }}
     {{ range hugo.Data.schedule }}
     {{ $day := .day }}
-    <h2 class="track-sessions">Day {{ .day }} · {{ .theme }}</h2>
-    <div class="session-list">
-      {{ range where $all "Params.day" $day }}{{ partial "session-card.html" (dict "page" . "full" false) }}{{ else }}<p class="tba">Sessions announced soon.</p>{{ end }}
-    </div>
+    <section class="day-block">
+      <h3>Day {{ .day }} · {{ .date | time.AsTime | time.Format "Monday, January 2" }} · {{ .theme }}</h3>
+      <ul class="sessions">
+        {{ range where $all "Params.day" $day }}{{ partial "session-row.html" . }}{{ else }}<li class="tba">Sessions announced soon.</li>{{ end }}
+      </ul>
+    </section>
     {{ end }}
   </div>
 </main>
