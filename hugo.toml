@@ -18,19 +18,19 @@ disableKinds = ["taxonomy", "term", "RSS"]
   [[menus.main]]
     name = "About"
     pageRef = "/about"
-    weight = 10
+    weight = 40
   [[menus.main]]
     name = "FAQ"
     pageRef = "/faq"
-    weight = 20
+    weight = 50
   [[menus.main]]
     name = "Sessions"
     pageRef = "/sessions"
-    weight = 25
+    weight = 20
   [[menus.main]]
     name = "Private Workshops"
     pageRef = "/private-workshops"
-    weight = 27
+    weight = 10
   [[menus.main]]
     name = "Leads"
     pageRef = "/leads"
@@ -38,7 +38,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
   [[menus.main]]
     name = "Resources"
     pageRef = "/resources"
-    weight = 40
+    weight = 60
 
 [markup.goldmark.renderer]
   unsafe = true
