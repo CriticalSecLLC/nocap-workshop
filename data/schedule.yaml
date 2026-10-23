@@ -7,7 +7,7 @@
   blurb: What to collect, from where, and how often. Scanner coverage, asset inventory, and the evidence that shows both are complete.
 - day: 2
   date: "2027-01-27"
-  theme: Vulnerability Evaluation
+  theme: VDR Evaluation
   blurb: Internet-reachability, likely exploitability, and the Potential Agency Impact N Rating.
 - day: 3
   date: "2027-01-28"

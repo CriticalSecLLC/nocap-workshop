@@ -15,7 +15,7 @@ strengthens our common defense and builds trust between teams.
 
 ## What it is
 
-- Three days, January 26–28, 2027: data collection, vulnerability evaluation, and remediation and reporting.
+- Three days, January 26–28, 2027: data collection, VDR Evaluation, and remediation and reporting.
 - Free, online, and open to anyone. No registration and no identification.
 - Funded by sponsors, run by practitioners, and recorded so the work outlives the week.
 
