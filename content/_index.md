@@ -12,7 +12,7 @@ name_note: >-
 teaser: Want to get ahead of the game and meet the deadlines?
 teaser_cta: Book a private workshop →
 
-workshop_heading: Nation-Wide Workshop
+workshop_heading: No-Cap Nationwide Workshop
 workshop: >-
   One workshop, held online across the country and run by practitioners. We meet teams where they are
   to build and implement the capabilities you need to defend your systems. Each day takes
