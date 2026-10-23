@@ -26,5 +26,5 @@ Nothing here is advice from FedRAMP or any agency. Read the [official notice](ht
 
 ## Get involved
 
-Join the announcement list on the [home page](/), [speak](/speakers/), or
+Join the announcement list on the [home page](/), [lead a session](/leads/), or
 [sponsor](/#sponsors). Questions go to the address in the footer.

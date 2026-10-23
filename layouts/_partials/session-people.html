@@ -1,11 +1,11 @@
-{{- /* Context: a `speakers:` value (list or comma-separated string) or a slice of ids. Prints "Led by Name, Org; Name, Org" from data/speakers.yaml; an org with org_url is linked. */ -}}
+{{- /* Context: a `leads:` value (list or comma-separated string) or a slice of ids. Prints "Led by Name, Org; Name, Org" from data/leads.yaml; an org with org_url is linked. */ -}}
 {{- $names := slice -}}
-{{- range partial "speaker-ids.html" . -}}
+{{- range partial "lead-ids.html" . -}}
   {{- $id := . -}}
-  {{- range where hugo.Data.speakers "id" $id -}}
+  {{- range where hugo.Data.leads "id" $id -}}
     {{- $org := .org | default "" -}}
     {{- if and $org .org_url }}{{ $org = printf `<a href="%s">%s</a>` .org_url $org }}{{ end -}}
-    {{- $names = $names | append (printf `<a href="/speakers/#%s">%s</a>%s` .id .name (cond (ne $org "") (printf ", %s" $org) "")) -}}
+    {{- $names = $names | append (printf `<a href="/leads/#%s">%s</a>%s` .id .name (cond (ne $org "") (printf ", %s" $org) "")) -}}
   {{- end -}}
 {{- end -}}
 {{- with $names }}Led by {{ delimit . "; " | safeHTML }}{{ end -}}

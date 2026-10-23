@@ -25,5 +25,5 @@ Primary sources, straight from the FedRAMP PMO. Read these first; everything els
 
 ## After the event
 
-Recordings, slides, and links to the webinars our speakers give will be posted here and on the
+Recordings, slides, and links to the webinars our leads give will be posted here and on the
 [schedule](/#days) as they become available.

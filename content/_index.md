@@ -28,9 +28,9 @@ attend:
   - title: Teams in a Good Place
     text: Show up to share what is working, and learn a few new tricks along the way.
 
-speakers_heading: Who Speaks
-speakers_text: >-
-  Speakers are active practitioners from Cloud Service Providers, auditors, advisors, and vendors.
+leads_heading: Who Leads
+leads_text: >-
+  Leads are active practitioners from Cloud Service Providers, auditors, advisors, and vendors.
   We organize tracks and sessions around the work. If your product has answers, this is a forum to let everyone know.
 
 measure_heading: The Mission

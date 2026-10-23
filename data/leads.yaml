@@ -1,4 +1,4 @@
-# One entry per speaker. `id` is what a session lists under `speakers:` in its
+# One entry per lead. `id` is what a session lists under `leads:` in its
 # front matter, so the same person renders consistently on every page.
 #
 # - id: "first-last"

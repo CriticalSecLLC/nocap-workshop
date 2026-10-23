@@ -8,10 +8,10 @@
 <main class="section page">
   <div class="wrap">
     <div class="prose long">
-      {{ if hugo.Data.speakers }}
+      {{ if hugo.Data.leads }}
       <ul class="roster">
-        {{ range hugo.Data.speakers }}
-        <li class="speaker" id="{{ .id }}">
+        {{ range hugo.Data.leads }}
+        <li class="person" id="{{ .id }}">
           {{ with .photo }}{{ with resources.Get . }}{{ $img := .Fill "320x320 q85" }}<img class="headshot" src="{{ $img.RelPermalink }}" width="160" height="160" alt="" loading="lazy">{{ end }}{{ end }}
           <div>
             <h3>{{ .name }}</h3>
@@ -22,7 +22,7 @@
         {{ end }}
       </ul>
       {{ else }}
-      <p>Speakers will be announced here as they confirm. Sessions are drawn from active practitioners in four groups:</p>
+      <p>Leads will be announced here as they confirm. Sessions are drawn from active practitioners in four groups:</p>
       <ul>
         <li>Cloud service providers</li>
         <li>Auditors</li>
@@ -30,11 +30,11 @@
         <li>Vendors</li>
       </ul>
       {{ end }}
-      <h2>Call for speakers</h2>
+      <h2>Call for leads</h2>
       <p>We want sessions on what you have actually done: the tooling, the tradeoffs, the numbers. Sessions fit one of the three days (data collection, VDR Evaluation, or remediation and reporting). Sessions are recorded and posted publicly, and you may link your own webinar or write-up from the schedule.</p>
       <h3>Multi-day product tracks</h3>
       <p>Building a product that helps teams meet the VDR rules? Step up for a full set of talks. A product track runs across all three days, with sessions on each, and gets its own track page listing the sessions and who leads them.</p>
-      <p><a href="mailto:{{ site.Params.contact }}?subject=Speaking%20at%20No%20Cap%20Workshop">Propose a session or track →</a></p>
+      <p><a href="mailto:{{ site.Params.contact }}?subject=Leading%20a%20session%20at%20No%20Cap%20Workshop">Propose a session or track →</a></p>
     </div>
   </div>
 </main>

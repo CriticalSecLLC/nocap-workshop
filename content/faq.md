@@ -1,6 +1,6 @@
 ---
 title: Frequently asked questions
-description: Answers about attending, speaking, sponsoring, and the FedRAMP terms behind No Cap Workshop.
+description: Answers about attending, leading sessions, sponsoring, and the FedRAMP terms behind No Cap Workshop.
 ---
 
 ## Do I need to register?
@@ -42,7 +42,7 @@ No. Sessions are practitioner-led and focus on strategies and tactics people hav
 
 ## How do I sign up to lead a workshop?
 
-See the [speakers page](/speakers/).
+See the [leads page](/leads/).
 
 ## How do I sponsor?
 
