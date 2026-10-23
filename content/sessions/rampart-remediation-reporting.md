@@ -1,5 +1,5 @@
 ---
-title: "Rampart: Remediation and Reporting"
+title: "Triage, Fix, Prevent & Report"
 day: 3
 start: 2027-01-28T10:00:00-08:00
 end: 2027-01-28T16:00:00-08:00

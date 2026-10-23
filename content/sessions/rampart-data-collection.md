@@ -1,5 +1,5 @@
 ---
-title: "Rampart: Data Collection"
+title: "Up & Running, Begin Coverage"
 day: 1
 start: 2027-01-26T10:00:00-08:00
 end: 2027-01-26T16:00:00-08:00
