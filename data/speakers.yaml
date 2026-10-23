@@ -7,7 +7,7 @@
 #   org_url: "https://..."            # optional; makes the org a link
 #   role: "Title"
 #   group: "Cloud service provider"   # cloud service provider | auditor | advisor | vendor
-#   bio: "One or two sentences."
+#   bio: "One or two sentences. Markdown links are fine."
 #   photo: "img/first-last.jpg"       # under assets/
 - id: george-chamales
   name: George Chamales
@@ -15,4 +15,4 @@
   org_url: https://criticalsec.com
   photo: img/george-chamales.jpg
   bio: >-
-    George Chamales built Cisco Security Cloud for Government, the company's flagship FedRAMP delivery platform. He was the first hire for the project responsible for its architecture, led the development and implementation, coordinated the audits, collaborated with Agencies (including building an integration with DHS CISA Protective DNS), and served as the FIPS lead because nobody else wanted the job. Coincidentally he's the author of The Analogy Platform and the driving force behind the Rampart Strategy.
+    George Chamales built [Cisco Security Cloud for Government](https://www.fedramp.gov/marketplace/products/FR2304757473A/), the company's flagship FedRAMP delivery platform. He was the first hire for the project responsible for its architecture, led the development and implementation, coordinated the audits, collaborated with Agencies (including building an integration with DHS CISA Protective DNS), and served as the FIPS lead because nobody else wanted the job. Coincidentally he's the author of The Analogy Platform and the driving force behind the Rampart Strategy.
