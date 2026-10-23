@@ -22,7 +22,7 @@ Nothing for attendees. We want you to show up and benefit without having to deal
 
 ## Can I book a workshop just for my team?
 
-Yes. Private workshops are booked and hosted directly with your team, and can be arranged at any time, before or after the January Nation-Wide Workshop. Formats are flexible and set by each provider. See [Private Workshops](/private-workshops/).
+Yes. Private workshops are booked and hosted directly with your team, and can be arranged at any time, before or after the January Nationwide Workshop. Formats are flexible and set by each provider. See [Private Workshops](/private-workshops/).
 
 ## Will the sessions be recorded?
 

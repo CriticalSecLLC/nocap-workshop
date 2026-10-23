@@ -183,7 +183,7 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .day-block h3 { font-size: 1.15rem; margin-bottom: .25rem; }
 .track-sessions + .note { margin-bottom: 1.25rem; }
 
-/* Landing-page teaser band and the full-width Nation-Wide Workshop feature. */
+/* Landing-page teaser band and the full-width Nationwide Workshop feature. */
 .teaser { background: var(--ink); color: var(--bg); }
 .teaser p { margin: 0; padding-block: .9rem; }
 .teaser a { color: var(--bg); text-decoration-color: var(--accent); }
