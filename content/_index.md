@@ -14,11 +14,11 @@ teaser_cta: Book a private workshop →
 
 workshop_heading: Nation-Wide Workshop
 workshop: >-
-  One workshop, with leaders drawn from around the country. For three days, practitioners who have
-  done this work join online to meet teams where they are: working through VDR alongside you instead
-  of lecturing at you. Each day takes one stage of the work, from data collection to VDR Evaluation
-  to remediation and reporting, and multi-day tracks follow a single approach from start to finish so
-  you can see the whole path and not just the pieces.
+  One workshop, held online across the country and run by practitioners. We meet teams where they are
+  to come up to build and implement the capabilities you need to defend your systems. Each day takes
+  one stage of the work, from data collection to VDR Evaluation to remediation and reporting.
+  Multi-day tracks follow a single vendor / strategy / system from start to finish, hands-on-keyboard,
+  deliverable results.
 
 how_heading: Free, open, and accessible.
 how: >-
