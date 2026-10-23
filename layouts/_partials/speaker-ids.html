@@ -1,0 +1,8 @@
+{{- /* Normalizes a `speakers:` value to a slice of ids. Accepts a YAML list or a comma-separated string ("a, b"). */ -}}
+{{- $ids := slice -}}
+{{- if reflect.IsSlice . -}}
+  {{- range . }}{{ $ids = $ids | append (strings.TrimSpace (string .)) }}{{ end -}}
+{{- else if . -}}
+  {{- range split (string .) "," }}{{ with strings.TrimSpace . }}{{ $ids = $ids | append . }}{{ end }}{{ end -}}
+{{- end -}}
+{{- return $ids -}}

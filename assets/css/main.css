@@ -171,3 +171,5 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .session-card .prose { margin-top: .75rem; }
 .track-sessions { margin-top: 2.5rem; }
 .session-card .tagline { margin: 0 0 .45rem; color: var(--muted); font-style: italic; }
+.track-url { margin: .75rem 0 0; font-family: var(--mono); font-size: .95rem; }
+.track-leaders { margin: .4rem 0 0; color: var(--muted); }

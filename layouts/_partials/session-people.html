@@ -1,6 +1,6 @@
-{{- /* Context: a session page. Prints "Led by Name, Org" from data/speakers.yaml. */ -}}
+{{- /* Context: a `speakers:` value (list or comma-separated string) or a slice of ids. Prints "Led by Name, Org; Name, Org" from data/speakers.yaml; an org with org_url is linked. */ -}}
 {{- $names := slice -}}
-{{- range .Params.speakers -}}
+{{- range partial "speaker-ids.html" . -}}
   {{- $id := . -}}
   {{- range where hugo.Data.speakers "id" $id -}}
     {{- $org := .org | default "" -}}

@@ -11,6 +11,6 @@
     <time datetime="{{ $start.UTC.Format "2006-01-02T15:04:05Z" }}" data-local>{{ $start.UTC.Format "Mon Jan 2, 15:04 UTC" }}</time>
     – <time datetime="{{ $end.UTC.Format "2006-01-02T15:04:05Z" }}" data-local="time">{{ $end.UTC.Format "15:04 UTC" }}</time>
   </p>
-  <p class="s-meta">{{ partial "session-people.html" $p }}{{ with $track }} · <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</p>
+  <p class="s-meta">{{ partial "session-people.html" $p.Params.speakers }}{{ with $track }} · <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</p>
   {{ if .full }}<div class="prose">{{ $p.Content }}</div>{{ end }}
 </article>

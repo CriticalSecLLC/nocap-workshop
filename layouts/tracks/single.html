@@ -3,13 +3,17 @@
   <div class="wrap">
     <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Track</p>
     <h1>{{ .Title }}</h1>
+    {{ $slug := .File.ContentBaseName }}
+    {{ $sessions := sort (where site.RegularPages "Params.track" $slug) "Params.start" }}
+    {{ $leaders := slice }}
+    {{ range $sessions }}{{ range partial "speaker-ids.html" .Params.speakers }}{{ $leaders = $leaders | append . }}{{ end }}{{ end }}
+    {{ with .Params.link }}<p class="track-url"><a href="{{ . }}">{{ . | replaceRE "^https?://" "" }} →</a></p>{{ end }}
+    <p class="track-leaders">{{ partial "session-people.html" ($leaders | uniq) }}</p>
   </div>
 </header>
 <main class="section page">
   <div class="wrap">
-    <div class="prose long">{{ .Content }}{{ with .Params.link }}<p><a href="{{ . }}">{{ . | replaceRE "^https?://" "" }} →</a></p>{{ end }}</div>
-    {{ $slug := .File.ContentBaseName }}
-    {{ $sessions := sort (where site.RegularPages "Params.track" $slug) "Params.start" }}
+    <div class="prose long">{{ .Content }}</div>
     <h2 class="track-sessions">Sessions in this track</h2>
     <div class="session-list">
       {{ range $sessions }}{{ partial "session-card.html" (dict "page" . "full" true) }}{{ end }}
