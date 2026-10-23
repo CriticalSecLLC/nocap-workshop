@@ -1,0 +1,16 @@
+{{ define "main" }}
+<header class="hero hero-page">
+  <div class="wrap">
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>No Cap Workshop</p>
+    <h1>Tracks</h1>
+  </div>
+</header>
+<main class="section page">
+  <div class="wrap">
+    <ul class="roster">
+      {{ range .Pages }}<li><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Description }}</p></li>{{ end }}
+    </ul>
+    <p class="note"><a href="/sessions/">All tracks and sessions →</a></p>
+  </div>
+</main>
+{{ end }}

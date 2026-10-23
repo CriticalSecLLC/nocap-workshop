@@ -1,0 +1,11 @@
+{{- /* Context: a session page. Prints "Led by Name, Org" from data/speakers.yaml. */ -}}
+{{- $names := slice -}}
+{{- range .Params.speakers -}}
+  {{- $id := . -}}
+  {{- range where hugo.Data.speakers "id" $id -}}
+    {{- $org := .org | default "" -}}
+    {{- if and $org .org_url }}{{ $org = printf `<a href="%s">%s</a>` .org_url $org }}{{ end -}}
+    {{- $names = $names | append (printf "%s%s" .name (cond (ne $org "") (printf ", %s" $org) "")) -}}
+  {{- end -}}
+{{- end -}}
+{{- with $names }}Led by {{ delimit . "; " | safeHTML }}{{ end -}}

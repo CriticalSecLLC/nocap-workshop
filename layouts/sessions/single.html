@@ -1,0 +1,14 @@
+{{ define "main" }}
+<header class="hero hero-page">
+  <div class="wrap">
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Session</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</header>
+<main class="section page">
+  <div class="wrap">
+    <div class="session-list">{{ partial "session-card.html" (dict "page" . "full" true) }}</div>
+    <p class="note"><a href="/sessions/">All tracks and sessions →</a></p>
+  </div>
+</main>
+{{ end }}

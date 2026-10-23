@@ -161,3 +161,12 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
   .sessions li { grid-template-columns: 1fr; }
   .sessions time { grid-row: auto; }
 }
+
+/* Session cards: shared by track, session and sessions-list layouts. */
+.session-list { display: grid; gap: 1.25rem; margin: 1rem 0 1.5rem; }
+.session-card { border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 1.1rem 1.4rem; }
+.session-card h3 { font-size: 1.25rem; line-height: 1.25; margin: .1rem 0 .4rem; }
+.session-card .s-when { margin: 0 0 .25rem; font-family: var(--mono); font-size: .82rem; color: var(--accent-ink); }
+.session-card .prose { margin-top: .75rem; }
+.track-sessions { margin-top: 2.5rem; }
+.session-card .tagline { margin: 0 0 .45rem; color: var(--muted); font-style: italic; }

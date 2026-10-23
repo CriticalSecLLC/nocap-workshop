@@ -7,7 +7,7 @@
 #     title: "Session title"
 #     speaker: "Name"
 #     org: "Company"
-#     track: "Cloud service provider"   # cloud service provider | auditor | advisor | vendor
+#     group: "Cloud service provider"
 #     link: "https://..."               # webinar / recording, once it exists
 - day: 1
   date: "2027-01-26"

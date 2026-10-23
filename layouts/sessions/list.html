@@ -1,0 +1,21 @@
+{{ define "main" }}
+<header class="hero hero-page">
+  <div class="wrap">
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>No Cap Workshop</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</header>
+<main class="section page">
+  <div class="wrap">
+    <p class="note"><span id="tz-note">Session times are shown in your local time.</span></p>
+    {{ $all := sort .Pages "Params.start" }}
+    {{ range hugo.Data.schedule }}
+    {{ $day := .day }}
+    <h2 class="track-sessions">Day {{ .day }} · {{ .theme }}</h2>
+    <div class="session-list">
+      {{ range where $all "Params.day" $day }}{{ partial "session-card.html" (dict "page" . "full" false) }}{{ else }}<p class="tba">Sessions announced soon.</p>{{ end }}
+    </div>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

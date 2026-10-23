@@ -1,0 +1,16 @@
+{{- /* One session as a card. Context: dict "page" <session page> "full" <bool: show description>. Used by the track, session and sessions-list layouts. */ -}}
+{{- $p := .page -}}
+{{- $start := $p.Params.start | time.AsTime -}}
+{{- $end := $p.Params.end | time.AsTime -}}
+{{- $track := site.GetPage (printf "/tracks/%s" $p.Params.track) -}}
+<article class="session-card">
+  <p class="day-date">Day {{ $p.Params.day }}{{ with index (where hugo.Data.schedule "day" $p.Params.day) 0 }} · {{ .theme }}{{ end }}</p>
+  <h3><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+  {{ with $p.Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}
+  <p class="s-when">
+    <time datetime="{{ $start.UTC.Format "2006-01-02T15:04:05Z" }}" data-local>{{ $start.UTC.Format "Mon Jan 2, 15:04 UTC" }}</time>
+    – <time datetime="{{ $end.UTC.Format "2006-01-02T15:04:05Z" }}" data-local="time">{{ $end.UTC.Format "15:04 UTC" }}</time>
+  </p>
+  <p class="s-meta">{{ partial "session-people.html" $p }}{{ with $track }} · <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</p>
+  {{ if .full }}<div class="prose">{{ $p.Content }}</div>{{ end }}
+</article>

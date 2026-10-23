@@ -1,6 +1,15 @@
-# - name: "Name"
+# One entry per speaker. `id` is what a session lists under `speakers:` in its
+# front matter, so the same person renders consistently on every page.
+#
+# - id: "first-last"
+#   name: "Name"
 #   org: "Company"
+#   org_url: "https://..."            # optional; makes the org a link
 #   role: "Title"
-#   track: "Cloud service provider"
+#   group: "Cloud service provider"   # cloud service provider | auditor | advisor | vendor
 #   bio: "One or two sentences."
-[]
+#   photo: "img/first-last.jpg"       # under assets/
+- id: george-chamales
+  name: George Chamales
+  org: CriticalSec
+  org_url: https://criticalsec.com
