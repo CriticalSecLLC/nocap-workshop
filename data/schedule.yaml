@@ -1,26 +1,15 @@
-# One entry per day. Add sessions as speakers confirm; the table on the landing
-# page grows with this file. `start` is an ISO 8601 timestamp WITH offset; the
-# browser converts it to each visitor's local time.
-#
-# sessions:
-#   - start: "2027-01-26T15:00:00Z"
-#     title: "Session title"
-#     speaker: "Name"
-#     org: "Company"
-#     group: "Cloud service provider"
-#     link: "https://..."               # webinar / recording, once it exists
+# One entry per day: its theme and blurb. Sessions are not listed here; they
+# are content files in content/sessions/ (front matter `day:` places a session
+# on a day) and the landing page picks them up automatically.
 - day: 1
   date: "2027-01-26"
   theme: Data Collection
   blurb: What to collect, from where, and how often. Scanner coverage, asset inventory, and the evidence that shows both are complete.
-  sessions: []
 - day: 2
   date: "2027-01-27"
   theme: Vulnerability Evaluation
   blurb: Internet-reachability, likely exploitability, and the Potential Agency Impact N Rating.
-  sessions: []
 - day: 3
   date: "2027-01-28"
   theme: Remediation and Reporting
   blurb: Driving decisions. Fixing and mitigating on the clock, then reporting it to agencies and auditors.
-  sessions: []

@@ -133,8 +133,9 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .blurb { margin: .9rem 0 0; color: var(--muted); max-width: 52ch; }
 .tba { margin: .9rem 0 0; font-family: var(--mono); font-size: .82rem; color: var(--accent-ink); }
 .sessions { list-style: none; margin: 1rem 0 0; padding: 0; border-top: 1px solid var(--line); }
-.sessions li { display: grid; grid-template-columns: 12rem 1fr; gap: .2rem 1rem; padding: .7rem 0; border-bottom: 1px solid var(--line); }
-.sessions time { font-family: var(--mono); font-size: .8rem; color: var(--accent-ink); grid-row: span 2; }
+.sessions li { display: grid; grid-template-columns: 14rem 1fr; gap: .2rem 1rem; padding: .7rem 0; border-bottom: 1px solid var(--line); }
+.sessions time, .sessions .s-when { font-family: var(--mono); font-size: .8rem; color: var(--accent-ink); }
+.sessions .s-when { grid-row: span 2; white-space: nowrap; }
 .s-title { font-weight: 600; }
 .s-meta { font-size: .9rem; color: var(--muted); margin: 0; }
 
@@ -159,7 +160,7 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 
 @media (max-width: 40rem) {
   .sessions li { grid-template-columns: 1fr; }
-  .sessions time { grid-row: auto; }
+  .sessions .s-when { grid-row: auto; }
 }
 
 /* Session cards: shared by track, session and sessions-list layouts. */
