@@ -17,6 +17,7 @@
             <h3>{{ .name }}</h3>
             <p class="s-meta">{{ with .role }}{{ . }}, {{ end }}{{ if .org_url }}<a href="{{ .org_url }}">{{ .org }}</a>{{ else }}{{ .org }}{{ end }}{{ with .group }} · {{ . }}{{ end }}</p>
             {{ with .bio }}<p>{{ . | markdownify }}</p>{{ end }}
+            {{ with .booking }}<p class="book"><a href="{{ . }}">Book an introductory call →</a></p>{{ end }}
           </div>
         </li>
         {{ end }}

@@ -1,0 +1,31 @@
+{{ define "main" }}
+<header class="hero hero-page">
+  <div class="wrap">
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span>No Cap Workshop</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</header>
+<main class="section page">
+  <div class="wrap">
+    <div class="prose long">{{ .Content }}</div>
+    <h2 class="track-sessions">Providers you can book</h2>
+    <table class="providers">
+      <thead><tr><th scope="col">Provider</th><th scope="col">Workshop</th><th scope="col">Book</th></tr></thead>
+      <tbody>
+        {{ range where hugo.Data.leads "booking" "ne" nil }}
+        <tr>
+          <th scope="row" data-label="Provider"><a href="/leads/#{{ .id }}">{{ .name }}</a>{{ with .org }}<span class="s-meta">{{ . }}</span>{{ end }}</th>
+          <td data-label="Workshop">{{ if .workshop_url }}<a href="{{ .workshop_url }}">{{ .workshop }}</a>{{ else }}{{ .workshop }}{{ end }}</td>
+          <td data-label="Book"><a href="{{ .booking }}">Book an introductory call →</a></td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+    <div class="prose long">
+      <h2>Offer private workshops</h2>
+      <p>We are building this to be collaborative. If your team has an approach to VDR and wants to run private workshops, add your team to the list.</p>
+      <p><a href="mailto:{{ site.Params.contact }}?subject=Offering%20private%20workshops%20with%20No%20Cap%20Workshop">Get in touch →</a></p>
+    </div>
+  </div>
+</main>
+{{ end }}

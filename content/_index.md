@@ -9,6 +9,9 @@ name_note: >-
   [December 7 deadline](https://www.fedramp.gov/notices/0014/) for implementing FedRAMP's [CR-26](https://fedramp.gov/2026/) rules for Vulnerability Detection and Response  ([VDR](https://fedramp.gov/2026/agencies/rules/vulnerability-evaluation-and-reporting/)). Offerings under a CAP are at risk of having their FedRAMP certification revoked if they are not compliant by March 7, 2027. <br/><br/>
   This workshop is about staying out of a CAP, or getting out if you're already in.
 
+teaser: Want to get ahead of the game and meet the deadlines?
+teaser_cta: Book a private workshop →
+
 workshop_heading: Nation-Wide Workshop
 workshop: >-
   One workshop, with leaders drawn from around the country. For three days, practitioners who have

@@ -10,13 +10,18 @@
 </header>
 
 <main>
-  <section id="workshop" class="section">
-    <div class="wrap section-inner">
-      <div class="section-head">
-        <p class="eyebrow">The Event</p>
-        <h2>{{ .Params.workshop_heading }}</h2>
-      </div>
-      <div class="prose"><p>{{ .Params.workshop }}</p></div>
+  <aside class="teaser">
+    <div class="wrap">
+      <p><strong>{{ .Params.teaser }}</strong> <a href="/private-workshops/">{{ .Params.teaser_cta }}</a></p>
+    </div>
+  </aside>
+
+  <section id="workshop" class="section feature">
+    <div class="wrap">
+      <p class="eyebrow">The Event</p>
+      <h2>{{ .Params.workshop_heading }}</h2>
+      <p class="feature-text">{{ .Params.workshop }}</p>
+      <p class="feature-link"><a href="#days">See the schedule →</a></p>
     </div>
   </section>
 
