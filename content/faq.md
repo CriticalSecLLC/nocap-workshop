@@ -1,6 +1,6 @@
 ---
 title: Frequently asked questions
-description: Answers about attending, leading sessions, sponsoring, and the FedRAMP terms behind No Cap Workshop.
+description: Answers about attending, leading sessions, sponsoring, and the FedRAMP terms behind No-Cap Workshop.
 ---
 
 ## Do I need to register?

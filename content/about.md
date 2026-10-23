@@ -1,9 +1,9 @@
 ---
 title: About
-description: Who is behind No Cap Workshop and why it exists.
+description: Who is behind No-Cap Workshop and why it exists.
 ---
 
-No Cap Workshop is driven by a small team of FedRAMP professionals who understand just how hard it is to make any of this work.
+No-Cap Workshop is driven by a small team of FedRAMP professionals who understand just how hard it is to make any of this work.
 We're all working to meet FedRAMP's Consolidated Rules for 2026 (CR26) to implement the Vulnerability Detection and Response (VDR) rules and keep ourselves and our customers in good standing and positioned to defend against the high-velocity threats that we now all face.
 
 ## The premise
