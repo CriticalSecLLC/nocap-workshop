@@ -18,7 +18,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
   [[menus.main]]
     name = "Why"
     pageRef = "/why"
-    weight = 40
+    weight = 10
   [[menus.main]]
     name = "FAQ"
     pageRef = "/faq"
@@ -30,11 +30,11 @@ disableKinds = ["taxonomy", "term", "RSS"]
   [[menus.main]]
     name = "Private"
     pageRef = "/private-workshops"
-    weight = 30
+    weight = 40
   [[menus.main]]
     name = "Leads"
     pageRef = "/leads"
-    weight = 10
+    weight = 30
   [[menus.main]]
     name = "Resources"
     pageRef = "/resources"
