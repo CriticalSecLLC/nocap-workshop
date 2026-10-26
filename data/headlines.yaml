@@ -1,7 +1,7 @@
 # Extra landing-page headlines. The page loads with `headline` from
 # content/_index.md (also what visitors without JavaScript, crawlers, and link
 # previews see), and a script swaps in one line at random from that headline
-# plus these, never repeating the one just shown.
+# plus these. Nothing is stored in the browser.
 - E Pluribus Unum
 - Trust, but verify.
 - A problem shared is a problem halved.

@@ -153,6 +153,9 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 /* long-form pages */
 .page .prose.long { max-width: 44rem; }
 .prose h2 { font-size: 1.5rem; margin: 2.2rem 0 .7rem; max-width: none; }
+.prose h3 { font-size: 1.15rem; margin: 1.6rem 0 .4rem; max-width: none; }
+.doc-status { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; margin: 0 0 1.75rem; padding: .7rem 1rem; background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 4px; font-family: var(--mono); font-size: .8rem; color: var(--muted); }
+.doc-status a { color: var(--accent-ink); }
 .prose ul { padding-left: 1.2rem; margin: 0 0 1.2em; }
 .prose li { margin-bottom: .4rem; }
 .roster { list-style: none; padding: 0; }

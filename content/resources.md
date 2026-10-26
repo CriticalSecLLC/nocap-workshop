@@ -1,6 +1,6 @@
 ---
 title: Resources
-description: FedRAMP primary sources for CR26, VDR and VER, and after the event, recordings and slides.
+description: FedRAMP primary sources for CR26 and VDR, and after the event, recordings and slides.
 ---
 
 Primary sources, straight from the FedRAMP PMO. Read these first; everything else here is commentary.
@@ -9,14 +9,14 @@ Primary sources, straight from the FedRAMP PMO. Read these first; everything els
 
 - [CR26 home](https://fedramp.gov/2026/): the landing page for the whole ruleset, with sections for providers, assessors, advisors and agencies.
 - [Using the Consolidated Rules](https://fedramp.gov/2026/rules/): the rules themselves.
-- [Vulnerability Evaluation and Reporting](https://fedramp.gov/2026/agencies/rules/vulnerability-evaluation-and-reporting/): the VER rules, including the BOD 26-04 dates.
+- [Vulnerability Evaluation and Reporting](https://fedramp.gov/2026/agencies/rules/vulnerability-evaluation-and-reporting/): the VDR requirements, including the BOD 26-04 dates.
 - [Definitions](https://fedramp.gov/2026/definitions/): FedRAMP's own terms, including Potential Agency Impact.
 - [Important dates](https://fedramp.gov/2026/timeline/): the timeline for adoption.
 - [Machine-readable rules](https://github.com/FedRAMP/rules) and the [CR26 repository](https://github.com/fedramp/2026): the rule text as data, with a changelog.
 
 ## The Corrective Action Plan Deadline
 
-- [FedRAMP notice NTC-0014](https://fedramp.gov/notices/0014): the VDR and VER effective dates, the Corrective Action Plan grace period, and the response to CISA BOD 26-04.
+- [FedRAMP notice NTC-0014](https://fedramp.gov/notices/0014): the VDR effective dates, the Corrective Action Plan grace period, and the response to CISA BOD 26-04.
 
 ## Related
 

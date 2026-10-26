@@ -2,7 +2,9 @@
 title: Lead Agreement
 description: What we look for in sessions, how they are evaluated, and what leads agree to at the No-CAP Workshop.
 ---
-This page explains what we look for in a session, how sessions are evaluated, and what a lead agrees to when a session is approved. It is an interim draft, version 0.1 (October 2026), and will be amended as we proceed through the workshop planning and execution process. It works alongside the [Steering Committee charter](/steering/), which governs approvals, conflicts of interest, and disputes.
+{{< doc-status version="0.1" >}}
+
+This page explains what we look for in a session, how sessions are evaluated, and what a lead agrees to when a session is approved. It works alongside the [Steering Committee charter](/steering/), which governs approvals, conflicts of interest, and disputes.
 
 ## Who This Covers
 
@@ -12,11 +14,12 @@ A lead is anyone approved by the Steering Committee to lead a session or a multi
 
 Use the [proposal form](/propose/), where you can also edit your proposal until the deadline. It asks for:
 
-- the title and a short description of the session, and which day or theme it fits (Data Collection, VDR Evaluation, or Remediation and Reporting), or the outline of a multi-day track;
-- who will lead it, with a short bio and each lead's affiliation;
-- what attendees will do or leave with, and any prerequisites;
-- your preferred time of day and session length, and any tools or data you will use;
-- any product the session features, and any relationship you have with a sponsor.
+- The title and a short description of the session, and which day or theme it fits (Data Collection, VDR Evaluation, or Remediation and Reporting), or the outline of a multi-day track.
+- Who will lead it, with a short bio and each lead's affiliation.
+- What attendees will do or leave with, and any prerequisites.
+- Your preferred time of day and session length, and any tools or data you will use.
+- Any product the session features, and any relationship you have with a sponsor.
+- If you would like to be listed for private sessions, the name of the offering and a link for booking an introductory call.
 
 Proposals are due {{< proposal-deadline >}}.
 
@@ -27,11 +30,11 @@ The committee evaluates every proposal against the same criteria, whoever propos
 ### Must-Haves
 
 1. **First-hand practitioner experience.** The people leading have done the work they describe and can answer hard questions about it. A strong proposal says what they built, ran, fixed, or reported, and in what kind of environment.
-2. **Hands-on and specific.** Tooling, tradeoffs, numbers, and real examples, not an overview. A strong proposal shows the actual steps, configurations, queries, or reports. Warning signs are a list of topics with no detail about what will be shown.
+2. **Concrete and demonstrable.** The session shows the work: the tooling, the tradeoffs, the numbers, and real examples. A strong proposal says what attendees will see done, whether that is a configuration, a query, a report, a workflow, or a decision, and why each choice was made.
 3. **Relevant to VDR.** It helps teams meet FedRAMP's VDR requirements and fits the workshop's three days, or the track explains how it covers all three. A strong proposal names the part of the work it supports.
-4. **Not a sales pitch.** Showing a product doing the work is welcome, and marketing it is not. A strong proposal is honest about limits, fair to alternative approaches, and useful to someone who never buys the product. Warning signs are pricing talk, competitor comparisons built to win, roadmap promises, and a session that ends in a sign-up.
-5. **Accurate and honest.** Claims can be checked. The session does not promise that a technique will get someone authorized, does not describe FedRAMP's requirements wrongly, and does not suggest that FedRAMP or any agency endorses it.
-6. **Safe to present.** It uses sanitized or synthetic data and discloses no non-public vulnerabilities in anyone's environment and no non-public government information.
+4. **Focused on the work.** Showing a product doing the work is welcome, and it is how teams come to understand the value of what you are demonstrating. A strong proposal is honest about limits, fair to alternative approaches, and useful to someone whatever tools they use. It keeps its attention on technique and shares links for anyone who wants to learn more.
+5. **Accurate and honest.** Claims can be checked. The session sets realistic expectations for what a technique achieves, describes FedRAMP's requirements as they are written, and stays independent of FedRAMP and any agency.
+6. **Safe to present.** It uses sanitized or synthetic data, and it keeps non-public vulnerabilities in anyone's environment and non-public government information confidential.
 
 ### Weighing Factors
 
@@ -47,20 +50,33 @@ A track meets the same standards. Each day is assessed on its own, and the track
 
 ## Decisions
 
-The committee decides by the rules in the [charter](/steering/): approval needs a majority of the voting members who are not recused, and never fewer than two approving votes, and a tie means not approved. The organizer tells you the outcome. A decline comes with a short reason on request, and you can resubmit.
+The committee decides by the rules in the [charter](/steering/): approval needs a majority of the voting members who are not recused and never fewer than two approving votes, and a tie means not approved. A private session listing is decided in the same vote as the proposal. The organizer tells you the outcome. A decline comes with a short reason on request, and you can resubmit.
 
 ## Disclosures
 
-Leads disclose their affiliations, the products their session features, and any relationship with a sponsor. Sponsoring the workshop does not help a proposal, and leading a session does not earn a sponsorship benefit.
+Leads disclose their affiliations, the products their session features, and any relationship with a sponsor. Every proposal is judged on its merits, whether or not the lead's company sponsors the workshop, and leading a session is separate from any sponsorship benefit.
 
 ## What Leads Agree To
 
-- **Keep it positive (the Positivity Rule).** Focus on what you bring to the table, and speak respectfully of other products, vendors, services, customers, and colleagues. Describing a problem you faced is welcome, and criticizing the product, company, or person behind it is not. A lead who sets this rule aside is removed from the session on the spot, and the session is not posted.
+- **Keep it positive (the Positivity Rule).** Focus on what you bring to the table, and speak respectfully of other products, vendors, services, customers, and colleagues. Describing a problem you faced is welcome, and so is describing how you solved it. A lead who sets this rule aside is removed from the session on the spot, and the session is not posted.
 - **Deliver the session as approved.** Keep to the approved scope. Tell the organizer promptly about changes to the title, content, or leads, and about any conflict that arises. A material change may need the committee's review.
 - **Be prepared and on time.** Join a short technical rehearsal before the workshop and start on time.
 - **Run your own Q&A and chat.** You are responsible for your session's discussion. Organizers may join any session to support you and may step in, but you stay responsible for keeping it on track.
 - **Keep it professional.** Treat everyone with respect, give credit where it is due, and leave other people's confidential information alone. Concerns go through the dispute process in the charter.
-- **Keep it free of sales process.** You may link to your own resources. You may not require registration or collect attendees' personal information to take part in your session.
+- **Keep it open to everyone.** You may link to your own resources, and every attendee can take part in your session without registering or sharing personal information.
+
+## Private Session Listings
+
+A lead with an approved session or track may also be listed on the [Private Sessions](/private-sessions/) page. The listing is earned by your willingness to present in the public workshop.
+
+- **Public first.** You need an approved public session or track at the workshop. The listing is decided in the same vote as the proposal, and it ends if the public session is declined or withdrawn.
+- **Stands on its own.** Your public session is useful on its own. The private offering gives you an opportunity to meet with teams on their terms so you can discuss how you can support their specific needs.
+- **Honest description.** Describe outcomes realistically, and let your listing stand on its own: FedRAMP, agencies, the committee, and the workshop remain independent of it. Pricing is described as tailored to the team's size, and you agree on it directly with each team.
+- **Disclosed.** Disclose any affiliation or financial interest the committee should know about. Listings are decided on these requirements, separately from sponsorship.
+- **Same standards.** The Positivity Rule and the competition-law rules apply to your listing and to how you speak of other providers when you promote it.
+- **Your engagement is yours.** Private sessions are contracted directly between you and the team. You set your own prices and stand behind your own results, and the organizer and the committee are not party to them.
+
+A listing stays for at least six months after the workshop. After that the committee will decide whether to continue hosting the site and may choose to review existing listings. The committee may remove a listing sooner through the process in the charter.
 
 ## Competition Law
 
@@ -72,11 +88,11 @@ For background, see the [DOJ and FTC Antitrust Policy Statement on Sharing of Cy
 
 ## Confidentiality and Sensitive Information
 
-Do not disclose non-public vulnerabilities in anyone's environment, customer data, or non-public government information. Use sanitized or synthetic data. If you are unsure whether something is safe to show, ask before the session. If a confidentiality concern comes up during a session, you may ask the organizer afterward to redact or edit the recording to address it. Keep in mind that sessions are attended live, and we cannot guarantee that someone else did not make their own recording.
+Keep non-public vulnerabilities in anyone's environment, customer data, and non-public government information confidential. Use sanitized or synthetic data. If you are unsure whether something is safe to show, ask before the session. If a confidentiality concern comes up during a session, you may ask the organizer afterward to redact or edit the recording to address it. Keep in mind that sessions are attended live, and we cannot guarantee that someone else did not make their own recording.
 
 ## Recording and Materials
 
-Sessions are recorded and posted publicly, except a session ended under the Positivity Rule, which is not posted. A short opening card thanking sponsors runs before each session. By leading a session, you give the organizer permission to record it, to post it, and to edit it for length and clarity, along with any slides or materials you share. You keep ownership of your content. You confirm that you have the right to show everything in your session. The organizer may list your name, affiliation, biography, and photo on this site.
+Sessions are recorded and posted publicly, except a session ended under the Positivity Rule, which is not posted. A short opening card thanking sponsors runs before each session. By leading a session, you give the organizer permission to record it, to post it, and to edit it for length and clarity, along with any slides or materials you share. The organizer also produces a transcript of each recording and posts it with the recording. You keep ownership of your content. You confirm that you have the right to show everything in your session. The organizer may list your name, affiliation, biography, and photo on this site.
 
 ## Support From the Organizer
 

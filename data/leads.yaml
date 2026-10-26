@@ -9,7 +9,7 @@
 #   group: "Cloud service provider"   # cloud service provider | auditor | advisor | vendor
 #   bio: "One or two sentences. Markdown links are fine."
 #   photo: "img/first-last.jpg"       # under assets/
-#   booking: "https://..."            # optional intro-call link; shown on this page and, with
+#   booking: "https://..."            # optional intro-call link; add only once the committee has approved the private session listing; shown on this page and, with
 #                                     # offering/offering_url, in the Private Sessions table
 #   offering: "Name of the private session"
 #   offering_url: "https://..."

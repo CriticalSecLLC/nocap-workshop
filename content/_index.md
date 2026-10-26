@@ -16,7 +16,7 @@ workshop_heading: No-CAP Nationwide Workshop
 workshop: >-
   One workshop, held online across the country and run by practitioners. We meet teams where they are
   to build and implement the capabilities you need to defend your systems. Each day takes
-  one stage of the work, from data collection to VDR Evaluation to remediation and reporting.
+  one stage of the work, from Data Collection to VDR Evaluation to Remediation and Reporting.
   Multi-day tracks follow a single vendor / strategy / system from start to finish, hands-on-keyboard,
   with deliverable results.
 

@@ -2,7 +2,9 @@
 title: Steering Committee
 description: Who approves sessions and leads at the No-CAP Workshop, how the committee stays neutral, and how disputes are handled.
 ---
-The Steering Committee approves the sessions and leads at the No-CAP Workshop and resolves situations that arise between leads, sponsors, and attendees. This page is its roster and its charter. The charter is an interim draft, version 0.1 (October 2026), and will be amended as we proceed through the workshop planning and execution process.
+{{< doc-status version="0.1" >}}
+
+The Steering Committee approves the sessions and leads at the No-CAP Workshop and resolves situations that arise between leads, sponsors, and attendees. This page is its roster and its charter, and it will be amended as we proceed through the workshop planning and execution process.
 
 ## Members
 
@@ -37,32 +39,45 @@ The organizer, CriticalSec LLC, convenes the committee and handles intake, sched
 - New members are invited by the sitting members, with their affiliations disclosed, and confirmed by a majority vote of the voting members.
 - Members serve through the January 2027 workshop and are re-confirmed each year after that.
 - A member may resign at any time, and may be removed by a majority vote of the other members for violating this charter.
-- Sponsoring the workshop does not earn a seat.
 
 ## Neutrality
 
-- Sponsorship does not buy sessions, leads, tracks, scope, or committee decisions. Deliberations are not shared with sponsors.
+- Sessions, leads, tracks, scope, seats, and committee decisions are settled on their merits, independent of sponsorship. Deliberations stay within the committee.
 - Vendors are treated on equal terms. Any vendor may propose a session or a multi-day track, and every proposal is judged against the same published criteria.
 - Nothing about the workshop implies an endorsement of a product, a company, or an approach by the committee, the organizer, FedRAMP, or any agency.
 
 ## Conflicts of Interest
 
-- Members disclose their affiliations, employers, and clients when they join, and update them when they change.
-- A member recuses from any decision involving their employer, a client, or a direct competitor of either, including any session they would lead themselves. A recused member does not vote and does not take part in the discussion of that item.
-- The organizer's own sessions are decided by the other members.
+- Members disclose their affiliations and employers when they join, and update them when they change. Members are never asked to name their clients.
+- A member recuses from any decision involving their employer, a client, or a direct competitor of either, including any session they would lead themselves. A member with a client conflict says only that a conflict exists and keeps the client's identity confidential. A recused member does not vote and does not take part in the discussion of that item.
+- The organizer's own sessions and private session listings are decided by the other members.
 
 ## Approving Sessions and Leads
 
 A session or track is approved when it is:
 
 - Led by practitioners who have done the work they describe.
-- Hands-on and specific: the tooling, the tradeoffs, the numbers, and real examples.
-- Not a sales pitch. Showing a product doing the work is welcome, and marketing it is not.
+- Concrete and demonstrable: the tooling, the tradeoffs, the numbers, and real examples.
+- Relevant to VDR: it helps teams meet FedRAMP's VDR requirements and fits the workshop's three days.
+- Focused on the work. Showing a product doing the work is welcome, and it is how teams come to understand the value of what is being demonstrated.
 - Accurate and fair, including where it involves competing approaches.
+- Safe to present: it uses sanitized or synthetic data and keeps non-public vulnerabilities and non-public government information confidential.
 - For a multi-day track, built around a defined deliverable for attendees on each day.
 - Led by someone who agrees to the conduct expectations below and to the session being recorded and posted publicly.
 
-Proposals come in through the address on the [Leads](/leads/) page. The organizer checks them for completeness and passes them to the committee. The committee approves or declines, and the organizer tells the proposer. A decline comes with a short reason on request, and a proposal may be resubmitted. The criteria are described in more detail on the [Lead Agreement](/lead-agreement/#evaluation-criteria) page.
+Proposals come in through the [proposal form](/propose/). The organizer checks them for completeness and passes them to the committee. The committee approves or declines, and the organizer tells the proposer. A decline comes with a short reason on request, and a proposal may be resubmitted. The criteria are described in more detail on the [Lead Agreement](/lead-agreement/#evaluation-criteria) page.
+
+## Approving Private Session Listings
+
+Private sessions are booked and hosted directly between a provider and a team. The committee decides who may be listed on the [Private Sessions](/private-sessions/) page, in the same vote as the proposal. A provider is listed when:
+
+- Their public session or track at the workshop is approved. Listings are tied to a public session or track, and a listing ends if the public session is declined or withdrawn.
+- Their public session is useful on its own, and the private offering gives them an opportunity to meet with teams on their terms and discuss how they can support their specific needs.
+- The description is honest and realistic about outcomes, and it stands on its own: FedRAMP, agencies, the committee, and the workshop remain independent of the provider. Pricing is described as tailored to the team.
+- The provider has disclosed any affiliation or financial interest the committee should know about.
+- The provider agrees to the [private session requirements](/lead-agreement/#private-session-listings) in the Lead Agreement.
+
+A listing stays for at least six months after the workshop. After that the committee will decide whether to continue hosting the site and may choose to review existing listings. The committee may remove a listing sooner for a breach of the Lead Agreement or this charter, or for an undisclosed conflict, through the process under Disputes. A listing is a directory entry, and each provider sets their own prices and stands behind their own results. Listings are decided on these criteria, separately from sponsorship.
 
 ## Voting
 
@@ -82,7 +97,7 @@ A lead, sponsor, or attendee with a concern about content, conduct, or fairness 
 
 ## Conduct
 
-Everyone taking part is expected to be professional and respectful, to give credit where it is due, and to leave other people's confidential information alone. Harassment, discrimination, and disruption are not acceptable. Everyone keeps it positive: focus on what you bring, and speak respectfully of other products, vendors, services, and customers. A lead who does not is removed from the session, and the session is not posted. See the [Positivity Rule](/lead-agreement/#what-leads-agree-to). Concerns go through the dispute process above, and the organizer may remove a disruptive person from a live session immediately.
+Everyone taking part is expected to be professional and respectful, to give credit where it is due, and to leave other people's confidential information alone. Harassment, discrimination, and disruption are not acceptable. Everyone keeps it positive: focus on what you bring, and speak respectfully of other products, vendors, services, and customers. A lead who sets this aside is removed from the session, and the session is not posted. See the [Positivity Rule](/lead-agreement/#what-leads-agree-to). Concerns go through the dispute process above, and the organizer may remove a disruptive person from a live session immediately.
 
 ## Confidentiality
 

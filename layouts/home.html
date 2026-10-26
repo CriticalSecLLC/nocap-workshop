@@ -8,12 +8,7 @@
       (function () {
         var lines = {{ (slice .Params.headline | append hugo.Data.headlines) | jsonify | safeJS }};
         var el = document.getElementById('headline');
-        var last = null;
-        try { last = sessionStorage.getItem('headline'); } catch (e) {}
-        var i = Math.floor(Math.random() * lines.length);
-        if (lines.length > 1 && String(i) === last) { i = (i + 1 + Math.floor(Math.random() * (lines.length - 1))) % lines.length; }
-        try { sessionStorage.setItem('headline', i); } catch (e) {}
-        el.textContent = lines[i];
+        el.textContent = lines[Math.floor(Math.random() * lines.length)];
       })();
     </script>
     <p class="lede">{{ .Params.lede }}</p>

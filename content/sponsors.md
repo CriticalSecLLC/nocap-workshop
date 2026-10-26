@@ -15,7 +15,7 @@ We're aiming for nationwide participation from cloud service providers across th
 
 ## What Sponsorship Funds
 
-Logistics across leads, attendees, and sponsors. Run-of-show support for the online platform. Post-processing of the recordings so they are useful long after the week is over. Private sessions are separate and are funded by the teams that request them.
+Logistics across leads, attendees, and sponsors. Run-of-show support for the online platform. Post-processing of the recordings, including transcripts, so they are useful long after the week is over. Private sessions are separate and are funded by the teams that request them.
 
 ## Tiers
 
@@ -25,18 +25,18 @@ Sponsors appear on a short opening card before every session, sized by tier, and
 
 ## The Sponsor Report
 
-We will collect metrics on both website activity and participation during the workshop week, and deliver every sponsor an aggregate report afterward. It covers participation and engagement, along with a summary of attendee experiences and key learnings. Reporting is aggregate only: no attendee-level data is collected for or shared with sponsors.
+We will collect attendance numbers from the sessions during the workshop week, and deliver every sponsor an aggregate report afterward. It covers participation and engagement, along with a summary of attendee experiences and key learnings. The website is anonymous and tracks no visitors, and reporting is aggregate only: no attendee-level data is collected for or shared with sponsors.
 
 ## What Stays Independent
 
-Sponsors do not choose leads, session content, or scope. Sessions and leads are approved by an independent [Steering Committee](/steering/) under a published charter. The event is practitioner-led, and that is what makes it worth sponsoring. There is no registration, so there is no attendee list to share.
+Leads, session content, and scope are chosen independently of sponsors. Sessions and leads are approved by an independent [Steering Committee](/steering/) under a published charter. The event is practitioner-led, and that is what makes it worth sponsoring. Because attendees take part without registering, sponsors receive the aggregate report described above.
 
 ## Timeline and Terms
 
-- Founding sponsorships are held first come, first served until December 1.
-- Gold, Silver, and Community sponsorships stay open until January 8.
-- Logos are due January 12, so the opening cards can be produced.
-- Commit by email confirmation or a one-page agreement. CriticalSec LLC invoices at commitment, net 30, and payment is due in full by January 15.
+- Founding sponsorships are held first come, first served until December 1, 2026.
+- Gold, Silver, and Community sponsorships stay open until January 8, 2027.
+- Logos are due January 12, 2027, so the opening cards can be produced.
+- Commit by email confirmation or a one-page agreement. CriticalSec LLC invoices at commitment, net 30, and payment is due in full by January 15, 2027.
 - If the event is cancelled or moved, sponsors receive a refund or a credit. Otherwise payments are non-refundable after the event starts.
 
 ## Become a Sponsor

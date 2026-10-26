@@ -1,0 +1,11 @@
+{{- /* Call-out for a draft document: version (param), last-updated time and its commit on GitHub, and the page's change history. Dates come from git (enableGitInfo). Pass status="" to omit the "Interim draft" label. */ -}}
+{{ $page := .Page }}
+{{ $status := "Interim draft" }}{{ if isset .Params "status" }}{{ $status = .Get "status" }}{{ end }}
+<p class="doc-status">
+  {{ with $status }}<span>{{ . }}</span>{{ end }}
+  <span>Version {{ .Get "version" }}</span>
+  {{ if not $page.Lastmod.IsZero }}<span>Last updated
+    {{- with $page.GitInfo }} <a href="{{ site.Params.repo }}/commit/{{ .Hash }}">{{ $page.Lastmod.UTC.Format "January 2, 2006, 15:04 UTC" }}</a>
+    {{- else }} {{ $page.Lastmod.UTC.Format "January 2, 2006, 15:04 UTC" }}{{ end }}</span>{{ end }}
+  <span><a href="{{ site.Params.repo }}/commits/main/content/{{ $page.File.Path }}">Change history</a></span>
+</p>

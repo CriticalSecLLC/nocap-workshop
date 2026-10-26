@@ -1,4 +1,5 @@
 baseURL = "https://nocap-workshop.com/"
+enableGitInfo = true
 locale = "en-US"
 title = "No-CAP Workshop"
 enableRobotsTXT = true
