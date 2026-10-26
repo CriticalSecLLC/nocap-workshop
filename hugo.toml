@@ -20,7 +20,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
   # Session proposals: the deadline shown on the site, and the Google Form link (the
   # form's public "viewform" URL). While it is empty the Propose page says the form
   # opens soon.
-  proposal_deadline = "January 22, 2027"
+  proposal_deadline = "January 15, 2027"
   proposal_form = "https://docs.google.com/forms/d/e/1FAIpQLSdyrCW_ufAyBHDHdAwZBBmVqfIzOAyT0_TO1fo9t2dQ5T9JMQ/viewform"
 
 [menus]
