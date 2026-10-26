@@ -18,8 +18,6 @@ Members serve as individuals, not as representatives of their employers. We look
 - Capacity to be neutral: able to weigh a session on its merits when it involves their employer, their clients, or their competitors.
 - Broad perspective across FedRAMP, security, and engineering. This is strongly preferred.
 
-At most one seat may be held by someone affiliated with a vendor in this space, and the organizer currently holds it, so the open seat is for someone without a vendor affiliation.
-
 To volunteer or nominate someone, [write to us](mailto:questions@nocap-workshop.com?subject=Steering%20Committee).
 
 ## Purpose
