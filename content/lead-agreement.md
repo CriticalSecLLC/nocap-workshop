@@ -15,7 +15,7 @@ Use the [proposal form](/propose/), where you can also edit your proposal until 
 - the title and a short description of the session, and which day or theme it fits (Data Collection, VDR Evaluation, or Remediation and Reporting), or the outline of a multi-day track;
 - who will lead it, with a short bio and each lead's affiliation;
 - what attendees will do or leave with, and any prerequisites;
-- the format and length you have in mind, and any tools or data you will use;
+- your preferred time of day and session length, and any tools or data you will use;
 - any product the session features, and any relationship you have with a sponsor.
 
 Proposals are due {{< proposal-deadline >}}.

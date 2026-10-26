@@ -7,7 +7,7 @@ Proposals for sessions and multi-day tracks are due {{< proposal-deadline >}}.
 ## Before You Start
 
 - Read the [Lead Agreement](/lead-agreement/), including the evaluation criteria, the Positivity Rule, and the competition-law rules. If your proposal is approved, you agree to it.
-- Have the following ready: the title and a short description, the day or theme it fits (Data Collection, VDR Evaluation, or Remediation and Reporting) or an outline of a multi-day track, who will lead it with a short bio and affiliation for each lead, what attendees will do or leave with, the format and length you have in mind, the tools and data you will use, any product the session features, and any relationship you have with a sponsor.
+- Have the following ready: the title and a short description, the day or theme it fits (Data Collection, VDR Evaluation, or Remediation and Reporting) or an outline of a multi-day track, who will lead it with a short bio and affiliation for each lead, what attendees will do or leave with, your preferred time of day and session length, the tools and data you will use, any product the session features, and any relationship you have with a sponsor.
 
 ## Submit
 
