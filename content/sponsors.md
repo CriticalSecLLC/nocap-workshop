@@ -11,7 +11,7 @@ We're aiming for nationwide participation from cloud service providers across th
 
 ## What sponsorship funds
 
-Logistics across leads, attendees, and sponsors. Run-of-show support for the online platform. Post-processing of the recordings so they are useful long after the week is over. Private workshops are separate and are funded by the teams that request them.
+Logistics across leads, attendees, and sponsors. Run-of-show support for the online platform. Post-processing of the recordings so they are useful long after the week is over. Private sessions are separate and are funded by the teams that request them.
 
 ## Tiers
 

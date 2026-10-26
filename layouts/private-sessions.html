@@ -8,13 +8,13 @@
 <main class="section page">
   <div class="wrap">
     <div class="prose long">{{ .Content }}</div>
-    <h2 class="track-sessions">Workshops</h2>
+    <h2 class="track-sessions">Sessions</h2>
     <table class="providers">
-      <thead><tr><th scope="col">Workshop</th><th scope="col">Provider</th><th scope="col">Book</th></tr></thead>
+      <thead><tr><th scope="col">Session</th><th scope="col">Provider</th><th scope="col">Book</th></tr></thead>
       <tbody>
         {{ range where hugo.Data.leads "booking" "ne" nil }}
         <tr>
-          <th scope="row" data-label="Workshop">{{ if .workshop_url }}<a href="{{ .workshop_url }}">{{ .workshop }}</a>{{ else }}{{ .workshop }}{{ end }}</th>
+          <th scope="row" data-label="Session">{{ if .offering_url }}<a href="{{ .offering_url }}">{{ .offering }}</a>{{ else }}{{ .offering }}{{ end }}</th>
           <td data-label="Provider"><a href="/leads/#{{ .id }}">{{ .name }}</a>{{ with .org }}<span class="s-meta">{{ . }}</span>{{ end }}</td>
           <td data-label="Book"><a href="{{ .booking }}">Introductory call →</a></td>
         </tr>
@@ -22,8 +22,8 @@
       </tbody>
     </table>
     <div class="prose long">
-      <h2>Offer private workshops</h2>
-      <p>If your team has an approach to VDR and wants to run private workshops <a href="mailto:{{ site.Params.contact }}?subject=Offering%20private%20workshops%20with%20No-Cap%20Workshop">reach out</a>.</p>
+      <h2>Offer private sessions</h2>
+      <p>If your team has an approach to VDR and wants to run private sessions <a href="mailto:{{ site.Params.contact }}?subject=Offering%20private%20sessions%20with%20No-Cap%20Workshop">reach out</a>.</p>
     </div>
   </div>
 </main>

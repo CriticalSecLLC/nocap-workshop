@@ -17,11 +17,11 @@ Yes. You can watch and ask questions without identifying yourself. Participate a
 
 ## What does it cost?
 
-Nothing for attendees. We want you to show up and benefit without having to deal with procurement / travel / etc. Private workshops are separate: pricing is tailored to the size of your team.
+Nothing for attendees. We want you to show up and benefit without having to deal with procurement / travel / etc. Private sessions are separate: pricing is tailored to the size of your team.
 
-## Can I book a workshop just for my team?
+## Can I book a session just for my team?
 
-Yes. Private workshops are booked and hosted directly with your team, and can be arranged at any time, before or after the January Nationwide Workshop. Formats are flexible and set by each provider. See [Private Workshops](/private-workshops/).
+Yes. Private sessions are booked and hosted directly with your team, and can be arranged at any time, before or after the January Nationwide Workshop. Formats are flexible and set by each provider. See [Private Sessions](/private-sessions/).
 
 ## Will the sessions be recorded?
 
@@ -41,7 +41,7 @@ No. Sessions are practitioner-led and focus on strategies and tactics people hav
 
 ## How do I sign up to lead a workshop?
 
-See the [leads page](/leads/). To offer private workshops of your own, see [Private Workshops](/private-workshops/).
+See the [leads page](/leads/). To offer private sessions of your own, see [Private Sessions](/private-sessions/).
 
 ## How do I sponsor?
 

@@ -10,7 +10,7 @@ name_note: >-
   This workshop is about staying out of a CAP, or getting out if you're already in.
 
 teaser: Want to get ahead of the game and meet the deadlines?
-teaser_cta: Book a private workshop →
+teaser_cta: Book a private session →
 
 workshop_heading: No-Cap Nationwide Workshop
 workshop: >-
