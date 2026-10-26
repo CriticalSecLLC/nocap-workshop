@@ -4,10 +4,6 @@ description: What we look for in sessions, how they are evaluated, and what lead
 ---
 This page explains what we look for in a session, how sessions are evaluated, and what a lead agrees to when a session is approved. It is an interim draft, version 0.1 (October 2026), and will be amended as we proceed through the workshop planning and execution process. It works alongside the [Steering Committee charter](/steering/), which governs approvals, conflicts of interest, and disputes.
 
-## The Positivity Rule
-
-Keep it positive. Focus on what you bring to the table, and speak respectfully of other products, vendors, services, customers, and colleagues. Describing a problem you faced is welcome, and criticizing the product, company, or person behind it is not. A lead who sets this rule aside is removed from the session on the spot, and the session is not posted.
-
 ## Who This Covers
 
 A lead is anyone approved by the Steering Committee to lead a session or a multi-day track at the workshop. By accepting an approval, a lead agrees to this page. Co-leads each agree for themselves.
@@ -59,10 +55,11 @@ Leads disclose their affiliations, the products their session features, and any 
 
 ## What Leads Agree To
 
+- **Keep it positive (the Positivity Rule).** Focus on what you bring to the table, and speak respectfully of other products, vendors, services, customers, and colleagues. Describing a problem you faced is welcome, and criticizing the product, company, or person behind it is not. A lead who sets this rule aside is removed from the session on the spot, and the session is not posted.
 - **Deliver the session as approved.** Keep to the approved scope. Tell the organizer promptly about changes to the title, content, or leads, and about any conflict that arises. A material change may need the committee's review.
 - **Be prepared and on time.** Join a short technical rehearsal before the workshop and start on time.
 - **Run your own Q&A and chat.** You are responsible for your session's discussion. Organizers may join any session to support you and may step in, but you stay responsible for keeping it on track.
-- **Keep it professional.** Follow the Positivity Rule above, treat everyone with respect, give credit where it is due, and leave other people's confidential information alone. Concerns go through the dispute process in the charter.
+- **Keep it professional.** Treat everyone with respect, give credit where it is due, and leave other people's confidential information alone. Concerns go through the dispute process in the charter.
 - **Keep it free of sales process.** You may link to your own resources. You may not require registration or collect attendees' personal information to take part in your session.
 
 ## Competition Law
