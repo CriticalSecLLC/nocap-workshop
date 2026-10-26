@@ -1,6 +1,6 @@
 baseURL = "https://nocap-workshop.com/"
 locale = "en-US"
-title = "No-Cap Workshop"
+title = "NO-CAP Workshop"
 enableRobotsTXT = true
 disableKinds = ["taxonomy", "term", "RSS"]
 

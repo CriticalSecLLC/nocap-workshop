@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-description: Answers about attending, leading sessions, sponsoring, and the FedRAMP terms behind No-Cap Workshop.
+description: Answers about attending, leading sessions, sponsoring, and the FedRAMP terms behind NO-CAP Workshop.
 ---
 
 ## Do I Need to Register?
@@ -49,7 +49,7 @@ See the [leads page](/leads/) and the [Lead Agreement](/lead-agreement/). To off
 
 ## How do I Sponsor?
 
-See the [sponsor page](/sponsors/) for tiers, benefits, and terms, then [write to sponsorship@nocap-workshop.com](mailto:sponsorship@nocap-workshop.com?subject=Sponsoring%20No-Cap%20Workshop).
+See the [sponsor page](/sponsors/) for tiers, benefits, and terms, then [write to sponsorship@nocap-workshop.com](mailto:sponsorship@nocap-workshop.com?subject=Sponsoring%20NO-CAP%20Workshop).
 
 ## Is This Affiliated With FedRAMP or the Government?
 

@@ -1,8 +1,8 @@
 ---
 title: Steering Committee
-description: Who approves sessions and leads at the No-Cap Workshop, how the committee stays neutral, and how disputes are handled.
+description: Who approves sessions and leads at the NO-CAP Workshop, how the committee stays neutral, and how disputes are handled.
 ---
-The Steering Committee approves the sessions and leads at the No-Cap Workshop and resolves situations that arise between leads, sponsors, and attendees. This page is its roster and its charter. The charter is an interim draft, version 0.1 (October 2026), and will be amended as we proceed through the workshop planning and execution process.
+The Steering Committee approves the sessions and leads at the NO-CAP Workshop and resolves situations that arise between leads, sponsors, and attendees. This page is its roster and its charter. The charter is an interim draft, version 0.1 (October 2026), and will be amended as we proceed through the workshop planning and execution process.
 
 ## Members
 

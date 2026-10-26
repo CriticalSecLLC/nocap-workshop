@@ -1,6 +1,6 @@
 ---
 title: Lead Agreement
-description: What we look for in sessions, how they are evaluated, and what leads agree to at the No-Cap Workshop.
+description: What we look for in sessions, how they are evaluated, and what leads agree to at the NO-CAP Workshop.
 ---
 This page explains what we look for in a session, how sessions are evaluated, and what a lead agrees to when a session is approved. It is an interim draft, version 0.1 (October 2026), and will be amended as we proceed through the workshop planning and execution process. It works alongside the [Steering Committee charter](/steering/), which governs approvals, conflicts of interest, and disputes.
 
@@ -10,7 +10,7 @@ A lead is anyone approved by the Steering Committee to lead a session or a multi
 
 ## How to Propose
 
-Write to [leads@nocap-workshop.com](mailto:leads@nocap-workshop.com?subject=Leading%20a%20session%20at%20No-Cap%20Workshop) with:
+Write to [leads@nocap-workshop.com](mailto:leads@nocap-workshop.com?subject=Leading%20a%20session%20at%20NO-CAP%20Workshop) with:
 
 - the title and a short description of the session, and which day or theme it fits (Data Collection, VDR Evaluation, or Remediation and Reporting), or the outline of a multi-day track;
 - who will lead it, with a short bio and each lead's affiliation;

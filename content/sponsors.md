@@ -1,9 +1,9 @@
 ---
 title: Sponsor the Nationwide Workshop
-description: Sponsorship tiers, benefits, and terms for the No-Cap Workshop, January 26–28, 2027.
+description: Sponsorship tiers, benefits, and terms for the NO-CAP Workshop, January 26–28, 2027.
 layout: sponsors
 ---
-The No-Cap Workshop is three days of free, hands-on, practitioner-led sessions for teams meeting FedRAMP's VDR requirements. Sponsors are why it is free for everyone, and why every session stays online afterward.
+The NO-CAP Workshop is three days of free, hands-on, practitioner-led sessions for teams meeting FedRAMP's VDR requirements. Sponsors are why it is free for everyone, and why every session stays online afterward.
 
 ## Why Now
 
@@ -43,4 +43,4 @@ Sponsors do not choose leads, session content, or scope. Sessions and leads are 
 
 Write to us and we will confirm the tier, the date for your logo, and the invoice details.
 
-[Become a sponsor →](mailto:sponsorship@nocap-workshop.com?subject=Sponsoring%20No-Cap%20Workshop)
+[Become a sponsor →](mailto:sponsorship@nocap-workshop.com?subject=Sponsoring%20NO-CAP%20Workshop)
