@@ -29,4 +29,4 @@ Nothing here is advice from FedRAMP or any agency, although if you're with eithe
 ## Get involved
 
 Join the announcement list on the [home page](/), [lead a session](/leads/), or
-[sponsor](/#sponsors). Questions go to the address in the footer.
+[sponsor](/sponsors/). Questions go to the address in the footer.

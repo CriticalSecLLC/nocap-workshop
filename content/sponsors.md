@@ -5,6 +5,10 @@ layout: sponsors
 ---
 The No-Cap Workshop is three days of free, hands-on, practitioner-led sessions for teams meeting FedRAMP's VDR requirements. Sponsors are why it is free for everyone, and why every session stays online afterward.
 
+## Why now
+
+FedRAMP's VDR requirements become mandatory on December 7, 2026. Offerings under a Corrective Action Plan are at risk of having their FedRAMP certification revoked if they are not compliant by March 7, 2027. Every provider in the FedRAMP community is working on this at the same time, and many are struggling to understand, implement, and maintain it.
+
 ## Who is in the room
 
 We're aiming for nationwide participation from cloud service providers across the FedRAMP community, and from the teams inside them: engineering, compliance, security, and leadership. These are the people working on this exact problem, on a deadline, and looking for what works.

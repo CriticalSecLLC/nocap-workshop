@@ -142,8 +142,6 @@
               <li><a href="{{ .url }}">{{ with .logo }}{{ with resources.Get . }}<img src="{{ .RelPermalink }}" alt="{{ $name }}">{{ end }}{{ else }}{{ $name }}{{ end }}</a></li>
               {{ end }}
             </ul>
-            {{ else }}
-            <p class="tba">Open</p>
             {{ end }}
           </div>
           {{ end }}

@@ -45,7 +45,7 @@ See the [leads page](/leads/). To offer private sessions of your own, see [Priva
 
 ## How do I sponsor?
 
-See the [sponsor section](/#sponsors) on the home page and write to the address in the footer.
+See the [sponsor page](/sponsors/) for tiers, benefits, and terms, then write to the address in the footer.
 
 ## Is this affiliated with FedRAMP or the government?
 
