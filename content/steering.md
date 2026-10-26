@@ -49,7 +49,7 @@ The organizer, CriticalSec LLC, convenes the committee and handles intake, sched
 
 - Members disclose their affiliations, employers, and clients when they join, and update them when they change.
 - A member recuses from any decision involving their employer, a client, or a direct competitor of either, including any session they would lead themselves. A recused member does not vote and does not take part in the discussion of that item.
-- The organizer's own sessions, including Rampart, are decided by the other members.
+- The organizer's own sessions are decided by the other members.
 
 ## Approving Sessions and Leads
 
