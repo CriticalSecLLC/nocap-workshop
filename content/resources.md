@@ -14,7 +14,7 @@ Primary sources, straight from the FedRAMP PMO. Read these first; everything els
 - [Important dates](https://fedramp.gov/2026/timeline/): the timeline for adoption.
 - [Machine-readable rules](https://github.com/FedRAMP/rules) and the [CR26 repository](https://github.com/fedramp/2026): the rule text as data, with a changelog.
 
-## The Corrective Action Plan deadline
+## The Corrective Action Plan Deadline
 
 - [FedRAMP notice NTC-0014](https://fedramp.gov/notices/0014): the VDR and VER effective dates, the Corrective Action Plan grace period, and the response to CISA BOD 26-04.
 
@@ -23,7 +23,7 @@ Primary sources, straight from the FedRAMP PMO. Read these first; everything els
 - [CISA Known Exploited Vulnerabilities catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog): the KEV list that the VDR remediation rules key off.
 - [FedRAMP help site](https://help.fedramp.gov): where to ask the PMO a question.
 
-## After the event
+## After the Event
 
 Recordings, slides, and links to the webinars our leads give will be posted here and on the
 [schedule](/#days) as they become available.

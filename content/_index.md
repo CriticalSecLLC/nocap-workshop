@@ -32,9 +32,9 @@ days_note: Session times are shown in your local time.
 
 attend_heading: Who Should Attend
 attend:
-  - title: Teams under a CAP
+  - title: Teams Under a CAP
     text: Learn the strategies and approaches that get you out from under it by March 7, 2027.
-  - title: Teams not under a CAP
+  - title: Teams Not Under a CAP
     text: Find new ways to strengthen what you already do, and borrow from the experience of others.
   - title: Teams in a Good Place
     text: Show up to share what is working, and learn a few new tricks along the way.
@@ -55,7 +55,7 @@ sponsors_text: >-
   and publication, and share the room with a security-minded audience that is working
   on this exact problem.
 
-closing_heading: This is bigger than the deadline.
+closing_heading: This is Bigger Than the Deadline.
 closing: >-
   The VDR refactor is a dramatic, complex change to security compliance, and something that many teams are struggling to understand, implement, and maintain. It's also one of the most timely changes we could be facing. Think about it this way - at some point in the future we'll look back on the 12-hour SLA and chuckle that we used to have so much time to respond.
 ---

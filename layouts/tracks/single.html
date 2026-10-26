@@ -12,7 +12,7 @@
 <main class="section page">
   <div class="wrap">
     <div class="prose long">{{ .Content }}</div>
-    <h2 class="track-sessions">Sessions in this track</h2>
+    <h2 class="track-sessions">Sessions in This Track</h2>
     <div class="session-list">
       {{ range $sessions }}{{ partial "session-card.html" (dict "page" . "full" true) }}{{ end }}
     </div>

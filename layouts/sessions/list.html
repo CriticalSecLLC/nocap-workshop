@@ -21,7 +21,7 @@
       {{ end }}
     </div>
 
-    <h2 class="track-sessions">All sessions</h2>
+    <h2 class="track-sessions">All Sessions</h2>
     <p class="note"><span id="tz-note">Session times are shown in your local time.</span></p>
     {{ $all := sort .Pages "Params.start" }}
     {{ range hugo.Data.schedule }}
