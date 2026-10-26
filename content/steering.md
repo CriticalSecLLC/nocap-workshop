@@ -24,7 +24,7 @@ Members serve as individuals, not as representatives of their employers. We look
 
 At most one seat may be held by someone affiliated with a vendor in this space, and the organizer currently holds it, so the open seat is for someone without a vendor affiliation.
 
-To volunteer or nominate someone, [write to us](mailto:hello@nocap-workshop.com?subject=Steering%20Committee).
+To volunteer or nominate someone, [write to us](mailto:questions@nocap-workshop.com?subject=Steering%20Committee).
 
 ## Purpose
 
@@ -79,7 +79,7 @@ Proposals come in through the address on the [Leads](/leads/) page. The organize
 
 ## Disputes
 
-A lead, sponsor, or attendee with a concern about content, conduct, or fairness involving a lead, sponsor, or attendee may [report it to us](mailto:hello@nocap-workshop.com?subject=Steering%20Committee%20concern).
+A lead, sponsor, or attendee with a concern about content, conduct, or fairness involving a lead, sponsor, or attendee may [report it to us](mailto:questions@nocap-workshop.com?subject=Steering%20Committee%20concern).
 
 - We acknowledge a report within three business days and decide within ten, unless more time is needed and the people involved are told.
 - Members involved in or connected to the matter recuse.

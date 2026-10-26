@@ -43,4 +43,4 @@ Sponsors do not choose leads, session content, or scope. Sessions and leads are 
 
 Write to us and we will confirm the tier, the date for your logo, and the invoice details.
 
-[Become a sponsor →](mailto:hello@nocap-workshop.com?subject=Sponsoring%20No-Cap%20Workshop)
+[Become a sponsor →](mailto:sponsorship@nocap-workshop.com?subject=Sponsoring%20No-Cap%20Workshop)

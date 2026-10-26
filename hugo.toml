@@ -13,8 +13,10 @@ disableKinds = ["taxonomy", "term", "RSS"]
   # Announcement-list form posts here. Buttondown embed-subscribe endpoint; the
   # username in the path must match the account that gets created.
   signupAction = "https://buttondown.com/api/emails/embed-subscribe/nocap-workshop"
-  # TODO: confirm this mailbox exists before launch.
-  contact = "hello@nocap-workshop.com"
+  # General questions (footer) and the two topic mailboxes.
+  contact = "questions@nocap-workshop.com"
+  contact_sponsors = "sponsorship@nocap-workshop.com"
+  contact_leads = "leads@nocap-workshop.com"
 
 [menus]
   [[menus.main]]

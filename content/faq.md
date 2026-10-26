@@ -49,7 +49,7 @@ See the [leads page](/leads/). To offer private sessions of your own, see [Priva
 
 ## How do I Sponsor?
 
-See the [sponsor page](/sponsors/) for tiers, benefits, and terms, then write to the address in the footer.
+See the [sponsor page](/sponsors/) for tiers, benefits, and terms, then [write to sponsorship@nocap-workshop.com](mailto:sponsorship@nocap-workshop.com?subject=Sponsoring%20No-Cap%20Workshop).
 
 ## Is This Affiliated With FedRAMP or the Government?
 
