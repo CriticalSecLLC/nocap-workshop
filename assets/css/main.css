@@ -230,3 +230,5 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .banner p { margin: 0; padding-block: .6rem; }
 .banner strong { font-weight: 600; }
 .banner a { text-decoration-color: var(--accent-ink); }
+.proposal-open { margin: .5rem 0; font-family: var(--mono); font-size: .9rem; }
+.proposal-embed { display: block; width: 100%; height: 85vh; min-height: 640px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); margin: .5rem 0 1.5rem; }

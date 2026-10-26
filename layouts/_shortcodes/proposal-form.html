@@ -1,6 +1,7 @@
-{{- /* Link to the proposal Google Form (params.proposal_form). Until it is set, say the form opens soon. */ -}}
+{{- /* The proposal Google Form (params.proposal_form), embedded, with a new-tab link as a fallback for blocked networks and small screens. */ -}}
 {{ with site.Params.proposal_form }}
-<p><a class="btn" href="{{ . }}">Open the proposal form →</a></p>
+<p class="proposal-open"><a href="{{ . }}" target="_blank" rel="noopener">Open the form in a new tab →</a></p>
+<iframe class="proposal-embed" title="Session proposal form" src="{{ . }}{{ if in . "?" }}&{{ else }}?{{ end }}embedded=true" loading="lazy">The form could not be shown here. <a href="{{ . }}">Open it in a new tab</a>.</iframe>
 {{ else }}
 <p class="note">The proposal form opens soon.</p>
 {{ end }}
