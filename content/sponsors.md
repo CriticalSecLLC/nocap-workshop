@@ -23,6 +23,10 @@ Logistics across leads, attendees, and sponsors. Run-of-show support for the onl
 
 Sponsors appear on a short opening card before every session, sized by tier, and in a listing on the website. Because the sessions are recorded and posted, the card goes with every recording.
 
+## The sponsor report
+
+We will collect metrics on both website activity and participation during the workshop week, and deliver every sponsor an aggregate report afterward. It covers participation and engagement, along with a summary of attendee experiences and key learnings. Reporting is aggregate only: no attendee-level data is collected for or shared with sponsors.
+
 ## What stays independent
 
 Sponsors do not choose leads, session content, or scope. The event is practitioner-led, and that is what makes it worth sponsoring. There is no registration, so there is no attendee list to share.
