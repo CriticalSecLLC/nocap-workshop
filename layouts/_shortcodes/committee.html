@@ -5,7 +5,7 @@
   <tbody>
     {{ range $d.members }}
     <tr>
-      <th scope="row" data-label="Member">{{ .name }}</th>
+      <th scope="row" data-label="Member">{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</th>
       <td data-label="Affiliation">{{ if .affiliation_url }}<a href="{{ .affiliation_url }}">{{ .affiliation }}</a>{{ else }}{{ .affiliation }}{{ end }}</td>
       <td data-label="Role">{{ .role }}</td>
     </tr>

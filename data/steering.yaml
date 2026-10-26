@@ -1,6 +1,6 @@
 # Steering Committee roster. `seats` is the number of voting seats; open seats are
 # computed from the members listed. Keep affiliations current (see the charter on
-# conflicts of interest).
+# conflicts of interest). An optional `url` links the member's name.
 seats: 3
 members:
   - name: George Chamales
@@ -9,4 +9,5 @@ members:
     role: Member and organizer
   - name: Sam Aydlette
     affiliation: Independent
+    url: https://samaydlette.com
     role: Member
