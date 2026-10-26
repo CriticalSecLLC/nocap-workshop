@@ -1,5 +1,5 @@
 ---
-title: Sponsor the Workshop
+title: Sponsor the Nationwide Workshop
 description: Sponsorship tiers, benefits, and terms for the No-Cap Workshop, January 26–28, 2027.
 layout: sponsors
 ---
