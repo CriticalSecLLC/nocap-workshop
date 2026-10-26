@@ -14,7 +14,7 @@ The committee is formed when all three voting seats are filled. Until then, no s
 
 Members serve as individuals, not as representatives of their employers. We look for:
 
-- Practitioner experience: people who have done this work, not only talked about it.
+- Practitioner experience: people who have done this work, who know what it's like to have skin in the game.
 - Capacity to be neutral: able to weigh a session on its merits when it involves their employer, their clients, or their competitors.
 - Broad perspective across FedRAMP, security, and engineering. This is strongly preferred.
 
@@ -49,7 +49,6 @@ The organizer, CriticalSec LLC, convenes the committee and handles intake, sched
 
 - Members disclose their affiliations, employers, and clients when they join, and update them when they change.
 - A member recuses from any decision involving their employer, a client, or a direct competitor of either, including any session they would lead themselves. A recused member does not vote and does not take part in the discussion of that item.
-- At most one voting seat may be held by a person affiliated with a vendor of products in this space.
 - The organizer's own sessions, including Rampart, are decided by the other members.
 
 ## Approving Sessions and Leads
