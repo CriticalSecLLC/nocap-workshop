@@ -5,6 +5,8 @@ enableRobotsTXT = true
 disableKinds = ["taxonomy", "term", "RSS"]
 
 [params]
+  # Site-wide notice above the nav. Delete the line to remove it.
+  banner = "**This site is in stand-up mode.** It exists to give [sponsors](/sponsors/) and [leads](/leads/) what they need to take part, and the rest is still being filled in."
   description = "Three free days of practitioner-led sessions on meeting FedRAMP's VDR rules before the March 7, 2027 deadline."
   org = "https://criticalsec.com"
   repo = "https://github.com/criticalsecllc/nocap-workshop"
