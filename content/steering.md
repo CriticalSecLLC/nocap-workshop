@@ -55,12 +55,12 @@ The organizer, CriticalSec LLC, convenes the committee and handles intake, sched
 
 A session or track is approved when it is:
 
-- led by practitioners who have done the work they describe;
-- hands-on and specific: the tooling, the tradeoffs, the numbers, and real examples;
-- not a sales pitch. Showing a product doing the work is welcome, and marketing it is not;
-- accurate and fair, including where it involves competing approaches;
-- for a multi-day track, built around a defined deliverable for attendees on each day; and
-- led by someone who agrees to the conduct expectations below and to the session being recorded and posted publicly.
+- Led by practitioners who have done the work they describe.
+- Hands-on and specific: the tooling, the tradeoffs, the numbers, and real examples.
+- Not a sales pitch. Showing a product doing the work is welcome, and marketing it is not.
+- Accurate and fair, including where it involves competing approaches.
+- For a multi-day track, built around a defined deliverable for attendees on each day.
+- Led by someone who agrees to the conduct expectations below and to the session being recorded and posted publicly.
 
 Proposals come in through the address on the [Leads](/leads/) page. The organizer checks them for completeness and passes them to the committee. The committee approves or declines, and the organizer tells the proposer. A decline comes with a short reason on request, and a proposal may be resubmitted.
 
