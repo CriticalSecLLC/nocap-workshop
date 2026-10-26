@@ -4,9 +4,9 @@ description: What we look for in sessions, how they are evaluated, and what lead
 ---
 This page explains what we look for in a session, how sessions are evaluated, and what a lead agrees to when a session is approved. It is an interim draft, version 0.1 (October 2026), and will be amended as we proceed through the workshop planning and execution process. It works alongside the [Steering Committee charter](/steering/), which governs approvals, conflicts of interest, and disputes.
 
-## The Ground Rule
+## The Positivity Rule
 
-Nobody talks trash about other products, vendors, services, customers, or anyone else. Focus on what you bring to the table. Describing a problem you faced is welcome, and running down the product, company, or person behind it is not. A lead who breaks this rule is removed from the session on the spot, and the session is not posted.
+Keep it positive. Focus on what you bring to the table, and speak respectfully of other products, vendors, services, customers, and colleagues. Describing a problem you faced is welcome, and criticizing the product, company, or person behind it is not. A lead who sets this rule aside is removed from the session on the spot, and the session is not posted.
 
 ## Who This Covers
 
@@ -62,7 +62,7 @@ Leads disclose their affiliations, the products their session features, and any 
 - **Deliver the session as approved.** Keep to the approved scope. Tell the organizer promptly about changes to the title, content, or leads, and about any conflict that arises. A material change may need the committee's review.
 - **Be prepared and on time.** Join a short technical rehearsal before the workshop and start on time.
 - **Run your own Q&A and chat.** You are responsible for your session's discussion. Organizers may join any session to support you and may step in, but you stay responsible for keeping it on track.
-- **Keep it professional.** Follow the ground rule above, treat everyone with respect, give credit where it is due, and leave other people's confidential information alone. Concerns go through the dispute process in the charter.
+- **Keep it professional.** Follow the Positivity Rule above, treat everyone with respect, give credit where it is due, and leave other people's confidential information alone. Concerns go through the dispute process in the charter.
 - **Keep it free of sales process.** You may link to your own resources. You may not require registration or collect attendees' personal information to take part in your session.
 
 ## Competition Law
@@ -77,7 +77,7 @@ Do not disclose non-public vulnerabilities in anyone's environment, customer dat
 
 ## Recording and Materials
 
-Sessions are recorded and posted publicly, except a session ended under the ground rule, which is not posted. A short opening card thanking sponsors runs before each session. By leading a session, you give the organizer permission to record it, to post it, and to edit it for length and clarity, along with any slides or materials you share. You keep ownership of your content. You confirm that you have the right to show everything in your session. The organizer may list your name, affiliation, biography, and photo on this site.
+Sessions are recorded and posted publicly, except a session ended under the Positivity Rule, which is not posted. A short opening card thanking sponsors runs before each session. By leading a session, you give the organizer permission to record it, to post it, and to edit it for length and clarity, along with any slides or materials you share. You keep ownership of your content. You confirm that you have the right to show everything in your session. The organizer may list your name, affiliation, biography, and photo on this site.
 
 ## Support From the Organizer
 
@@ -89,7 +89,7 @@ Leads are independent. You do not act for the organizer, the committee, FedRAMP,
 
 ## Changes and Withdrawal
 
-Under the ground rule, the organizer or someone the organizer designates may remove a lead from a live session immediately, and any further consequences follow the dispute process in the charter. Tell the organizer as soon as you cannot deliver a session. The organizer may reschedule or replace a session, and the committee may withdraw an approval for a violation of this page or the charter, through the process in the charter.
+Under the Positivity Rule, the organizer or someone the organizer designates may remove a lead from a live session immediately, and any further consequences follow the dispute process in the charter. Tell the organizer as soon as you cannot deliver a session. The organizer may reschedule or replace a session, and the committee may withdraw an approval for a violation of this page or the charter, through the process in the charter.
 
 ## Amendments
 

@@ -82,7 +82,7 @@ A lead, sponsor, or attendee with a concern about content, conduct, or fairness 
 
 ## Conduct
 
-Everyone taking part is expected to be professional and respectful, to give credit where it is due, and to leave other people's confidential information alone. Harassment, discrimination, and disruption are not acceptable. Nobody talks trash about other products, vendors, services, customers, or anyone else: focus on what you bring. A lead who does is removed from the session, and the session is not posted. Concerns go through the dispute process above, and the organizer may remove a disruptive person from a live session immediately.
+Everyone taking part is expected to be professional and respectful, to give credit where it is due, and to leave other people's confidential information alone. Harassment, discrimination, and disruption are not acceptable. Everyone keeps it positive: focus on what you bring, and speak respectfully of other products, vendors, services, and customers. A lead who does not is removed from the session, and the session is not posted. See the [Positivity Rule](/lead-agreement/#the-positivity-rule). Concerns go through the dispute process above, and the organizer may remove a disruptive person from a live session immediately.
 
 ## Confidentiality
 
