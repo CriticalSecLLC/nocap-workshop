@@ -102,7 +102,7 @@ This charter, the roster, and the approval criteria are public, and the approved
 
 ## Amendments
 
-The voting members may amend this charter by majority vote. Changes are published on this page, with the date, before they take effect.
+The voting members may amend this charter by majority vote. Every change is tracked, with its date, in the [page's change history on GitHub](https://github.com/CriticalSecLLC/nocap-workshop/commits/main/content/steering.md), and takes effect when it is published here.
 
 ## Rampart Track
 
