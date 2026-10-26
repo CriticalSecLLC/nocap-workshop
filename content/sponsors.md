@@ -29,7 +29,7 @@ We will collect metrics on both website activity and participation during the wo
 
 ## What Stays Independent
 
-Sponsors do not choose leads, session content, or scope. The event is practitioner-led, and that is what makes it worth sponsoring. There is no registration, so there is no attendee list to share.
+Sponsors do not choose leads, session content, or scope. Sessions and leads are approved by an independent [Steering Committee](/steering/) under a published charter. The event is practitioner-led, and that is what makes it worth sponsoring. There is no registration, so there is no attendee list to share.
 
 ## Timeline and Terms
 

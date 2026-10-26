@@ -1,0 +1,12 @@
+# Steering Committee roster. `seats` is the number of voting seats; open seats are
+# computed from the members listed. Keep affiliations current (see the charter on
+# conflicts of interest).
+seats: 3
+members:
+  - name: George Chamales
+    affiliation: CriticalSec
+    affiliation_url: https://criticalsec.com
+    role: Member and organizer
+  - name: Sam Aydlette
+    affiliation: Independent
+    role: Member

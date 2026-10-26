@@ -39,6 +39,10 @@ Providers under a CAP, providers who are not, and providers in good shape who wa
 
 No. Sessions are practitioner-led and focus on strategies and tactics people have actually used. Vendors are invited to present on their solutions. If they can convince you they've got the cure for what ails you, more power to them. This is 100% about solutions.
 
+## Who Approves Sessions and Leads?
+
+The [Steering Committee](/steering/), under a published charter that covers neutrality, conflicts of interest, and how disputes are handled.
+
 ## How do I Sign up to Lead a Workshop?
 
 See the [leads page](/leads/). To offer private sessions of your own, see [Private Sessions](/private-sessions/).
