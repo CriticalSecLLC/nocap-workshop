@@ -90,7 +90,7 @@ Committee deliberations and the details of proposals stay private. Sessions must
 
 ## Competition Law
 
-The workshop brings competitors together. Sessions and discussions must not involve agreements or exchanges of information about prices, bids, customers, or markets. Anyone who sees this happening should raise it with the committee at once.
+The workshop brings competitors together. Everyone taking part, including leads, committee members, sponsors, attendees, and the organizer, must not agree on or exchange information about prices, bids, customers, or markets, whether in a session or in any conversation connected to the workshop. Non-competitive discussions of technical compliance practices that support effective security for products and the protection of customers are permitted, provided they do not involve competitively sensitive business information. Anyone who sees a discussion drifting toward the prohibited topics should say so right away to the committee, and a lead or the organizer may stop it on the spot. Violations are handled under Disputes.
 
 ## Government Participants
 
