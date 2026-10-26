@@ -68,6 +68,8 @@ The workshop brings competitors together. Everyone taking part, including leads,
 
 In practice, it is fine to discuss how to scan containers, build an inventory, or write up a finding. It is not fine to discuss what you charge, which agency contracts you are bidding on, or which customers you will or will not pursue. If a question in your session heads there, redirect it, and if it continues, stop it and tell an organizer.
 
+For background, see the [DOJ and FTC Antitrust Policy Statement on Sharing of Cybersecurity Information](https://www.justice.gov/sites/default/files/atr/legacy/2014/04/10/305027.pdf) and the [Linux Foundation Antitrust Policy](https://www.linuxfoundation.org/legal/antitrust-policy). The rule also appears in the [Steering Committee charter](/steering/#competition-law).
+
 ## Confidentiality and Sensitive Information
 
 Do not disclose non-public vulnerabilities in anyone's environment, customer data, or non-public government information. Use sanitized or synthetic data. If you are unsure whether something is safe to show, ask before the session.

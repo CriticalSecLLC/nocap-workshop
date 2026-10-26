@@ -92,6 +92,8 @@ Committee deliberations and the details of proposals stay private. Sessions must
 
 The workshop brings competitors together. Everyone taking part, including leads, committee members, sponsors, attendees, and the organizer, must not agree on or exchange information about prices, bids, customers, or markets, whether in a session or in any conversation connected to the workshop. Non-competitive discussions of technical compliance practices that support effective security for products and the protection of customers are permitted, provided they do not involve competitively sensitive business information. Anyone who sees a discussion drifting toward the prohibited topics should say so right away to the committee, and a lead or the organizer may stop it on the spot. Violations are handled under Disputes.
 
+For background, see the [DOJ and FTC Antitrust Policy Statement on Sharing of Cybersecurity Information](https://www.justice.gov/sites/default/files/atr/legacy/2014/04/10/305027.pdf) and the [Linux Foundation Antitrust Policy](https://www.linuxfoundation.org/legal/antitrust-policy), both listed under Sources below.
+
 ## Government Participants
 
 Government employees take part under their own agencies' ethics and conflict-of-interest rules. Their participation is not an endorsement, and the workshop is independent of FedRAMP and the U.S. government.
