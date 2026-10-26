@@ -17,6 +17,11 @@ disableKinds = ["taxonomy", "term", "RSS"]
   contact = "questions@nocap-workshop.com"
   contact_sponsors = "sponsorship@nocap-workshop.com"
   contact_leads = "leads@nocap-workshop.com"
+  # Session proposals: the deadline shown on the site, and the Google Form link
+  # (the form's public "viewform" URL). While proposal_form is empty the Propose
+  # page shows an "opens soon" note and the email fallback.
+  proposal_deadline = "January 22, 2027"
+  proposal_form = ""
 
 [menus]
   [[menus.main]]

@@ -1,0 +1,7 @@
+{{- /* Google Form link and embed from params.proposal_form; falls back to a note and the email address. */ -}}
+{{ with site.Params.proposal_form }}
+<p><a class="btn" href="{{ . }}">Open the proposal form →</a></p>
+<iframe class="proposal-embed" title="Session proposal form" src="{{ . }}{{ if in . "?" }}&{{ else }}?{{ end }}embedded=true" loading="lazy">Loading the form…</iframe>
+{{ else }}
+<p class="note">The proposal form opens soon. Until then, write to <a href="mailto:{{ site.Params.contact_leads }}?subject=Leading%20a%20session%20at%20No-CAP%20Workshop">{{ site.Params.contact_leads }}</a> with the information listed in the <a href="/lead-agreement/#how-to-propose">Lead Agreement</a>.</p>
+{{ end }}
