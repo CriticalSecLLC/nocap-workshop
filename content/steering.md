@@ -10,10 +10,6 @@ The Steering Committee approves the sessions and leads at the No-Cap Workshop an
 
 The committee is formed when all three voting seats are filled. Until then, no sessions or leads are approved and everything on the schedule is a placeholder.
 
-## Rampart Track
-
-Rampart is the organizer's founding track. It is on the schedule as a placeholder and was not selected by the committee. It will be assessed by the committee, against the same criteria as every other track, once the committee is formed.
-
 ## Who Serves
 
 Members serve as individuals, not as representatives of their employers. We look for:
@@ -110,3 +106,7 @@ This charter, the roster, and the approval criteria are public, and the approved
 ## Amendments
 
 The voting members may amend this charter by majority vote. Changes are published on this page, with the date, before they take effect.
+
+## Rampart Track
+
+Rampart is the organizer's founding track. It is on the schedule as a placeholder and was not selected by the committee. It will be assessed by the committee, against the same criteria as every other track, once the committee is formed.
