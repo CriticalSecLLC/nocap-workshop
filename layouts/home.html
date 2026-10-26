@@ -134,6 +134,7 @@
           {{ range hugo.Data.sponsors }}
           <div class="tier">
             <h3>{{ .tier }}</h3>
+            <p class="slots">{{ partial "tier-slots.html" . }}</p>
             {{ if .sponsors }}
             <ul class="logos">
               {{ range .sponsors }}

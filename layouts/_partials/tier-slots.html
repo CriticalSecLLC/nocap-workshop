@@ -1,0 +1,2 @@
+{{- /* Context: a tier from data/sponsors.yaml. Slots still available for a capped tier (counts down as sponsors are added), "Unlimited" otherwise. */ -}}
+{{- if .slots }}{{ $open := sub .slots (len .sponsors) }}{{ if gt $open 0 }}{{ $open }} available{{ else }}Sold out{{ end }}{{ else }}Unlimited{{ end -}}

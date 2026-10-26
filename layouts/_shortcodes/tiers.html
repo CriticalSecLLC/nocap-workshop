@@ -4,7 +4,7 @@
   <article class="tier-card">
     <h3>{{ .tier }}</h3>
     <p class="price">${{ lang.FormatNumber 0 .price }}</p>
-    <p class="slots">{{ if .slots }}{{ $open := sub .slots (len .sponsors) }}{{ .slots }} available{{ if lt $open .slots }} · {{ $open }} open{{ end }}{{ else }}Unlimited{{ end }}</p>
+    <p class="slots">{{ partial "tier-slots.html" . }}</p>
     {{ with .summary }}<p class="tier-summary">{{ . }}</p>{{ end }}
     <ul class="benefits">{{ range .benefits }}<li>{{ . }}</li>{{ end }}</ul>
   </article>
