@@ -1,5 +1,5 @@
 ---
-title: "Pick your Algorithm(s)"
+title: "Rampart: Pick your Algorithm(s)"
 tagline: Calculating Internet-reachability, likely exploitability, and the Potential Agency Impact N Rating
 day: 2
 start: 2027-01-27T10:00:00-08:00
