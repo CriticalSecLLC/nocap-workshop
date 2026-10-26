@@ -11,6 +11,8 @@ Proposals for sessions and multi-day tracks are due {{< proposal-deadline >}}.
 
 ## Submit
 
+Choose the form that fits: one session, or a multi-day track that runs across all three days.
+
 {{< proposal-form >}}
 
 ## What Happens Next

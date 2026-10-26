@@ -1,7 +1,7 @@
 {{- /* Compact one-line session (time range, title, leaders, track). Context: a session page. Used by the landing page and the master sessions page. */ -}}
 {{ $t := .Params.start | time.AsTime }}
 {{ $e := .Params.end | time.AsTime }}
-{{ $track := site.GetPage (printf "/tracks/%s" .Params.track) }}
+{{ $track := cond (ne (.Params.track | default "") "") (site.GetPage (printf "/tracks/%s" .Params.track)) nil }}
 <li>
   <span class="s-when"><time datetime="{{ $t.UTC.Format "2006-01-02T15:04:05Z" }}" data-local="time">{{ $t.UTC.Format "15:04 UTC" }}</time> – <time datetime="{{ $e.UTC.Format "2006-01-02T15:04:05Z" }}" data-local="time">{{ $e.UTC.Format "15:04 UTC" }}</time></span>
   <span class="s-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></span>

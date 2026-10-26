@@ -1,0 +1,44 @@
+{
+  "type": "track",
+  "lead": {
+    "name": "George Chamales",
+    "org": "CriticalSec",
+    "org_url": "https://criticalsec.com",
+    "bio": "George Chamales built [Cisco Security Cloud for Government](https://www.fedramp.gov/marketplace/products/FR2304757473A/), the company's flagship FedRAMP delivery platform. He was the first hire for the project responsible for its architecture, led the development and implementation, coordinated the audits, collaborated with Agencies (including building an integration with DHS CISA Protective DNS), and served as the FIPS lead because nobody else wanted the job. Coincidentally he's the author of The Analogy Platform and the driving force behind the Rampart Strategy."
+  },
+  "coleads": [],
+  "track": {
+    "name": "Rampart Track",
+    "slug": "rampart",
+    "url": "https://rampart-strategy.com",
+    "summary": "A three-day, hands-on track that stands up a self-hosted FedRAMP VDR management system and takes it from data collection to reporting.",
+    "overview": "The Rampart Strategy enables you to immediately demonstrate progress towards a full VDR implementation by deploying a self-hosted, highly customized FedRAMP VDR management system. We'll bring the system online on the first day, either running on your laptop or deployed in a cloud environment, and populate it with the essential information from your environment that you'll need to perform a VDR evaluation. This collection phase generates your first coverage numbers, percentage values used to track your progress towards a full implementation. Coverage is gathered in a central reporting page that can be shared with both internal and external stakeholders.\n\nNext you'll begin evaluating VDR evaluation algorithms based on the set publicly available, all of which can be tailored to your environment, or you can work to develop and implement your own approach. VDR algorithm selection(s) are run against the data you've collected to generate your first set of evaluations, the SLA targets for vulnerability remediation inside your environment. This work generates your next set of coverage numbers based on how many current findings in the environment have been triaged for VDR.\n\nWith VDR evaluations in hand, it's time to start remediation by combining the SLAs with highly enriched information about each finding to deliver actionable tickets to the people responsible for fixing the vulnerabilities. We'll discuss the options you have for remediation including rapid, AI-assisted patching, multiple ways to deal with false positives, and preventing them from showing up in the first place.\n\nFinally, we wrap with the reporting process to tie it all together with centralized, actionable dashboards and generated reports. Reporting is tailored to views specific to each of your stakeholders: customers and AOs, internal leadership, compliance, security, and engineering. Everyone gets the data that they need to understand the true state of the system. No-CAP."
+  },
+  "sessions": [
+    {
+      "slug": "rampart-data-collection",
+      "title": "Rampart: Up & Running, Begin Coverage",
+      "day": 1,
+      "start": "2027-01-26T10:00:00-08:00",
+      "end": "2027-01-26T16:00:00-08:00",
+      "description": "Install and configure your Rampart instance, establish data classification, and begin continuous ingest of system inventory and vulnerability data. End the day with a set of coverage numbers to demonstrate your progress to leadership and customers."
+    },
+    {
+      "slug": "rampart-vdr-evaluation",
+      "title": "Rampart: Pick Your Algorithm(s)",
+      "day": 2,
+      "start": "2027-01-27T10:00:00-08:00",
+      "end": "2027-01-27T16:00:00-08:00",
+      "description": "Test out multiple VDR algorithms on your data and determine which ones work best for you. Tailor the approach to your needs and see how they play out against real-world findings on applications and infrastructure. End the day with real evaluations performed against your running system to generate your second batch of coverage numbers.",
+      "tagline": "Calculating Internet-reachability, likely exploitability, and the Potential Agency Impact N Rating"
+    },
+    {
+      "slug": "rampart-remediation-reporting",
+      "title": "Rampart: Triage, Fix, Prevent & Report",
+      "day": 3,
+      "start": "2027-01-28T10:00:00-08:00",
+      "end": "2027-01-28T16:00:00-08:00",
+      "description": "Time to eliminate vulnerabilities. We'll demonstrate multiple ways to use the VDR assessment in triaging vulnerabilities across your environment, leverage AI tools to drive patching recommendations and updates, and introduce various tools and vendors who can be tapped to prevent vulnerabilities from appearing in the first place, because it's easier to stay out than to get out."
+    }
+  ]
+}

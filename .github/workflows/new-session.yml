@@ -1,0 +1,68 @@
+name: Open a pull request for an approved session
+
+# Triggered by the proposal spreadsheet (Apps Script) when a proposal's status is
+# set to Approved. It turns the proposal into site files and opens a pull request
+# for a person to review. Nothing is published until that pull request is merged.
+
+on:
+  repository_dispatch:
+    types: [session-approved]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+defaults:
+  run:
+    shell: bash
+
+concurrency:
+  group: session-pr
+  cancel-in-progress: false
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    env:
+      # renovate: datasource=github-releases depName=gohugoio/hugo
+      HUGO_VERSION: 0.166.0
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+
+      - name: Write the payload
+        env:
+          # Passed through the environment, never interpolated into the script.
+          PAYLOAD: ${{ toJSON(github.event.client_payload) }}
+        run: printf '%s' "$PAYLOAD" > "$RUNNER_TEMP/payload.json"
+
+      - name: Run the generator tests
+        run: python3 tools/test_generate_session.py
+
+      - name: Generate the content
+        run: |
+          python3 tools/generate_session.py "$RUNNER_TEMP/payload.json" > "$RUNNER_TEMP/summary.json"
+          cat "$RUNNER_TEMP/summary.json"
+
+      - name: Install Hugo (extended)
+        run: |
+          wget -O "${{ runner.temp }}/hugo.deb" \
+            "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb"
+          sudo dpkg -i "${{ runner.temp }}/hugo.deb"
+
+      - name: Check the site still builds
+        run: hugo --gc --minify
+
+      - name: Open the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH=$(jq -r .branch "$RUNNER_TEMP/summary.json")
+          TITLE=$(jq -r .pr_title "$RUNNER_TEMP/summary.json")
+          jq -r .pr_body "$RUNNER_TEMP/summary.json" > "$RUNNER_TEMP/body.md"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add content data
+          git commit -m "$TITLE"
+          git push origin "$BRANCH"
+          gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file "$RUNNER_TEMP/body.md"

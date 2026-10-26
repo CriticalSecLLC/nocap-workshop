@@ -2,7 +2,7 @@
 {{- $p := .page -}}
 {{- $start := $p.Params.start | time.AsTime -}}
 {{- $end := $p.Params.end | time.AsTime -}}
-{{- $track := site.GetPage (printf "/tracks/%s" $p.Params.track) -}}
+{{- $track := cond (ne ($p.Params.track | default "") "") (site.GetPage (printf "/tracks/%s" $p.Params.track)) nil -}}
 <article class="session-card">
   <p class="day-date">Day {{ $p.Params.day }}{{ with index (where hugo.Data.schedule "day" $p.Params.day) 0 }} · {{ .theme }}{{ end }}</p>
   <h3><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
