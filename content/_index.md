@@ -20,9 +20,9 @@ workshop: >-
   Multi-day tracks follow a single vendor / strategy / system from start to finish, hands-on-keyboard,
   with deliverable results.
 
-how_heading: Free, open, and accessible.
+how_heading: Online.
 how: >-
-  This is a free online event open to anyone who wants to take part. There is no registration
+  This is a nationwide online event open to anyone who wants to take part. There is no registration
   and no identification. Show up, watch, learn, ask questions, and
   participate at whatever level of engagement works for you. Each session will be recorded and posted
   online for everyone to use afterward.
