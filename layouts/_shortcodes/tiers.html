@@ -1,0 +1,12 @@
+{{- /* Sponsorship tiers from data/sponsors.yaml, with open-slot counts. */ -}}
+<div class="tier-cards">
+  {{ range hugo.Data.sponsors }}
+  <article class="tier-card">
+    <h3>{{ .tier }}</h3>
+    <p class="price">${{ lang.FormatNumber 0 .price }}</p>
+    <p class="slots">{{ if .slots }}{{ $open := sub .slots (len .sponsors) }}{{ .slots }} available{{ if lt $open .slots }} · {{ $open }} open{{ end }}{{ else }}Unlimited{{ end }}</p>
+    {{ with .summary }}<p class="tier-summary">{{ . }}</p>{{ end }}
+    <ul class="benefits">{{ range .benefits }}<li>{{ . }}</li>{{ end }}</ul>
+  </article>
+  {{ end }}
+</div>

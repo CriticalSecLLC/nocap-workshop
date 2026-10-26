@@ -1,10 +1,42 @@
-# Add sponsors under their tier. `logo` is a path under assets/images/sponsors/.
+# One entry per tier. `price` is USD; `slots` is the number available, or omit
+# for unlimited. `benefits` render on the Sponsors page. Add sponsors under
+# their tier; the landing page, the Sponsors page, and the open-slot counts
+# all read from here.
 # - name: "Company"
 #   url: "https://..."
-#   logo: "images/sponsors/company.svg"
-- tier: Founder
+#   logo: "images/sponsors/company.svg"      # path under assets/
+- tier: Founding
+  price: 15000
+  slots: 3
+  summary: Name a day of the workshop.
+  benefits:
+    - Named sponsor of one day, announced on every opening card that day ("Day 1, Data Collection, sponsored by You"). First come, first choice of day.
+    - Largest logo on the opening card of every session
+    - Top listing on the website, linked to your site
+    - Mention in the announcement emails
+    - Logo in every recording
   sponsors: []
 - tier: Gold
+  price: 8500
+  slots: 5
+  summary: Visible in every session.
+  benefits:
+    - Mid-size logo on the opening card of every session
+    - Listing on the website, linked to your site
+    - Mention in the announcement emails
+    - Logo in every recording
   sponsors: []
 - tier: Silver
+  price: 2500
+  summary: On screen and on the site.
+  benefits:
+    - Small logo on the opening card of every session
+    - Listing on the website, linked to your site
+  sponsors: []
+- tier: Community
+  price: 500
+  summary: Back the workshop.
+  benefits:
+    - Name listed on the website
+    - Name in the description of every recording
   sponsors: []

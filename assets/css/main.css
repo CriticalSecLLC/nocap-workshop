@@ -210,3 +210,16 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
   .providers th, .providers td { border: 0; padding: .25rem 1rem; }
   .providers td::before { content: attr(data-label) ": "; color: var(--muted); font-size: .85rem; }
 }
+
+/* Sponsors page: tier cards from data/sponsors.yaml. */
+.sponsors-page .prose { max-width: none; }
+.sponsors-page .prose > p, .sponsors-page .prose > ul { max-width: 46rem; }
+.sponsors-page .prose h2 { margin-top: 2.8rem; }
+.tier-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 1rem; margin: 1.25rem 0 1.5rem; }
+.tier-card { border: 1px solid var(--line); border-top: 3px solid var(--accent); background: var(--panel); border-radius: 4px; padding: 1.1rem 1.2rem 1.3rem; }
+.tier-card h3 { font-family: var(--mono); font-size: .8rem; font-weight: 500; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); }
+.tier-card .price { margin: .35rem 0 0; font-family: var(--serif); font-size: 2rem; font-weight: 600; line-height: 1.1; }
+.tier-card .slots { margin: .2rem 0 .8rem; font-family: var(--mono); font-size: .78rem; color: var(--accent-ink); }
+.tier-card .tier-summary { margin: 0 0 .6rem; font-weight: 600; }
+.tier-card .benefits { margin: 0; padding-left: 1.1rem; font-size: .95rem; }
+.tier-card .benefits li { margin-bottom: .4rem; }
