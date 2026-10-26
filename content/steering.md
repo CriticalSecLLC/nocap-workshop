@@ -107,3 +107,12 @@ The voting members may amend this charter by majority vote. Changes are publishe
 ## Rampart Track
 
 Rampart is the organizer's founding track. It is on the schedule as a placeholder and was not selected by the committee. It will be assessed by the committee, against the same criteria as every other track, once the committee is formed.
+
+## Sources
+
+This process was adapted from published practices in other communities. None of these organizations has reviewed or endorsed this charter, and the charter is simpler than any of them.
+
+- [CNCF Charter, section 6 (Technical Oversight Committee)](https://github.com/cncf/foundation/blob/main/charter.md): a standing committee that decides by majority vote, expects its members to weigh the community's goals against corporate interests, and can remove members by vote.
+- [USENIX Security Symposium submission policy on conflicts of interest (2015)](https://www.usenix.org/node/188557): committee members with a conflict, chairs included, are excluded from evaluating and discussing the submission. Our rule for the organizer's own sessions follows the same idea.
+- [Contributor Covenant 2.1, Enforcement Guidelines](https://www.contributor-covenant.org/version/2/1/code_of_conduct/): a graded ladder of outcomes (correction, warning, temporary ban, permanent ban), prompt and fair review, and respect for the privacy of the person reporting.
+- [Linux Foundation Antitrust Policy](https://www.linuxfoundation.org/legal/antitrust-policy): the topics competitors must not discuss when they meet (prices, bids, customers, markets), and the duty to object when a discussion drifts there.
