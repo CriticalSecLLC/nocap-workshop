@@ -45,7 +45,7 @@ The [Steering Committee](/steering/), under a published charter that covers neut
 
 ## How do I Sign up to Lead a Workshop?
 
-See the [leads page](/leads/). To offer private sessions of your own, see [Private Sessions](/private-sessions/).
+See the [leads page](/leads/) and the [Lead Agreement](/lead-agreement/). To offer private sessions of your own, see [Private Sessions](/private-sessions/).
 
 ## How do I Sponsor?
 

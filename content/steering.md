@@ -62,7 +62,7 @@ A session or track is approved when it is:
 - For a multi-day track, built around a defined deliverable for attendees on each day.
 - Led by someone who agrees to the conduct expectations below and to the session being recorded and posted publicly.
 
-Proposals come in through the address on the [Leads](/leads/) page. The organizer checks them for completeness and passes them to the committee. The committee approves or declines, and the organizer tells the proposer. A decline comes with a short reason on request, and a proposal may be resubmitted.
+Proposals come in through the address on the [Leads](/leads/) page. The organizer checks them for completeness and passes them to the committee. The committee approves or declines, and the organizer tells the proposer. A decline comes with a short reason on request, and a proposal may be resubmitted. The criteria are described in more detail on the [Lead Agreement](/lead-agreement/#evaluation-criteria) page.
 
 ## Voting
 
