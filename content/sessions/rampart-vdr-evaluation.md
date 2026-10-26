@@ -3,7 +3,7 @@ title: "Rampart: Pick Your Algorithm(s)"
 tagline: Calculating Internet-reachability, likely exploitability, and the Potential Agency Impact N Rating
 day: 2
 start: 2027-01-27T10:00:00-08:00
-end: 2027-01-27T16:00:00-08:00
+end: 2027-01-27T14:00:00-08:00
 track: rampart
 leads: [george-chamales]
 ---
