@@ -46,7 +46,7 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 600; letter-spacing: -.018e
 .nav-links a:hover { text-decoration: underline; color: var(--ink); }
 
 /* hero, with the grid fading out beneath it */
-.hero { position: relative; isolation: isolate; padding-block: clamp(3.5rem, 9vw, 7rem) clamp(2.5rem, 6vw, 4.5rem); }
+.hero { position: relative; isolation: isolate; padding-block: clamp(2.5rem, 5vw, 4rem) clamp(2.5rem, 6vw, 4.5rem); }
 .hero::before {
   content: ""; position: absolute; inset: 0; z-index: -1; opacity: .5;
   background-image:
@@ -145,6 +145,18 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .tier h3 { font-family: var(--mono); font-size: .78rem; font-weight: 500; text-transform: uppercase; letter-spacing: .09em; color: var(--muted); }
 .logos { list-style: none; margin: .8rem 0 0; padding: 0; display: grid; gap: .6rem; }
 .logos img { max-height: 2.5rem; width: auto; }
+.sponsor-strip { margin-top: 2.25rem; }
+.sponsor-strip .eyebrow { margin-bottom: .9rem; }
+.strip-logos { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; font-family: var(--mono); font-size: .9rem; }
+.strip-logos a { color: var(--ink); text-decoration: none; }
+.strip-logos img { width: auto; max-height: 2rem; display: block; }
+.strip-logos .t0 img { max-height: 3.25rem; }
+.strip-logos .t1 img { max-height: 2.5rem; }
+.strip-slot { font-size: .66rem; display: flex; align-items: center; justify-content: center; border: 1px dashed var(--grid); border-radius: 4px; color: var(--muted); letter-spacing: .09em; text-transform: uppercase; }
+.strip-slot.t0 { width: 7.5rem; height: 2.75rem; }
+.strip-slot.t1 { width: 5.5rem; height: 2.25rem; }
+.strip-slot.t2 { width: 4.5rem; height: 1.75rem; }
+.sponsor-strip .note { margin-top: .9rem; }
 
 /* closing */
 .closing .lede { color: var(--ink); max-width: 40rem; }

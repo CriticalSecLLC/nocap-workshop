@@ -12,7 +12,7 @@
       })();
     </script>
     <p class="lede">{{ .Params.lede }}</p>
-    {{ partial "signup.html" . }}
+    {{ partial "sponsor-strip.html" . }}
     <p class="name-note">{{ .Params.name_note | markdownify }}</p>
   </div>
 </header>
@@ -77,6 +77,48 @@
     </div>
   </section>
 
+  <section id="sponsors" class="section">
+    <div class="wrap section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Sponsors</p>
+        <h2>{{ .Params.sponsors_heading }}</h2>
+      </div>
+      <div>
+        <div class="prose"><p>{{ .Params.sponsors_text }}</p></div>
+        <div class="tiers">
+          {{ range hugo.Data.sponsors }}
+          <div class="tier">
+            <h3>{{ .tier }}</h3>
+            <p class="slots">{{ partial "tier-slots.html" . }}</p>
+            {{ if .sponsors }}
+            <ul class="logos">
+              {{ range .sponsors }}
+              {{ $name := .name }}
+              <li><a href="{{ .url }}">{{ with .logo }}{{ with resources.Get . }}<img src="{{ .RelPermalink }}" alt="{{ $name }}">{{ end }}{{ else }}{{ $name }}{{ end }}</a></li>
+              {{ end }}
+            </ul>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+        <p class="note"><a href="/sponsors/">Sponsorship tiers and benefits →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="updates" class="section">
+    <div class="wrap section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Updates</p>
+        <h2>{{ .Params.updates_heading }}</h2>
+      </div>
+      <div>
+        <div class="prose"><p>{{ .Params.updates_text }}</p></div>
+        {{ partial "signup.html" . }}
+      </div>
+    </div>
+  </section>
+
   <section id="attend" class="section">
     <div class="wrap section-inner">
       <div class="section-head">
@@ -114,35 +156,6 @@
         <h2>{{ .Params.measure_heading }}</h2>
       </div>
       <div class="prose"><p>{{ .Params.measure }}</p></div>
-    </div>
-  </section>
-
-  <section id="sponsors" class="section">
-    <div class="wrap section-inner">
-      <div class="section-head">
-        <p class="eyebrow">Sponsors</p>
-        <h2>{{ .Params.sponsors_heading }}</h2>
-      </div>
-      <div>
-        <div class="prose"><p>{{ .Params.sponsors_text }}</p></div>
-        <div class="tiers">
-          {{ range hugo.Data.sponsors }}
-          <div class="tier">
-            <h3>{{ .tier }}</h3>
-            <p class="slots">{{ partial "tier-slots.html" . }}</p>
-            {{ if .sponsors }}
-            <ul class="logos">
-              {{ range .sponsors }}
-              {{ $name := .name }}
-              <li><a href="{{ .url }}">{{ with .logo }}{{ with resources.Get . }}<img src="{{ .RelPermalink }}" alt="{{ $name }}">{{ end }}{{ else }}{{ $name }}{{ end }}</a></li>
-              {{ end }}
-            </ul>
-            {{ end }}
-          </div>
-          {{ end }}
-        </div>
-        <p class="note"><a href="/sponsors/">Sponsorship tiers and benefits →</a></p>
-      </div>
     </div>
   </section>
 

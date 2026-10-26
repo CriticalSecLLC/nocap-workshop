@@ -1,0 +1,15 @@
+{{- /* "Made possible by" strip for the landing page, inside the hero so it sits above the fold. Real sponsors (logos sized by tier, Founding largest) come first within each tier, followed by a dashed placeholder for every open slot of a capped tier and one for each unlimited paid tier above Community, so prospective sponsors can see where their logo will go. Data: data/sponsors.yaml. */ -}}
+<div class="sponsor-strip" aria-label="Sponsors">
+    <p class="eyebrow">Made possible by</p>
+    <ul class="strip-logos">
+      {{ range $i, $t := hugo.Data.sponsors }}
+      {{ if lt $i 3 }}
+      {{ range $t.sponsors }}
+      <li class="t{{ $i }}"><a href="{{ .url }}">{{ $s := . }}{{ with .logo }}{{ with resources.Get . }}<img src="{{ .RelPermalink }}" alt="{{ $s.name }}">{{ end }}{{ else }}{{ .name }}{{ end }}</a></li>
+      {{ end }}
+      {{ $open := 1 }}{{ if $t.slots }}{{ $open = sub $t.slots (len $t.sponsors) }}{{ end }}
+      {{ range seq $open }}<li class="strip-slot t{{ $i }}" aria-hidden="true">{{ $t.tier }}</li>{{ end }}
+      {{ end }}
+      {{ end }}
+    </ul>
+</div>

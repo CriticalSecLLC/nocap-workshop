@@ -20,7 +20,7 @@ workshop: >-
   Multi-day tracks follow a single vendor / strategy / system from start to finish, hands-on-keyboard,
   with deliverable results.
 
-how_heading: Online.
+how_heading: Open, Online, Practical.
 how: >-
   This is a nationwide online event open to anyone who wants to take part. There is no registration
   and no identification. Show up, watch, learn, ask questions, and
@@ -54,6 +54,11 @@ sponsors_text: >-
   The workshop is free to attend because sponsors make it happen. Sponsors fund logistics, time,
   and publication, and share the room with a security-minded audience that is working
   on this exact problem.
+
+updates_heading: Stay in the Loop
+updates_text: >-
+  Join the announcement list and we'll email you when the schedule and viewing links are ready.
+  Attending takes no registration, so signing up is entirely optional.
 
 closing_heading: This is Bigger Than the Deadline.
 closing: >-
