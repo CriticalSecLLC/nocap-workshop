@@ -10,7 +10,7 @@ A lead is anyone approved by the Steering Committee to lead a session or a multi
 
 ## How to Propose
 
-Use the [proposal form](/propose/), or write to [leads@nocap-workshop.com](mailto:leads@nocap-workshop.com?subject=Leading%20a%20session%20at%20No-CAP%20Workshop) if you cannot. Include:
+Use the [proposal form](/propose/), where you can also edit your proposal until the deadline. It asks for:
 
 - the title and a short description of the session, and which day or theme it fits (Data Collection, VDR Evaluation, or Remediation and Reporting), or the outline of a multi-day track;
 - who will lead it, with a short bio and each lead's affiliation;

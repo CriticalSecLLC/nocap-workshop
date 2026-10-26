@@ -11,7 +11,7 @@ Proposals for sessions and multi-day tracks are due {{< proposal-deadline >}}.
 
 ## Submit
 
-Choose the form that fits: one session, or a multi-day track that runs across all three days.
+The form is the only way to propose. Its first page asks whether you are proposing a single session or a multi-day track that runs across all three days, and takes you down the matching route.
 
 {{< proposal-form >}}
 
@@ -21,6 +21,10 @@ Choose the form that fits: one session, or a multi-day track that runs across al
 - The committee evaluates each proposal against the [published criteria](/lead-agreement/#evaluation-criteria), and the organizer tells you the outcome by email. A decline comes with a short reason on request, and you may resubmit.
 - Approved sessions are added to the [schedule](/sessions/).
 
-## Prefer Email?
+## Changing Your Proposal
 
-If the form does not work for you, write to [leads@nocap-workshop.com](mailto:leads@nocap-workshop.com?subject=Leading%20a%20session%20at%20No-CAP%20Workshop) with the same information.
+Use the same form. After you submit, the confirmation page and your email copy include an **Edit your response** link, and you can change your answers any time before {{< proposal-deadline >}}. Please do not send changes any other way, so that the committee always reviews your latest version.
+
+## Questions
+
+Questions about the process go to [leads@nocap-workshop.com](mailto:leads@nocap-workshop.com?subject=Question%20about%20proposing%20at%20No-CAP%20Workshop).

@@ -230,4 +230,3 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .banner p { margin: 0; padding-block: .6rem; }
 .banner strong { font-weight: 600; }
 .banner a { text-decoration-color: var(--accent-ink); }
-.proposal-buttons { display: flex; flex-wrap: wrap; gap: .75rem; margin: 1rem 0; }

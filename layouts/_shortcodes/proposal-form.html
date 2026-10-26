@@ -1,11 +1,6 @@
-{{- /* Links to the two Google Forms (params.proposal_form and params.proposal_form_track); falls back to a note and the email address. */ -}}
-{{ $session := site.Params.proposal_form }}
-{{ $track := site.Params.proposal_form_track }}
-{{ if or $session $track }}
-<p class="proposal-buttons">
-  {{ with $session }}<a class="btn" href="{{ . }}">Propose a session →</a>{{ end }}
-  {{ with $track }}<a class="btn" href="{{ . }}">Propose a multi-day track →</a>{{ end }}
-</p>
+{{- /* Link to the proposal Google Form (params.proposal_form). Until it is set, say the form opens soon. */ -}}
+{{ with site.Params.proposal_form }}
+<p><a class="btn" href="{{ . }}">Open the proposal form →</a></p>
 {{ else }}
-<p class="note">The proposal forms open soon. Until then, write to <a href="mailto:{{ site.Params.contact_leads }}?subject=Leading%20a%20session%20at%20No-CAP%20Workshop">{{ site.Params.contact_leads }}</a> with the information listed in the <a href="/lead-agreement/#how-to-propose">Lead Agreement</a>.</p>
+<p class="note">The proposal form opens soon.</p>
 {{ end }}

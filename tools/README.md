@@ -1,28 +1,35 @@
 # Tools
 
-## Approved proposal to pull request
+## Publishing an approved proposal
 
-Proposals come in through two Google Forms (a session, and a multi-day track) into two
-Google Sheets. The Steering Committee reviews them there. Setting a row's **Status** to
-**Approved** starts this chain:
+Leads propose through one Google Form (single session or multi-day track), and can edit
+their answers there until the deadline. The Steering Committee reviews the responses
+sheet. When it is time to publish a proposal, `generate_session.py` turns it into the
+files the site needs:
 
-1. A Google Apps Script on the sheet turns the row into a JSON payload (no email addresses
-   or disclosures) and sends it to GitHub as a `session-approved` dispatch.
-2. `.github/workflows/new-session.yml` runs `generate_session.py`, builds the site as a
-   check, and opens a pull request with the new session, track, and lead files.
-3. A person reviews the pull request and merges it. Merging publishes; nothing is
-   published before that.
+- `content/sessions/<slug>.md` for each session
+- `content/tracks/<track>.md` for a multi-day track
+- an entry in `data/leads.yaml` for any lead not already listed
 
-`generate_session.py` is the only part that writes site files. Proposal text comes from
-the public, so it strips HTML and Hugo shortcode braces, allows only `https://` links,
-quotes every YAML value, and refuses to overwrite existing files. `test_generate_session.py`
-covers this, and uses the Rampart track (`fixtures/rampart-track.json`) as the model: the
-generator must reproduce the real Rampart files exactly.
+```
+python3 tools/generate_session.py payload.json --dry-run   # preview
+python3 tools/generate_session.py payload.json             # write the files
+```
+
+The payload is a small JSON document (its shape is described at the top of
+`generate_session.py`) with the lead, any co-leads, the track if there is one, and each
+session including the start and end times the committee set in the sheet. It never takes
+an email address or the disclosures. Proposal text comes from the public, so the
+generator strips HTML and Hugo shortcode braces, allows only `https://` links, quotes every
+YAML value, and refuses to overwrite existing files.
+
+`test_generate_session.py` covers this, and uses the Rampart track
+(`fixtures/rampart-track.json`) as the model: the generator must reproduce the real Rampart
+files exactly.
 
 ```
 python3 tools/test_generate_session.py
-python3 tools/generate_session.py payload.json --dry-run
 ```
 
-The Apps Script that builds the forms and sends the dispatch contains a private group
-address and a token setting, so it is kept outside this repository.
+The Apps Script that builds the form contains a private group address, so it is kept
+outside this repository.

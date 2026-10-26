@@ -11,7 +11,7 @@ Writes, relative to the site root:
 
 and prints a JSON summary (branch, pull-request title and body, files) on stdout.
 
-Payload shape (the Google Sheets publisher builds this; see the proposal-form script):
+Payload shape (built from a row of the proposal sheet when the committee is ready to publish):
     {
       "type": "session" | "track",
       "lead":   {"name", "org", "org_url"?, "bio", "photo_url"?},
