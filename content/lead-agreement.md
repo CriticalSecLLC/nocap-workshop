@@ -72,7 +72,7 @@ For background, see the [DOJ and FTC Antitrust Policy Statement on Sharing of Cy
 
 ## Confidentiality and Sensitive Information
 
-Do not disclose non-public vulnerabilities in anyone's environment, customer data, or non-public government information. Use sanitized or synthetic data. If you are unsure whether something is safe to show, ask before the session.
+Do not disclose non-public vulnerabilities in anyone's environment, customer data, or non-public government information. Use sanitized or synthetic data. If you are unsure whether something is safe to show, ask before the session. If a confidentiality concern comes up during a session, you may ask the organizer afterward to redact or edit the recording to address it. Keep in mind that sessions are attended live, and we cannot guarantee that someone else did not make their own recording.
 
 ## Recording and Materials
 
