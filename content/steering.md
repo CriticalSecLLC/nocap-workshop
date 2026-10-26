@@ -1,8 +1,8 @@
 ---
 title: Steering Committee
-description: Who approves sessions and leads at the NO-CAP Workshop, how the committee stays neutral, and how disputes are handled.
+description: Who approves sessions and leads at the No-CAP Workshop, how the committee stays neutral, and how disputes are handled.
 ---
-The Steering Committee approves the sessions and leads at the NO-CAP Workshop and resolves situations that arise between leads, sponsors, and attendees. This page is its roster and its charter. The charter is an interim draft, version 0.1 (October 2026), and will be amended as we proceed through the workshop planning and execution process.
+The Steering Committee approves the sessions and leads at the No-CAP Workshop and resolves situations that arise between leads, sponsors, and attendees. This page is its roster and its charter. The charter is an interim draft, version 0.1 (October 2026), and will be amended as we proceed through the workshop planning and execution process.
 
 ## Members
 
@@ -82,7 +82,7 @@ A lead, sponsor, or attendee with a concern about content, conduct, or fairness 
 
 ## Conduct
 
-Everyone taking part is expected to be professional and respectful, to give credit where it is due, and to leave other people's confidential information alone. Harassment, discrimination, and disruption are not acceptable. Concerns go through the dispute process above, and the organizer may remove a disruptive person from a live session immediately.
+Everyone taking part is expected to be professional and respectful, to give credit where it is due, and to leave other people's confidential information alone. Harassment, discrimination, and disruption are not acceptable. Nobody talks trash about other products, vendors, services, customers, or anyone else: focus on what you bring. A lead who does is removed from the session, and the session is not posted. Concerns go through the dispute process above, and the organizer may remove a disruptive person from a live session immediately.
 
 ## Confidentiality
 

@@ -1,6 +1,6 @@
 ---
 title: Frequently Asked Questions
-description: Answers about attending, leading sessions, sponsoring, and the FedRAMP terms behind NO-CAP Workshop.
+description: Answers about attending, leading sessions, sponsoring, and the FedRAMP terms behind No-CAP Workshop.
 ---
 
 ## Do I Need to Register?
@@ -37,7 +37,7 @@ Providers under a CAP, providers who are not, and providers in good shape who wa
 
 ## Is This a Vendor Pitch?
 
-No. Sessions are practitioner-led and focus on strategies and tactics people have actually used. Vendors are invited to present on their solutions. If they can convince you they've got the cure for what ails you, more power to them. This is 100% about solutions.
+No. Sessions are practitioner-led and focus on strategies and tactics people have actually used. Vendors are invited to present on their solutions. If they can convince you they've got the cure for what ails you, more power to them. This is 100% about solutions, and everyone focuses on what they bring: nobody talks down other products, vendors, services, or customers.
 
 ## Who Approves Sessions and Leads?
 
@@ -49,7 +49,7 @@ See the [leads page](/leads/) and the [Lead Agreement](/lead-agreement/). To off
 
 ## How do I Sponsor?
 
-See the [sponsor page](/sponsors/) for tiers, benefits, and terms, then [write to sponsorship@nocap-workshop.com](mailto:sponsorship@nocap-workshop.com?subject=Sponsoring%20NO-CAP%20Workshop).
+See the [sponsor page](/sponsors/) for tiers, benefits, and terms, then [write to sponsorship@nocap-workshop.com](mailto:sponsorship@nocap-workshop.com?subject=Sponsoring%20No-CAP%20Workshop).
 
 ## Is This Affiliated With FedRAMP or the Government?
 

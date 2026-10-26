@@ -1,18 +1,18 @@
 ---
-title: NO-CAP Workshop
+title: No-CAP Workshop
 headline: Compete on features. Collaborate on security.
 eyebrow: Nationwide Workshop · January 26–28, 2027
-lede: The NO-CAP Workshop is three days of hands-on, practitioner-led sessions to support teams dealing with FedRAMP's VDR requirements. The people who have successfully met these challenges will share the strategies and tactics they are using right now, because at the end of the day it's our government that we're all protecting.
+lede: The No-CAP Workshop is three days of hands-on, practitioner-led sessions to support teams dealing with FedRAMP's VDR requirements. The people who have successfully met these challenges will share the strategies and tactics they are using right now, because at the end of the day it's our government that we're all protecting.
 
 name_note: >-
-  **Why “NO-CAP”?** <br/>A CAP is a Corrective Action Plan, the status a Cloud Service Provider lands in if it misses the
+  **Why “No-CAP”?** <br/>A CAP is a Corrective Action Plan, the status a Cloud Service Provider lands in if it misses the
   [December 7 deadline](https://www.fedramp.gov/notices/0014/) for implementing FedRAMP's [CR-26](https://fedramp.gov/2026/) rules for Vulnerability Detection and Response  ([VDR](https://fedramp.gov/2026/agencies/rules/vulnerability-evaluation-and-reporting/)). Offerings under a CAP are at risk of having their FedRAMP certification revoked if they are not compliant by March 7, 2027. <br/><br/>
   This workshop is about staying out of a CAP, or getting out if you're already in.
 
 teaser: Want to get ahead of the game and meet the deadlines?
 teaser_cta: Book a private session →
 
-workshop_heading: NO-CAP Nationwide Workshop
+workshop_heading: No-CAP Nationwide Workshop
 workshop: >-
   One workshop, held online across the country and run by practitioners. We meet teams where they are
   to build and implement the capabilities you need to defend your systems. Each day takes

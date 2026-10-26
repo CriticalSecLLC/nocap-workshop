@@ -1,4 +1,4 @@
 ---
 title: Tracks and Sessions
-description: Every track and session at NO-CAP Workshop, day by day.
+description: Every track and session at No-CAP Workshop, day by day.
 ---
