@@ -24,7 +24,7 @@ Funded by sponsors, run by practitioners, and recorded so the work outlives the 
 
 This is not a sales event and it is not a certification program (although feel free to put in for continuing education credits). Vendors are highly encouraged to attend and present on what their products do to meet these requirements. If you've got a solution that tackles multiple days worth of content, present a track across them.
 
-Nothing here is advice from FedRAMP or any agency, although if you're with either of those groups and you'd like to lead a session please [reach out](mailto:hello@nocap-workshop.com?subject=Leading%20a%20session%20at%20No-Cap%20Workshop). Read the [official notice](https://www.fedramp.gov/notices/0014/) for the CR26 rules themselves.
+Nothing here is advice from FedRAMP or any agency, although if you're with either of those groups and you'd like to lead a session please [reach out](mailto:hello@nocap-workshop.com?subject=Leading%20a%20session%20at%20No-Cap%20Workshop).
 
 ## Get involved
 
