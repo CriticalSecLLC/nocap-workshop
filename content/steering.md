@@ -28,7 +28,7 @@ The committee exists so that what is presented at the workshop is chosen on meri
 
 The committee decides which sessions, tracks, and leads are approved, and it resolves disputes about content and conduct among leads, sponsors, and attendees.
 
-The organizer, CriticalSec LLC, convenes the committee and handles intake, scheduling, the platform, and all commercial matters, including sponsor agreements, invoices, and refunds. The committee does not set prices or negotiate sponsorships. The organizer may act immediately on a safety, legal, or platform matter and will report the action to the committee.
+The organizer, CriticalSec LLC, convenes the committee and handles intake, scheduling, the platform, and all commercial matters, including sponsor agreements, invoices, and refunds. The committee does not set prices or negotiate sponsorships. The organizer may act immediately on a safety, legal, or platform matter and will report the action to the committee. The organizer may delegate these duties to staff or contractors, who act under the organizer's direction.
 
 ## Membership
 
