@@ -5,8 +5,7 @@ description: Answers about attending, leading sessions, sponsoring, and the FedR
 
 ## Do I need to register?
 
-No. There is no registration. Join the announcement list on the home page if you want to hear when
-the schedule and viewing links are ready.
+No. There is no registration. Join the announcement list on the home page if you want to hear when the schedule and viewing links are ready.
 
 ## What does the announcement list collect?
 
@@ -30,15 +29,11 @@ Yes. Every session will be recorded and posted online for collective use.
 
 ## What are CR26, VDR, and a CAP?
 
-CR26 is FedRAMP's Consolidated Rules for 2026. VDR is Vulnerability Detection and Response, the rule
-set that governs how providers find, evaluate, and fix vulnerabilities. A CAP is a Corrective Action
-Plan. Per [FedRAMP notice NTC-0014](https://www.fedramp.gov/notices/0014/), the rules are mandatory
-December 7, 2026, and certified offerings under a CAP keep certification through March 7, 2027.
+CR26 is FedRAMP's Consolidated Rules for 2026. VDR is Vulnerability Detection and Response, the rule set that governs how providers find, evaluate, and fix vulnerabilities. A CAP is a Corrective Action Plan. Per [FedRAMP notice NTC-0014](https://www.fedramp.gov/notices/0014/), the rules are mandatory December 7, 2026, and certified offerings under a CAP keep certification through March 7, 2027.
 
 ## Who is this for?
 
-Providers under a CAP, providers who are not, and providers in good shape who want to share. Auditors,
-advisors, and vendors who serve them are welcome too.
+Providers under a CAP, providers who are not, and providers in good shape who want to share. Auditors, advisors, and vendors who serve them are welcome too.
 
 ## Is this a vendor pitch?
 
