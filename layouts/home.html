@@ -42,6 +42,23 @@
     </div>
   </section>
 
+  <section id="attend" class="section">
+    <div class="wrap section-inner">
+      <div class="section-head">
+        <p class="eyebrow">Audience</p>
+        <h2>{{ .Params.attend_heading }}</h2>
+      </div>
+      <ol class="items">
+        {{ range $i, $d := .Params.attend }}
+        <li class="item">
+          <span class="num" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
+          <div><h3>{{ $d.title }}</h3><p>{{ $d.text }}</p></div>
+        </li>
+        {{ end }}
+      </ol>
+    </div>
+  </section>
+
   <section id="days" class="section">
     <div class="wrap section-inner">
       <div class="section-head">
@@ -116,46 +133,6 @@
         <div class="prose"><p>{{ .Params.updates_text }}</p></div>
         {{ partial "signup.html" . }}
       </div>
-    </div>
-  </section>
-
-  <section id="attend" class="section">
-    <div class="wrap section-inner">
-      <div class="section-head">
-        <p class="eyebrow">Audience</p>
-        <h2>{{ .Params.attend_heading }}</h2>
-      </div>
-      <ol class="items">
-        {{ range $i, $d := .Params.attend }}
-        <li class="item">
-          <span class="num" aria-hidden="true">{{ printf "%02d" (add $i 1) }}</span>
-          <div><h3>{{ $d.title }}</h3><p>{{ $d.text }}</p></div>
-        </li>
-        {{ end }}
-      </ol>
-    </div>
-  </section>
-
-  <section id="leads" class="section">
-    <div class="wrap section-inner">
-      <div class="section-head">
-        <p class="eyebrow">Leads</p>
-        <h2>{{ .Params.leads_heading }}</h2>
-      </div>
-      <div class="prose">
-        <p>{{ .Params.leads_text }}</p>
-        <p><a href="/leads/">Leads and call for leads →</a></p>
-      </div>
-    </div>
-  </section>
-
-  <section id="measure" class="section">
-    <div class="wrap section-inner">
-      <div class="section-head">
-        <p class="eyebrow">Success</p>
-        <h2>{{ .Params.measure_heading }}</h2>
-      </div>
-      <div class="prose"><p>{{ .Params.measure }}</p></div>
     </div>
   </section>
 

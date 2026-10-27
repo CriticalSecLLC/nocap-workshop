@@ -39,16 +39,6 @@ attend:
   - title: Teams in a Good Place
     text: Show up to share what is working, and learn a few new tricks along the way.
 
-leads_heading: Who Leads
-leads_text: >-
-  Leads are active practitioners from Cloud Service Providers, auditors, advisors, and vendors.
-  We organize tracks and sessions around the work. If your product has answers, this is a forum to let everyone know.
-
-measure_heading: The Mission
-measure: >-
-  Support teams to come off a CAP, or avoid going on one, then position everyone to succeed by the
-  March 7 deadline and beyond.
-
 sponsors_heading: Sponsors
 sponsors_text: >-
   The workshop is free to attend because sponsors make it happen. Sponsors fund logistics, time,
