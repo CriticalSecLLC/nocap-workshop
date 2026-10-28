@@ -1,5 +1,6 @@
 {{- /* Steering Committee roster from data/steering.yaml, with open seats. */ -}}
 {{ $d := hugo.Data.steering }}
+{{ $leads := hugo.Data.leads }}
 <table class="providers">
   <thead><tr><th scope="col">Member</th><th scope="col">Affiliation</th><th scope="col">Role</th></tr></thead>
   <tbody>
@@ -19,3 +20,24 @@
     {{ end }}
   </tbody>
 </table>
+{{ $cards := slice }}
+{{ range $d.members }}
+  {{ $m := . }}
+  {{ $bio := .bio }}{{ $photo := .photo }}
+  {{ with .lead }}{{ range where $leads "id" . }}{{ if not $bio }}{{ $bio = .bio }}{{ end }}{{ if not $photo }}{{ $photo = .photo }}{{ end }}{{ end }}{{ end }}
+  {{ if $bio }}{{ $cards = $cards | append (dict "name" $m.name "affiliation" $m.affiliation "affiliation_url" $m.affiliation_url "role" $m.role "bio" $bio "photo" $photo) }}{{ end }}
+{{ end }}
+{{ if $cards }}
+<ul class="roster">
+  {{ range $cards }}
+  <li class="person">
+    {{ with .photo }}{{ with resources.Get . }}{{ $img := .Fill "320x320 q85" }}<img class="headshot" src="{{ $img.RelPermalink }}" width="160" height="160" alt="" loading="lazy">{{ end }}{{ end }}
+    <div>
+      <h3>{{ .name }}</h3>
+      <p class="s-meta">{{ .role }}, {{ if .affiliation_url }}<a href="{{ .affiliation_url }}">{{ .affiliation }}</a>{{ else }}{{ .affiliation }}{{ end }}</p>
+      <p>{{ .bio | markdownify }}</p>
+    </div>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
