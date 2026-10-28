@@ -6,6 +6,10 @@ Jump to: [Attendees](#for-attendees) · [Leads](#for-leads) · [Sponsors](#for-s
 
 ## For Attendees
 
+### Who is This for?
+
+Providers under a CAP, providers who are not, and providers in good shape who want to share. Auditors, advisors, and vendors who serve them are welcome too.
+
 ### Do I Need to Register?
 
 No. There is no registration. Join the announcement list on the home page if you want to hear when the schedule and viewing links are ready.
@@ -22,15 +26,15 @@ Yes. You can watch and ask questions without identifying yourself. Participate a
 
 Nothing for attendees. We want you to show up and benefit without having to deal with procurement / travel / etc. Private sessions are separate: pricing is tailored to the size of your team.
 
-### Can I Book a Session Just for my Team?
+### Can I Book a Private Session Just for my Team?
 
 Yes. Private sessions are booked and hosted directly with your team, and can be arranged at any time, before or after the January Nationwide Workshop. Formats are flexible and set by each provider. See [Private Sessions](/private-sessions/).
 
-### Will the Sessions be Recorded?
+### Will the Workshop Sessions be Recorded?
 
-Yes. Every session will be recorded and posted online for collective use.
+Yes. Every workshop session will be recorded and posted online for collective use.
 
-### How Do I Join a Session?
+### How Do I Join a Workshop Session?
 
 Links to every session are posted on the [schedule](/sessions/) during the week of the workshop. This website is the source for all content, including recordings, transcripts, and materials. Join the announcement list on the home page to hear when the links are ready.
 
@@ -38,21 +42,9 @@ Links to every session are posted on the [schedule](/sessions/) during the week 
 
 Every recording is posted with a transcript. We will turn on live captioning for sessions if the platform supports it.
 
-### How Is My Information Handled?
-
-We collect only what we need, and attending requires no registration. See [Privacy](/privacy/) for the details.
-
 ### What Are CR26, VDR, and a CAP?
 
 CR26 is FedRAMP's Consolidated Rules for 2026. VDR is Vulnerability Detection and Response, the rule set that governs how providers find, evaluate, and fix vulnerabilities. A CAP is a Corrective Action Plan. Per [FedRAMP notice NTC-0014](https://www.fedramp.gov/notices/0014/), the rules are mandatory December 7, 2026, and certified offerings under a CAP keep certification through March 7, 2027.
-
-### Who is This for?
-
-Providers under a CAP, providers who are not, and providers in good shape who want to share. Auditors, advisors, and vendors who serve them are welcome too.
-
-### Can Vendors Present?
-
-Yes. Sessions are practitioner-led and focus on strategies and tactics people have actually used. Vendors are invited to present on their solutions. If they can convince you they've got the cure for what ails you, more power to them. This is 100% about solutions, and everyone focuses on what they bring, with respect for other products, vendors, services, and customers.
 
 ### Is This Affiliated With FedRAMP or the Government?
 
@@ -64,9 +56,17 @@ It is an independent initiative led by practitioners, separate from FedRAMP and 
 
 The [Steering Committee](/steering/), under a published charter that covers neutrality, conflicts of interest, and how disputes are handled.
 
+### Can Vendors Present?
+
+Yes. Sessions are practitioner-led and focus on strategies and tactics people have actually used. Vendors are invited to present on their solutions. If they can convince you they've got the cure for what ails you, more power to them. This is 100% about solutions, and everyone focuses on what they bring, with respect for other products, vendors, services, and customers.
+
 ### How do I Sign up to Lead a Workshop?
 
 See the [leads page](/leads/) and the [Lead Agreement](/lead-agreement/), then [propose a session](/propose/).
+
+### When Will I Hear About My Proposal?
+
+The committee decides within five business days of the proposal deadline, and the organizer tells you the outcome by email. See [Propose a Session](/propose/#what-happens-next).
 
 ### Can I Offer Private Sessions?
 

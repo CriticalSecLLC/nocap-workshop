@@ -19,7 +19,7 @@ The form is the only way to propose. Its first page asks whether you are proposi
 ## What Happens Next
 
 - Proposals stay between you, the organizer, and the [Steering Committee](/steering/), and are kept separate from sponsors. See [Privacy](/privacy/) for how your information is handled.
-- The committee evaluates each proposal against the [published criteria](/lead-agreement/#evaluation-criteria), and the organizer tells you the outcome by email. A decline comes with a short reason on request, and you may resubmit.
+- The committee evaluates each proposal against the [published criteria](/lead-agreement/#evaluation-criteria), and the organizer tells you the outcome by email within five business days of the deadline. A decline comes with a short reason on request, and you may resubmit.
 - A private session listing is decided in the same vote as your proposal, and depends on your public session or track being approved.
 - Approved sessions are added to the [schedule](/sessions/).
 

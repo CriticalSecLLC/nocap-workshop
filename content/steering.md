@@ -84,6 +84,7 @@ A listing stays for at least six months after the workshop. After that the commi
 - A decision needs approval from a majority of the voting members who are not recused, and never fewer than two approving votes.
 - A tie means not approved.
 - At least two voting members must take part in any decision.
+- Proposals are decided within five business days of the proposal deadline, and the organizer tells each lead the outcome.
 
 ## Disputes
 

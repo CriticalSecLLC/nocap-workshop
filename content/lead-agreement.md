@@ -50,7 +50,7 @@ A track meets the same standards. Each day is assessed on its own, and the track
 
 ## Decisions
 
-The committee decides by the rules in the [charter](/steering/): approval needs a majority of the voting members who are not recused and never fewer than two approving votes, and a tie means not approved. A private session listing is decided in the same vote as the proposal. The organizer tells you the outcome. A decline comes with a short reason on request, and you can resubmit.
+The committee decides by the rules in the [charter](/steering/): approval needs a majority of the voting members who are not recused and never fewer than two approving votes, and a tie means not approved. A private session listing is decided in the same vote as the proposal. The committee decides within five business days of the proposal deadline, and the organizer tells you the outcome by email. A decline comes with a short reason on request, and you can resubmit.
 
 ## Disclosures
 
