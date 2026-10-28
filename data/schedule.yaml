@@ -2,14 +2,14 @@
 # are content files in content/sessions/ (front matter `day:` places a session
 # on a day) and the landing page picks them up automatically.
 - day: 1
-  date: "2027-01-26"
+  date: "2027-01-19"
   theme: Data Collection
   blurb: What to collect, from where, and how often. Scanner coverage, asset inventory, and the evidence that shows both are complete.
 - day: 2
-  date: "2027-01-27"
+  date: "2027-01-20"
   theme: VDR Evaluation
   blurb: Internet-reachability, likely exploitability, and the Potential Agency Impact N Rating.
 - day: 3
-  date: "2027-01-28"
+  date: "2027-01-21"
   theme: Remediation and Reporting
   blurb: Driving decisions. Fixing and mitigating on the clock, then reporting it to agencies and auditors.

@@ -1,7 +1,7 @@
 ---
 title: No-CAP Workshop
 headline: Compete on features. Collaborate on security.
-eyebrow: Nationwide Workshop · January 26–28, 2027
+eyebrow: Nationwide Workshop · January 19–21, 2027
 lede: The No-CAP Workshop is three days of hands-on, practitioner-led sessions to support teams dealing with FedRAMP's VDR requirements. The people who have successfully met these challenges will share the strategies and tactics they are using right now, because at the end of the day it's our government that we're all protecting.
 
 name_note: >-

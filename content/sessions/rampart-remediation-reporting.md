@@ -1,8 +1,8 @@
 ---
 title: "Rampart: Triage, Fix, Prevent & Report"
 day: 3
-start: 2027-01-28T10:00:00-08:00
-end: 2027-01-28T14:00:00-08:00
+start: 2027-01-21T10:00:00-08:00
+end: 2027-01-21T14:00:00-08:00
 track: rampart
 leads: [george-chamales]
 ---

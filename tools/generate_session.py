@@ -226,7 +226,7 @@ def build(payload, root):
         start, end = str(s.get('start', '')), str(s.get('end', ''))
         for label, v in (('start', start), ('end', end)):
             if not ISO_RE.match(v):
-                raise PayloadError(f'{f}.{label}: needs a date and time with offset, like 2027-01-26T10:00:00-08:00')
+                raise PayloadError(f'{f}.{label}: needs a date and time with offset, like 2027-01-19T10:00:00-08:00')
         if datetime.fromisoformat(end) <= datetime.fromisoformat(start):
             raise PayloadError(f'{f}: end must be after start')
         if dates.get(day) and start[:10] != dates[day]:

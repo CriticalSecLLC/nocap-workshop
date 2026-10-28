@@ -10,7 +10,7 @@ The No-CAP Workshop is driven by a small team of FedRAMP practitioners who under
 
 We pick a time for people working on these challenges to come together, share what they've learned, answer questions, record those sessions, and make them freely available to everyone. Instead of casting around for answers, you get them in one place directly from the people on the front lines.
 
-- Dates: January 26–28, 2027
+- Dates: January 19–21, 2027
 - Topics: Data Collection, VDR Evaluation, and Remediation and Reporting.
 - Cost: Free, online, and open to anyone. No registration and no identification.
 

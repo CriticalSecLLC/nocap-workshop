@@ -78,8 +78,8 @@ class SingleSession(unittest.TestCase):
             'type': 'session',
             'lead': {'name': 'Ada Example', 'org': 'Example Co', 'org_url': 'https://example.com', 'bio': 'Ran VDR at scale.'},
             'coleads': [{'name': 'Bo Second', 'org': 'Other Inc', 'bio': 'Built the scanners.'}],
-            'sessions': [{'title': 'Inventory: What Counts?', 'day': 1, 'start': '2027-01-26T13:00:00-08:00',
-                          'end': '2027-01-26T14:30:00-08:00', 'description': 'Walk through building an inventory.',
+            'sessions': [{'title': 'Inventory: What Counts?', 'day': 1, 'start': '2027-01-19T13:00:00-08:00',
+                          'end': '2027-01-19T14:30:00-08:00', 'description': 'Walk through building an inventory.',
                           'outcome': 'A working inventory template.', 'prerequisites': 'A scanner export.'}],
         }
 
@@ -123,11 +123,11 @@ class SingleSession(unittest.TestCase):
         g.build(self.p, self.root)
 
     def test_bad_dates(self):
-        for bad in ('2027-01-26 13:00', '2027-01-26T13:00:00'):
+        for bad in ('2027-01-19 13:00', '2027-01-19T13:00:00'):
             q = copy.deepcopy(self.p); q['sessions'][0]['start'] = bad
             with self.assertRaises(g.PayloadError):
                 g.build(q, self.root)
-        q = copy.deepcopy(self.p); q['sessions'][0]['end'] = '2027-01-26T12:00:00-08:00'
+        q = copy.deepcopy(self.p); q['sessions'][0]['end'] = '2027-01-19T12:00:00-08:00'
         with self.assertRaises(g.PayloadError):
             g.build(q, self.root)
 

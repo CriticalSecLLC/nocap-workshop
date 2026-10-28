@@ -1,6 +1,6 @@
 ---
 title: Sponsor the Nationwide Workshop
-description: Sponsorship tiers, benefits, and terms for the No-CAP Workshop, January 26–28, 2027.
+description: Sponsorship tiers, benefits, and terms for the No-CAP Workshop, January 19–21, 2027.
 layout: sponsors
 ---
 The No-CAP Workshop is three days of free, hands-on, practitioner-led sessions for teams meeting FedRAMP's VDR requirements. Sponsors are why it is free for everyone, and why every session stays online afterward.
@@ -34,9 +34,9 @@ Leads, session content, and scope are chosen independently of sponsors. Sessions
 ## Timeline and Terms
 
 - Founding sponsorships are held first come, first served until December 1, 2026.
-- Gold, Silver, and Community sponsorships stay open until January 8, 2027.
-- Logos are due January 12, 2027, so the opening cards can be produced.
-- Commit by email confirmation or a one-page agreement. CriticalSec LLC invoices at commitment, net 30, and payment is due in full by January 15, 2027.
+- Gold, Silver, and Community sponsorships stay open until December 31, 2026.
+- Logos are due January 5, 2027, so the opening cards can be produced.
+- Commit by email confirmation or a one-page agreement. CriticalSec LLC invoices at commitment, net 30, and payment is due in full by January 8, 2027.
 - If the event is cancelled or moved, sponsors receive a refund or a credit. Otherwise payments are non-refundable after the event starts.
 
 ## Become a Sponsor
