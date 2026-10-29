@@ -8,6 +8,7 @@
 <main class="section page">
   <div class="wrap">
     <div class="prose long">
+      {{ partial "propose-callout.html" . }}
       {{ if hugo.Data.leads }}
       <ul class="roster">
         {{ range hugo.Data.leads }}

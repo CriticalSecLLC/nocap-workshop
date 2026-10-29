@@ -22,6 +22,8 @@ Expect hands-on sessions led by practitioners, in a learning event rather than a
 
 Nothing here is advice from FedRAMP or any agency, although if you're with either of those groups and you'd like to lead a session please [reach out](mailto:leads@nocap-workshop.com?subject=Leading%20a%20session%20at%20No-CAP%20Workshop).
 
+{{< propose-callout >}}
+
 ## Get Involved
 
 Join the announcement list on the [home page](/), [lead a session](/leads/), or
