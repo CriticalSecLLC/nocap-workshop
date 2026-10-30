@@ -3,7 +3,7 @@ title: Rampart Track
 link: https://rampart-strategy.com
 description: A three-day, hands-on track that stands up a self-hosted FedRAMP VDR management system and takes it from data collection to reporting.
 ---
-**Placeholder.** Rampart is the organizer's founding track and is listed here as a placeholder. It will be assessed by the [Steering Committee](/steering/) once the committee is formed, like every track.
+**Placeholder.** Rampart is the organizer's founding track and is listed here as a placeholder. The [Steering Committee](/steering/) is assessing it like every track.
 
 The Rampart Strategy enables you to immediately demonstrate progress towards a full VDR implementation by deploying a self-hosted, highly customized FedRAMP VDR management system. We'll bring the system online on the first day, either running on your laptop or deployed in a cloud environment, and populate it with the essential information from your environment that you'll need to perform a VDR evaluation. This collection phase generates your first coverage numbers, percentage values used to track your progress towards a full implementation. Coverage is gathered in a central reporting page that can be shared with both internal and external stakeholders.
 

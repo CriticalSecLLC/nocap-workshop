@@ -12,6 +12,7 @@ members:
     lead: george-chamales
   - name: Sam Aydlette
     affiliation: Independent
+    affiliation_url: https://samaydlette.com
     url: https://samaydlette.com
     role: Member
     photo: img/sam-aydlette.jpg
