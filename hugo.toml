@@ -26,6 +26,10 @@ disableKinds = ["taxonomy", "term", "RSS"]
 
 [menus]
   [[menus.main]]
+    name = "Steering"
+    pageRef = "/steering"
+    weight = 5
+  [[menus.main]]
     name = "Why"
     pageRef = "/why"
     weight = 10

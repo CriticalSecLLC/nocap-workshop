@@ -10,7 +10,7 @@ The Steering Committee approves the sessions and leads at the No-CAP Workshop an
 
 {{< committee >}}
 
-The committee is formed when all three voting seats are filled. Until then, no sessions or leads are approved and everything on the schedule is a placeholder.
+The committee is formed: all three voting seats are filled. Sessions and leads are approved as proposals are reviewed, and anything on the schedule before then is a placeholder.
 
 ## Who Serves
 
