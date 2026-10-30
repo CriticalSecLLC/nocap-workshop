@@ -19,7 +19,7 @@ members:
       Sam Aydlette has worked in cybersecurity for more than a decade, in both federal government and private industry. On FedRAMP, he's helped write federal policy, advised hyperscale cloud providers on how to meet them, and run the scans himself. That means he's been both the person writing the requirements and the person asking who the heck wrote the requirements. He's seen plenty of things that look fine on paper fall apart in production, and plenty that work fine in production fall apart once legal and policy weigh in. He's most at home working in that gap. Before cybersecurity, he served as an infantryman with the 82nd Airborne Division, which is where he first learned that plans and the ground don't always agree.
   - name: Rob Gil
     affiliation: REM5
-    url: https://www.rem5.com/advisors/
+    affiliation_url: https://www.rem5.com/
     role: Member
     photo: img/rob-gil.jpg
     bio: >-
