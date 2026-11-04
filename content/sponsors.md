@@ -5,6 +5,8 @@ layout: sponsors
 ---
 The No-CAP Workshop is three days of free, hands-on, practitioner-led sessions for teams meeting FedRAMP's VDR requirements. Sponsors are why it is free for everyone, and why every session stays online afterward.
 
+<aside class="callout"><p><strong>Want it on one page?</strong> Download the sponsor summary to read or forward. <a href="/nocap-sponsor-summary.pdf">Sponsor summary (PDF) →</a></p></aside>
+
 ## Why Now
 
 FedRAMP's VDR requirements become mandatory on December 7, 2026. Offerings under a Corrective Action Plan are at risk of having their FedRAMP certification revoked if they are not compliant by March 7, 2027. Every provider in the FedRAMP community is working on this at the same time, and many are struggling to understand, implement, and maintain it.
@@ -44,3 +46,5 @@ Leads, session content, and scope are chosen independently of sponsors. Sessions
 Write to us and we will confirm the tier, the date for your logo, and the invoice details.
 
 [Become a sponsor →](mailto:sponsorship@nocap-workshop.com?subject=Sponsoring%20No-CAP%20Workshop)
+
+Need something to share internally? [Download the one-page sponsor summary (PDF)](/nocap-sponsor-summary.pdf).

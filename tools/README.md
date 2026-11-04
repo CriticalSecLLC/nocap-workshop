@@ -33,3 +33,14 @@ python3 tools/test_generate_session.py
 
 The Apps Script that builds the form contains a private group address, so it is kept
 outside this repository.
+
+## Sponsor summary PDF
+
+`sponsor-summary.html` is the source of `static/nocap-sponsor-summary.pdf`, which the Sponsors page links to. The tiers and
+availability in it are typed in, not read from `data/sponsors.yaml`, so update both when a sponsor signs. To rebuild the PDF
+(one Letter page):
+
+```
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --no-pdf-header-footer \
+  --print-to-pdf=static/nocap-sponsor-summary.pdf tools/sponsor-summary.html
+```
