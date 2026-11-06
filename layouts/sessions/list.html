@@ -8,7 +8,20 @@
 <main class="section page">
   <div class="wrap">
     {{ partial "propose-callout.html" . }}
-    <h2 class="track-sessions first">Tracks</h2>
+    <h2 class="track-sessions first">Sessions & Tracks</h2>
+    {{ partial "schedule-note.html" . }}
+    {{ $all := sort .Pages "Params.start" }}
+    {{ range hugo.Data.schedule }}
+    {{ $day := .day }}
+    <section class="day-block">
+      <h3>Day {{ .day }} · {{ .date | time.AsTime | time.Format "Monday, January 2" }} · {{ .theme }}</h3>
+      <ul class="sessions">
+        {{ range where $all "Params.day" $day }}{{ partial "session-row.html" . }}{{ else }}<li class="tba">Sessions announced soon.</li>{{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    <h2 class="track-sessions">Tracks</h2>
     <p class="note">A track is a set of sessions from one team, run across the three days.</p>
     <div class="session-list">
       {{ range (site.GetPage "/tracks").Pages }}
@@ -21,19 +34,6 @@
       </article>
       {{ end }}
     </div>
-
-    <h2 class="track-sessions">All Sessions</h2>
-    {{ partial "schedule-note.html" . }}
-    {{ $all := sort .Pages "Params.start" }}
-    {{ range hugo.Data.schedule }}
-    {{ $day := .day }}
-    <section class="day-block">
-      <h3>Day {{ .day }} · {{ .date | time.AsTime | time.Format "Monday, January 2" }} · {{ .theme }}</h3>
-      <ul class="sessions">
-        {{ range where $all "Params.day" $day }}{{ partial "session-row.html" . }}{{ else }}<li class="tba">Sessions announced soon.</li>{{ end }}
-      </ul>
-    </section>
-    {{ end }}
   </div>
 </main>
 {{ end }}
