@@ -70,7 +70,7 @@ The committee decides within five business days of the proposal deadline, and th
 
 ### Can I Offer Private Sessions?
 
-Yes. Leads with an approved public session or track can ask to be listed for private sessions by choosing that option on the proposal form. The Steering Committee decides the listing with the proposal, and it stays for at least six months after the workshop. See [Private Sessions](/private-sessions/) and the [listing requirements](/lead-agreement/#private-session-listings).
+Yes. Leads with an approved public session or track can ask to be listed for private sessions by asking for it with their proposal. The Steering Committee decides the listing with the proposal, and it stays for at least six months after the workshop. See [Private Sessions](/private-sessions/) and the [listing requirements](/lead-agreement/#private-session-listings).
 
 ## For Sponsors
 

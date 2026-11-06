@@ -12,7 +12,7 @@ We pick a time for people working on these challenges to come together, share wh
 
 - Dates: January 19–21, 2027
 - Topics: Data Collection, VDR Evaluation, and Remediation and Reporting.
-- Cost: Free, online, and open to anyone. No registration and no identification.
+- Cost: Free, online, and open to anyone. No registration.
 
 Funded by sponsors, run by practitioners, and recorded so the work outlives the week.
 

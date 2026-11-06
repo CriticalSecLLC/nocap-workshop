@@ -22,13 +22,12 @@ workshop: >-
 
 how_heading: Open, Online, Practical.
 how: >-
-  This is a nationwide online event open to anyone who wants to take part. There is no registration
-  and no identification. Show up, watch, learn, ask questions, and
+  This is a nationwide online event open to anyone who wants to take part. There is no registration.
+  Show up, watch, learn, ask questions, and
   participate at whatever level of engagement works for you. Each session will be recorded and posted
   online for everyone to use afterward.
 
 days_heading: Three Days, Strategic Deliverables.
-days_note: Session times are shown in your local time.
 
 attend_heading: Who Should Attend
 attend:

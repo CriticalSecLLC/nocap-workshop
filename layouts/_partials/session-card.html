@@ -5,7 +5,7 @@
 {{- $track := cond (ne ($p.Params.track | default "") "") (site.GetPage (printf "/tracks/%s" $p.Params.track)) nil -}}
 <article class="session-card">
   <p class="day-date">Day {{ $p.Params.day }}{{ with index (where hugo.Data.schedule "day" $p.Params.day) 0 }} · {{ .theme }}{{ end }}</p>
-  <h3><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a></h3>
+  <h3><a href="{{ $p.RelPermalink }}">{{ $p.Title }}</a>{{ if $p.Params.placeholder }} <span class="badge">Placeholder</span>{{ end }}</h3>
   {{ with $p.Params.tagline }}<p class="tagline">{{ . }}</p>{{ end }}
   <p class="s-when">
     <time datetime="{{ $start.UTC.Format "2006-01-02T15:04:05Z" }}" data-local>{{ $start.UTC.Format "Mon Jan 2, 15:04 UTC" }}</time>

@@ -8,6 +8,7 @@
 <main class="section page">
   <div class="wrap">
     <div class="session-list">{{ partial "session-card.html" (dict "page" . "full" true) }}</div>
+    {{ partial "schedule-note.html" . }}
     <p class="note"><a href="/sessions/">All tracks and sessions →</a></p>
   </div>
 </main>

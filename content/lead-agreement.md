@@ -12,7 +12,7 @@ A lead is anyone approved by the Steering Committee to lead a session or a multi
 
 ## How to Propose
 
-Use the [proposal form](/propose/), where you can also edit your proposal until the deadline. It asks for:
+Propose by the [form, by email, or by pull request](/propose/). The form lets you edit your proposal until the deadline. Whichever you use, we need:
 
 - The title and a short description of the session, and which day or theme it fits (Data Collection, VDR Evaluation, or Remediation and Reporting), or the outline of a multi-day track.
 - Who will lead it, with a short bio and each lead's affiliation.

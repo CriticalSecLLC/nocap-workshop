@@ -171,6 +171,7 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .callout { margin: 0 0 1.75rem; padding: .85rem 1.1rem; background: var(--panel); border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 4px; }
 .callout p { margin: 0; font-size: .98rem; }
 .callout a { color: var(--accent-ink); font-weight: 600; white-space: nowrap; }
+.feature-link + .callout { margin-top: 2rem; }
 .prose ul { padding-left: 1.2rem; margin: 0 0 1.2em; }
 .prose li { margin-bottom: .4rem; }
 .roster { list-style: none; padding: 0; }
@@ -208,7 +209,9 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .teaser strong { font-weight: 400; }
 .teaser a { color: var(--bg); text-decoration-color: var(--accent); }
 .teaser a:hover { color: var(--accent); }
-.feature { background: var(--panel); border-top: 3px solid var(--accent); border-bottom: 1px solid var(--line); }
+.feature { background: var(--panel); border-top: 3px solid var(--accent); border-bottom: 1px solid var(--line); padding-block: clamp(1.5rem, 3.5vw, 2.5rem); }
+.feature { padding-bottom: calc(clamp(1.5rem, 3.5vw, 2.5rem) + .3rem); }
+.feature .callout { margin-bottom: 0; }
 .feature .eyebrow { margin-bottom: 1rem; }
 .feature .wrap { max-width: 54rem; }
 .feature h2 { font-size: clamp(1.75rem, 4.2vw, 2.75rem); line-height: 1.1; max-width: none; margin-bottom: 1.25rem; }
@@ -250,3 +253,19 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .banner strong { font-weight: 600; }
 .banner a { text-decoration-color: var(--accent-ink); }
 .proposal-cta { text-align: center; margin: 2rem 0; }
+
+.badge { display: inline-block; margin-left: .4rem; padding: .1rem .45rem; border: 1px solid var(--accent); border-radius: 3px; font-family: var(--mono); font-size: .68rem; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--accent-ink); vertical-align: middle; }
+.note.flux { margin-top: .75rem; padding-left: .75rem; border-left: 3px solid var(--accent); color: var(--ink); }
+
+/* Propose page: the three ways to submit, side by side. */
+.options { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: 1.25rem; margin: 1.5rem 0 2rem; align-items: stretch; width: min(70rem, calc(100vw - 3rem)); margin-left: 50%; transform: translateX(-50%); }
+.option { border: 1px solid var(--line); border-top: 2px solid var(--accent); background: var(--panel); border-radius: 4px; padding: 1.1rem 1.25rem 1.3rem; font-size: .95rem; }
+.option > :last-child { margin-bottom: 0; }
+.option h3 { margin: .2rem 0 .7rem; }
+.option p { margin: 0 0 .8rem; }
+.option ul { margin: 0 0 .8rem; padding-left: 1.2rem; }
+.option .proposal-cta { margin: 0 0 .9rem; text-align: left; }
+.option-tag { font-family: var(--mono); font-size: .75rem; letter-spacing: .06em; text-transform: uppercase; color: var(--accent-ink); margin: 0; }
+.option h3 + p, .option h3 + ul { margin-top: 0; }
+.option h3 a { text-decoration: none; overflow-wrap: anywhere; }
+.option h3 a:hover { text-decoration: underline; }

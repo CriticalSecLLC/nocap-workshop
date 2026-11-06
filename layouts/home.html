@@ -29,6 +29,7 @@
       <h2>{{ .Params.workshop_heading }}</h2>
       <p class="feature-text">{{ .Params.workshop }}</p>
       <p class="feature-link"><a href="#days">See the schedule →</a></p>
+      {{ partial "propose-callout.html" . }}
     </div>
   </section>
 
@@ -64,7 +65,7 @@
       <div class="section-head">
         <p class="eyebrow">Schedule</p>
         <h2>{{ .Params.days_heading }}</h2>
-        <p class="note"><span id="tz-note">{{ .Params.days_note }}</span></p>
+        {{ partial "schedule-note.html" . }}
       </div>
       <ol class="days">
         {{ range hugo.Data.schedule }}
