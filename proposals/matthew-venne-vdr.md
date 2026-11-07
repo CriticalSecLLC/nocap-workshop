@@ -180,8 +180,6 @@ supporting reading for the sessions:
 
 ## Agreement
 
-- [ ] I have read the [Lead Agreement](https://nocap-workshop.com/lead-agreement/),
+- [x] I have read the [Lead Agreement](https://nocap-workshop.com/lead-agreement/),
       including the Positivity Rule and the competition-law rules, and I agree
       to it if this proposal is approved.
-
-The agreement checkbox is pending the lead's confirmation.
