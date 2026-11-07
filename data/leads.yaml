@@ -36,7 +36,12 @@
   org_url: https://stackarmor.com
   photo: img/silhouette.svg
   bio: >-
-    Matthew Venne is with stackArmor. He will lead a session at the No-CAP Workshop.
+    Matthew Venne is Chief Technology Officer at stackArmor, with nearly 15 years of experience
+    in federal information security. He is the chief architect of three FedRAMP-authorized
+    platforms and the author of [stackArmor's public white papers on FedRAMP
+    VDR/VER](https://stackarmor.github.io/rfc-fedramp-vdr/), covering vulnerability evaluation,
+    PAIN scoring, internet reachability, and evidence-backed response. He publishes his methods
+    openly to support community scrutiny, reuse, and improvement.
 - id: aidan-fratcher
   name: Aidan Fratcher
   org: Infusion Points
