@@ -38,8 +38,8 @@ Leads, session content, and scope are chosen independently of sponsors. Sessions
 - Founding sponsorships are held first come, first served until December 1, 2026.
 - Gold, Silver, and Community sponsorships stay open until December 31, 2026.
 - Logos are due January 5, 2027, so the opening cards can be produced.
-- Commit by email confirmation or a one-page agreement. CriticalSec LLC invoices at commitment, net 30, and payment is due in full by January 8, 2027.
-- If the event is cancelled or moved, sponsors receive a refund or a credit. Otherwise payments are non-refundable after the event starts.
+- Commit by email confirmation or a sponsorship agreement. CriticalSec LLC invoices at commitment, net 30, and payment is due in full by January 8, 2027.
+- Sponsors may withdraw for a full refund until January 5, 2027. If the event is cancelled, sponsors receive a refund or a credit. If it is postponed or moved, the sponsorship continues for the new dates, or sponsors may take a refund if the new dates are more than six months later. Otherwise payments are non-refundable.
 
 ## Become a Sponsor
 
