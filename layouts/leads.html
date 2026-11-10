@@ -11,7 +11,7 @@
       {{ partial "propose-callout.html" . }}
       {{ if hugo.Data.leads }}
       <ul class="roster">
-        {{ range hugo.Data.leads }}
+        {{ range where hugo.Data.leads "listing_only" "ne" true }}
         <li class="person" id="{{ .id }}">
           {{ with .photo }}{{ with resources.Get . }}{{ if eq .MediaType.SubType "svg" }}<img class="headshot" src="{{ .RelPermalink }}" width="160" height="160" alt="" loading="lazy">{{ else }}{{ $img := .Fill "320x320 q85" }}<img class="headshot" src="{{ $img.RelPermalink }}" width="160" height="160" alt="" loading="lazy">{{ end }}{{ end }}{{ end }}
           <div>

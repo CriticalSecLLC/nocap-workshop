@@ -13,6 +13,7 @@
 #                                     # offering/offering_url, in the Private Sessions table
 #   offering: "Name of the private session"
 #   offering_url: "https://..."
+#   listing_only: true                # optional; a private session contact who is not presenting: shown only in the Private Sessions table, not on the Leads page
 - id: george-chamales
   name: George Chamales
   org: CriticalSec
@@ -72,3 +73,11 @@
 
 
     He also contributes to the standards themselves, working on current and emerging guidance from NIST and FedRAMP, and was instrumental in writing the first Okta STIG.
+- id: jason-shropshire
+  name: Jason Shropshire
+  org: Infusion Points
+  org_url: https://infusionpoints.com
+  listing_only: true
+  booking: https://outlook.office.com/bookwithme/user/1a9a28c220834550bb2bc9e547a2e054@infusionpoints.com?anonymous&ep=bwmEmailSignature
+  offering: XBU40 Assessment
+  offering_url: https://xbu40.com/assessment

@@ -15,7 +15,7 @@
         {{ range where hugo.Data.leads "booking" "ne" nil }}
         <tr>
           <th scope="row" data-label="Session">{{ if .offering_url }}<a href="{{ .offering_url }}">{{ .offering }}</a>{{ else }}{{ .offering }}{{ end }}</th>
-          <td data-label="Provider"><a href="/leads/#{{ .id }}">{{ .name }}</a>{{ with .org }}<span class="s-meta">{{ . }}</span>{{ end }}</td>
+          <td data-label="Provider">{{ if .listing_only }}{{ if .org_url }}<a href="{{ .org_url }}">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}{{ else }}<a href="/leads/#{{ .id }}">{{ .name }}</a>{{ end }}{{ with .org }}<span class="s-meta">{{ . }}</span>{{ end }}</td>
           <td data-label="Book"><a href="{{ .booking }}">Introductory call →</a></td>
         </tr>
         {{ end }}
