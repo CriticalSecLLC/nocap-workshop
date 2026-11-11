@@ -1,0 +1,15 @@
+{{- /* Thank-you list of current sponsors by tier, from data/sponsors.yaml. Every tier is shown; a tier with no sponsors yet stays blank. */ -}}
+<div class="sponsor-roll">
+  {{ range hugo.Data.sponsors }}
+  <div class="roll-tier">
+    <h3>{{ .tier }}</h3>
+    {{ if .sponsors }}
+    <ul class="roll-names">
+      {{ range .sponsors }}
+      <li><a href="{{ .url }}">{{ .name }}</a></li>
+      {{ end }}
+    </ul>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>

@@ -5,6 +5,12 @@ layout: sponsors
 ---
 The No-CAP Workshop is three days of free, hands-on, practitioner-led sessions for teams meeting FedRAMP's VDR requirements. Sponsors are why it is free for everyone, and why every session stays online afterward.
 
+## Thank You to Our Sponsors
+
+Thank you to the sponsors who make the workshop free for everyone.
+
+{{< sponsor-list >}}
+
 <aside class="callout"><p><strong>Want it on one page?</strong> Download the sponsor summary to read or forward. <a href="/nocap-sponsor-summary.pdf">Sponsor summary (PDF) →</a></p></aside>
 
 ## Why Now
