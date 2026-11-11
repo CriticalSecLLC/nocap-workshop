@@ -39,4 +39,8 @@
   benefits:
     - Name listed on the website
     - Name in the description of every recording
-  sponsors: []
+  sponsors:
+    - name: "REM5"
+      url: "https://www.rem5.com/"
+      # Logo is a one-time courtesy to the first public sponsor; Community is otherwise name-only.
+      logo: "images/sponsors/rem5.svg"
