@@ -2,7 +2,7 @@
 title: Lead Agreement
 description: What we look for in sessions, how they are evaluated, and what leads agree to at the No-CAP Workshop.
 ---
-{{< doc-status version="0.1" >}}
+{{< doc-status version="0.1" status="" >}}
 
 This page explains what we look for in a session, how sessions are evaluated, and what a lead agrees to when a session is approved. It works alongside the [Steering Committee charter](/steering/), which governs approvals, conflicts of interest, and disputes.
 
