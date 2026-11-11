@@ -147,15 +147,16 @@ h2 { font-size: clamp(1.55rem, 3vw, 2.2rem); line-height: 1.15; max-width: 22ch;
 .logos img { max-height: 2.5rem; width: auto; }
 .sponsor-strip { margin-top: 2.25rem; }
 .sponsor-strip .eyebrow { margin-bottom: .9rem; }
-.strip-logos { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; font-family: var(--mono); font-size: .9rem; }
+.strip-logos { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: .75rem 1rem; font-family: var(--mono); font-size: .9rem; }
 .strip-logos a { color: var(--ink); text-decoration: none; }
 .strip-logos img { width: auto; max-height: 2rem; display: block; }
-.strip-logos .t0 img { max-height: 3.25rem; }
+.strip-logos .t0 img { max-height: 2.5rem; max-width: 12.5rem; }
 .strip-logos .t1 img { max-height: 2.5rem; }
 .strip-slot { font-size: .66rem; display: flex; align-items: center; justify-content: center; border: 1px dashed var(--grid); border-radius: 4px; color: var(--muted); letter-spacing: .09em; text-transform: uppercase; }
-.strip-slot.t0 { width: 7.5rem; height: 2.75rem; }
+.strip-slot.t0 { width: 12.5rem; height: 2.5rem; }
 .strip-slot.t1 { width: 5.5rem; height: 2.25rem; }
 .strip-slot.t2 { width: 4.5rem; height: 1.75rem; }
+.strip-break { flex-basis: 100%; height: 0; margin: 0; padding: 0; }
 .sponsor-strip .note { margin-top: .9rem; }
 
 /* closing */

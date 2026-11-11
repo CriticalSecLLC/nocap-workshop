@@ -15,7 +15,10 @@
     - Top listing on the website, linked to your site
     - Mention in the announcement emails
     - Logo in every recording
-  sponsors: []
+  sponsors:
+    - name: "Chainguard"
+      url: "https://www.chainguard.dev/"
+      logo: "images/sponsors/chainguard.png"
 - tier: Gold
   price: 8500
   slots: 5
