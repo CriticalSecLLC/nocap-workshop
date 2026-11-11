@@ -67,6 +67,7 @@
         <h2>{{ .Params.days_heading }}</h2>
         {{ partial "schedule-note.html" . }}
       </div>
+      <div>
       <ol class="days">
         {{ range hugo.Data.schedule }}
         {{ $date := .date | time.AsTime }}
@@ -92,6 +93,7 @@
         {{ end }}
       </ol>
       <p class="note"><a href="/sessions/">All tracks and sessions →</a></p>
+      </div>
     </div>
   </section>
 

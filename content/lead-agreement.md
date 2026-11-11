@@ -56,9 +56,14 @@ The committee decides by the rules in the [charter](/steering/): approval needs 
 
 Leads disclose their affiliations, the products their session features, and any relationship with a sponsor. Every proposal is judged on its merits, whether or not the lead's company sponsors the workshop, and leading a session is separate from any sponsorship benefit.
 
+<aside class="rule-box" id="positivity-rule" aria-labelledby="positivity-rule-title">
+<h2 id="positivity-rule-title">The Positivity Rule</h2>
+<p>Focus on what you bring to the table, and speak respectfully of other products, vendors, services, customers, and colleagues. Describing a problem you faced is welcome, and so is describing how you solved it.</p>
+<p>A lead who sets this rule aside is removed from the session on the spot, and the session is not posted.</p>
+</aside>
+
 ## What Leads Agree To
 
-- **Keep it positive (the Positivity Rule).** Focus on what you bring to the table, and speak respectfully of other products, vendors, services, customers, and colleagues. Describing a problem you faced is welcome, and so is describing how you solved it. A lead who sets this rule aside is removed from the session on the spot, and the session is not posted.
 - **Deliver the session as approved.** Keep to the approved scope. Tell the organizer promptly about changes to the title, content, or leads, and about any conflict that arises. A material change may need the committee's review.
 - **Be prepared and on time.** Join a short technical rehearsal before the workshop and start on time.
 - **Run your own Q&A and chat.** You are responsible for your session's discussion. Organizers may join any session to support you and may step in, but you stay responsible for keeping it on track.
