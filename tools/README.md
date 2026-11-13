@@ -44,3 +44,7 @@ availability in it are typed in, not read from `data/sponsors.yaml`, so update b
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless --no-pdf-header-footer \
   --print-to-pdf=static/nocap-sponsor-summary.pdf tools/sponsor-summary.html
 ```
+
+## Press kit images
+
+`python3 tools/press/build.py` (needs Google Chrome) regenerates `static/press/img/` and `data/press.yaml` for the unlinked `/press/` page. Re-run it whenever `data/sponsors.yaml` or the taglines in `data/headlines.yaml` change.

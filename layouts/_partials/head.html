@@ -4,6 +4,7 @@
 <title>{{ if .IsHome }}{{ site.Title }} — {{ $desc }}{{ else }}{{ .Title }} — {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ $desc }}">
 <link rel="canonical" href="{{ .Permalink }}">
+{{ if .Params.noindex }}<meta name="robots" content="noindex, nofollow">{{ end }}
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta name="theme-color" content="#f6f4ef">
 <meta property="og:type" content="website">

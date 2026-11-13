@@ -1,0 +1,17 @@
+{{- /* Press-kit promo images from data/press.yaml (written by tools/press/build.py). */ -}}
+{{ range hugo.Data.press.sets }}
+<h3>{{ .title }}</h3>
+<p>{{ .description }}</p>
+<div class="press-grid">
+  {{ range .items }}
+  <figure class="press-item">
+    {{ $first := index .files 0 }}
+    <a href="{{ $first.path }}" download><img src="{{ $first.path }}" alt="{{ .title }}" loading="lazy" width="1200" height="627"></a>
+    <figcaption>
+      <strong>{{ .title }}</strong>
+      <span class="press-sizes">{{ range $i, $f := .files }}{{ if $i }} · {{ end }}<a href="{{ $f.path }}" download title="{{ $f.label }}">{{ $f.size }}</a>{{ end }}</span>
+    </figcaption>
+  </figure>
+  {{ end }}
+</div>
+{{ end }}
