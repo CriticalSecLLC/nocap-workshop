@@ -47,20 +47,20 @@
   name: Aidan Fratcher
   org: Infusion Points
   org_url: https://infusionpoints.com
-  photo: img/silhouette.svg
+  photo: img/aidan-fratcher.jpg
   bio: >-
     Aidan Fratcher is with Infusion Points. He will lead two sessions at the No-CAP Workshop, one of them with Tanner Bailey.
 - id: tanner-bailey
   name: Tanner Bailey
   org: Infusion Points
   org_url: https://infusionpoints.com
-  photo: img/silhouette.svg
+  photo: img/tanner-bailey.jpg
   bio: >-
     Tanner Bailey is with Infusion Points. He will co-lead a session at the No-CAP Workshop with Aidan Fratcher.
 - id: josh-rector
   name: Josh Rector
   org: Ace of Clouds
-  photo: img/silhouette.svg
+  photo: img/josh-rector.jpg
   bio: >-
     Josh Rector is with Ace of Clouds. He will lead a session at the No-CAP Workshop.
 - id: rob-gil
