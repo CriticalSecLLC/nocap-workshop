@@ -72,18 +72,20 @@ body{background:#f6f4ef;color:#1f2630;position:relative;
 .sp .lbl{font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:%(eb)dpx;letter-spacing:.09em;text-transform:uppercase;color:#5b6470}
 .sp img{height:%(lh)dpx;max-width:%(lw)dpx;width:auto;display:block}
 .sp .nm{font-size:%(lh)dpx;font-weight:600}
-.foot{display:flex;justify-content:space-between;align-items:baseline;font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:%(ft)dpx;letter-spacing:.06em;text-transform:uppercase;color:#5b6470;gap:%(sg)dpx}
-.foot b{font-weight:500;color:#1f2630}
+.foot{display:flex;flex-direction:column;gap:%(f2g)dpx;font-family:ui-monospace,"SF Mono",Menlo,monospace;letter-spacing:.05em;text-transform:uppercase}
+.foot .d{font-size:%(ft)dpx;font-weight:700;color:#1f2630}
+.foot .u{font-size:%(f2)dpx;font-weight:500;color:#4a86a1}
+.foot.row{flex-direction:row;justify-content:space-between;align-items:baseline}
 .big{display:block;height:%(bh)dpx;max-width:%(bw)dpx;width:auto;margin-top:%(ebm)dpx}
 """
 
 # Per size: W, H, grid, padding, mark px, dash px, mid padding, eyebrow px, eyebrow margin,
 # tagline max px, gap, sponsor margin, logo height, logo max width, footer px, big-logo h/w
 CFG = {
-    "social": dict(g=30, p=64, mk=28, dash=3, mp=10, eb=15, ebm=14, tg=84, sg=18, spm=22, lh=34, lw=200, ft=16, bh=84, bw=560),
-    "wide": dict(g=40, p=84, mk=36, dash=4, mp=14, eb=19, ebm=18, tg=110, sg=24, spm=28, lh=44, lw=260, ft=21, bh=110, bw=740),
-    "square": dict(g=36, p=76, mk=32, dash=4, mp=14, eb=18, ebm=18, tg=118, sg=22, spm=26, lh=42, lw=240, ft=19, bh=110, bw=700),
-    "banner": dict(g=20, p=22, mk=15, dash=2, mp=4, eb=9, ebm=6, tg=34, sg=10, spm=6, lh=18, lw=110, ft=9, bh=34, bw=220),
+    "social": dict(g=30, p=56, mk=28, dash=3, mp=8, eb=19, ebm=14, tg=84, sg=18, spm=20, lh=44, lw=250, ft=38, f2=26, f2g=6, bh=84, bw=560),
+    "wide": dict(g=40, p=72, mk=36, dash=4, mp=12, eb=26, ebm=18, tg=110, sg=24, spm=26, lh=58, lw=330, ft=52, f2=34, f2g=8, bh=110, bw=740),
+    "square": dict(g=36, p=68, mk=32, dash=4, mp=12, eb=24, ebm=18, tg=118, sg=22, spm=24, lh=54, lw=300, ft=48, f2=32, f2g=8, bh=110, bw=700),
+    "banner": dict(g=20, p=18, mk=15, dash=2, mp=2, eb=10, ebm=6, tg=34, sg=10, spm=4, lh=20, lw=120, ft=15, f2=12, f2g=2, bh=34, bw=220),
 }
 
 
@@ -104,9 +106,9 @@ def page(kind, size, tag=None, sponsor=None, rollup=None):
         items = "".join('<img src="%s" alt="%s">' % (logo_uri(s), html.escape(s["name"])) if logo_uri(s)
                         else '<span class="nm">%s</span>' % html.escape(s["name"]) for s in rollup)
         sp = '<div class="sp"><span class="lbl">Made possible by</span>%s</div>' % items
-    foot_l = "Jan 19–21, 2027 · Online · Free" if banner else "Jan 19–21, 2027 · Online · Free · No registration"
     body = ('<div class="card"><div class="mark">No<i></i>CAP Workshop</div>%s%s'
-            '<div class="foot"><span><b>%s</b></span><span>nocap-workshop.com</span></div></div>') % (mid, sp, foot_l)
+            '<div class="foot%s"><span class="d">Jan 19–21, 2027 · Online · Free</span><span class="u">nocap-workshop.com</span></div></div>'
+            ) % (mid, sp, " row" if banner else "")
     fit = ("<script>for(const e of document.querySelectorAll('[data-fit]')){const m=e.closest('.mid');"
            "let s=parseFloat(getComputedStyle(e).fontSize);"
            "while(m.scrollHeight>m.clientHeight+1&&s>12){s-=2;e.style.fontSize=s+'px'}}</script>")
