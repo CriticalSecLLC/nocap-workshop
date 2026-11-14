@@ -1,5 +1,6 @@
-# One entry per lead. `id` is what a session lists under `leads:` in its
-# front matter, so the same person renders consistently on every page.
+# One entry per lead, in the order they submitted, which is the order on the Leads page.
+# New leads go at the end (tools/generate_session.py appends).
+# `id` is what a session lists under `leads:` in its front matter, so the same person renders consistently on every page.
 #
 # - id: "first-last"
 #   name: "Name"
@@ -31,6 +32,16 @@
   photo: img/sam-aydlette.jpg
   bio: >-
     Sam Aydlette has worked in cybersecurity for more than a decade, in both federal government and private industry. On FedRAMP, he's helped write federal policy, advised hyperscale cloud providers on how to meet them, and run the scans himself. That means he's been both the person writing the requirements and the person asking who the heck wrote the requirements. He's seen plenty of things that look fine on paper fall apart in production, and plenty that work fine in production fall apart once legal and policy weigh in. He's most at home working in that gap. Before cybersecurity, he served as an infantryman with the 82nd Airborne Division, which is where he first learned that plans and the ground don't always agree.
+- id: rob-gil
+  name: Rob Gil
+  org: REM5
+  org_url: https://www.rem5.com/
+  photo: img/rob-gil.jpg
+  bio: >-
+    Rob Gil has spent over 20 years in security, leading initiatives at cloud service providers including Okta, Elastic, and Salesforce. Through REM5 he advises cloud service providers on the architecture and security work needed to meet the most stringent requirements of the U.S. public sector.
+
+
+    He also contributes to the standards themselves, working on current and emerging guidance from NIST and FedRAMP, and was instrumental in writing the first Okta STIG.
 - id: matthew-venne
   name: Matthew Venne
   org: stackArmor
@@ -63,16 +74,6 @@
   photo: img/josh-rector.jpg
   bio: >-
     Josh Rector is with Ace of Clouds. He will lead a session at the No-CAP Workshop.
-- id: rob-gil
-  name: Rob Gil
-  org: REM5
-  org_url: https://www.rem5.com/
-  photo: img/rob-gil.jpg
-  bio: >-
-    Rob Gil has spent over 20 years in security, leading initiatives at cloud service providers including Okta, Elastic, and Salesforce. Through REM5 he advises cloud service providers on the architecture and security work needed to meet the most stringent requirements of the U.S. public sector.
-
-
-    He also contributes to the standards themselves, working on current and emerging guidance from NIST and FedRAMP, and was instrumental in writing the first Okta STIG.
 - id: jason-shropshire
   name: Jason Shropshire
   org: Infusion Points
