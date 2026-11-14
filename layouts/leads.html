@@ -9,6 +9,7 @@
   <div class="wrap">
     <div class="prose long">
       {{ partial "propose-callout.html" . }}
+      {{ with .Params.order_note }}<p class="note">{{ . }}</p>{{ end }}
       {{ if hugo.Data.leads }}
       <ul class="roster">
         {{ range where hugo.Data.leads "listing_only" "ne" true }}
