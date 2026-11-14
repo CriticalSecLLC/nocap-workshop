@@ -73,10 +73,15 @@ the lead. A listing adds `booking:`, `offering:` and `offering_url:` to the lead
    show different people, stop and ask George. Never pick between them yourself.
 4. The site needs at least 320x320, because cards show 160 px at 2x. Smaller photos are
    too blurry, so ask George to request one from the lead.
-5. If a photo isn't square, make it square from the top so the centered crop keeps the
-   whole head. This box has no Pillow or ImageMagick, so use a throwaway Hugo site in the
-   scratchpad: `(resources.Get "x.jpg").Crop "800x800 Top q90 jpg"`, and print
-   `.RelPermalink` so Hugo publishes the file. Save it as `assets/img/<lead-id>.jpg`.
+5. Crop to a square centered on the face, framed head-and-shoulders like the existing
+   photos in `assets/img/`: a little space above the hair, the head filling about 60% of
+   the height, and the shoulders in frame. A plain top-anchored crop of a wide or
+   loosely framed photo leaves the face small and off-center, and George sent Matt's back
+   for exactly that. Make two or three crop sizes and look at each before picking one.
+   This box has no Pillow or ImageMagick, so use a throwaway Hugo site in the scratchpad.
+   Use `.Process "crop WxH TopLeft"` and then `.Crop "SxS TopRight"` to place a square at a
+   chosen x offset, then `.Resize "800x800 q90 jpg"`. Print `.RelPermalink` so Hugo
+   publishes the file. Save it as `assets/img/<lead-id>.jpg`.
 6. Until a photo is confirmed, set `photo: img/silhouette.svg` so the card keeps a placeholder.
 7. Before the photo ships, the lead or George confirms it.
 
@@ -92,7 +97,8 @@ python3 tools/generate_session.py payload.json
 ```
 
 This writes `content/sessions/<slug>.md` and, for a new lead, appends to `data/leads.yaml`.
-It refuses to overwrite existing files. If the lead already exists, check their bio and
+It refuses to overwrite existing files. Leads are listed in the order they submitted, so a
+new lead goes at the end, which is where the generator puts them. If the lead already exists, check their bio and
 org are still current. Add the `photo:` line by hand.
 
 ## 7. Build and look
