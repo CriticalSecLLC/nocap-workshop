@@ -81,3 +81,10 @@
   booking: https://outlook.office.com/bookwithme/user/1a9a28c220834550bb2bc9e547a2e054@infusionpoints.com?anonymous&ep=bwmEmailSignature
   offering: XBU40 Assessment
   offering_url: https://xbu40.com/assessment
+- id: ajay-chandhok
+  name: Ajay Chandhok
+  org: Stratus Cyber
+  org_url: https://stratuscyber.com
+  photo: img/silhouette.svg
+  bio: >-
+    Ajay Chandhok is CEO of Stratus Cyber, a North Bethesda, MD company founded in 2016. Ajay's team took Stratus GRC-ITSM through the FedRAMP 20x pilot, and it is now FedRAMP 20x Class C Certified. 6 organizations run their programs on Stratus GRC-ITSM; 3 of the 6 build for FedRAMP 20x natively.
