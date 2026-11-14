@@ -42,6 +42,12 @@
 
 
     He also contributes to the standards themselves, working on current and emerging guidance from NIST and FedRAMP, and was instrumental in writing the first Okta STIG.
+- id: josh-rector
+  name: Josh Rector
+  org: Ace of Clouds
+  photo: img/josh-rector.jpg
+  bio: >-
+    Josh Rector is with Ace of Clouds. He will lead a session at the No-CAP Workshop.
 - id: matthew-venne
   name: Matthew Venne
   org: stackArmor
@@ -68,12 +74,6 @@
   photo: img/tanner-bailey.jpg
   bio: >-
     Tanner Bailey is with Infusion Points. He will co-lead a session at the No-CAP Workshop with Aidan Fratcher.
-- id: josh-rector
-  name: Josh Rector
-  org: Ace of Clouds
-  photo: img/josh-rector.jpg
-  bio: >-
-    Josh Rector is with Ace of Clouds. He will lead a session at the No-CAP Workshop.
 - id: jason-shropshire
   name: Jason Shropshire
   org: Infusion Points
