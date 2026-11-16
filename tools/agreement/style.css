@@ -1,0 +1,34 @@
+body { font-family: Arial, Helvetica, sans-serif; font-size: 10.5pt; line-height: 1.38; color: #111; }
+h1 { font-size: 18pt; margin: 0 0 2pt; }
+.sub1 { font-size: 12pt; color: #555; margin: 0 0 12pt; }
+h2 { font-size: 12pt; margin: 14pt 0 4pt; break-after: avoid; }
+p.t { margin: 0 0 4pt; text-align: justify; }
+.pb { break-before: page; }
+.blk { break-inside: avoid; }
+p { margin: 0 0 6pt; }
+p.sub { margin-left: 18pt; }
+ul { margin: 0 0 6pt; padding-left: 36pt; } li { margin-bottom: 3pt; }
+mark { background: #fff59d; }
+table.d { border-collapse: collapse; width: 100%; margin: 6pt 0 8pt; }
+table.d td { border: 1px solid #bbb; padding: 4pt 6pt; vertical-align: top; }
+table.d td.k { background: #f2f2f2; width: 26%; }
+table.sig { width: 100%; margin-top: 8pt; } table.sig td { width: 50%; vertical-align: top; padding-right: 18pt; }
+table.sig p { margin: 0 0 8pt; } tr { break-inside: avoid; }
+
+:root{--ink:#1f2630;--muted:#5b6470;--accent:#6fa6bd;--accent-ink:#4a86a1;--line:#e3dfd6;--panel:#f6f4ef}
+body{color:var(--ink)}
+h1,h2{font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;font-weight:600;letter-spacing:-.015em;color:var(--ink)}
+h1{font-size:21pt;margin:0 0 4pt}
+.sub1{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:8.5pt;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);margin:0 0 14pt}
+.brand{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-weight:500;letter-spacing:.1em;font-size:12pt;margin:0 0 16pt;padding-bottom:7pt;border-bottom:1.5pt solid var(--accent)}
+.brand .edge{display:inline-block;width:.6em;height:3px;background:var(--accent);vertical-align:middle;margin:0 .15em;border-radius:1px}
+.brand span{float:right;font-size:8pt;letter-spacing:.09em;color:var(--muted);text-transform:uppercase;padding-top:3pt}
+p.t b{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;font-size:11pt;color:var(--ink)}
+table.d td{border:1px solid var(--line)}
+table.d td.k{background:var(--panel);font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:8.5pt;letter-spacing:.06em;text-transform:uppercase;color:var(--accent-ink)}
+table.d td.k b{font-weight:500}
+table.sig p b{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:8.5pt;letter-spacing:.09em;color:var(--accent-ink);font-weight:500}
+.blk h1,.pb+h1{border-top:2pt solid var(--accent);padding-top:8pt}
+.fld{border-bottom-color:var(--accent-ink)}
+.edge{display:inline-block;width:.6em;height:3px;background:var(--accent);vertical-align:middle;margin:0 .12em;border-radius:1px}
+table.ex{table-layout:fixed;width:100%}table.ex td{font-size:9pt;width:19.5%}table.ex td.k{width:22%}table.ex tr.h td{text-align:left}
