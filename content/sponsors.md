@@ -29,7 +29,7 @@ Logistics across leads, attendees, and sponsors. Run-of-show support for the onl
 
 {{< tiers >}}
 
-Sponsors appear on a short opening card before every session, sized by tier, and in a listing on the website. Because the sessions are recorded and posted, the card goes with every recording.
+Sponsors appear on a short opening card before every session, sized by tier, and in a listing on the website. Because the sessions are recorded and posted, the card goes with every recording. Every sponsor, at every tier, is also named in the description of every recording.
 
 ## The Sponsor Report
 

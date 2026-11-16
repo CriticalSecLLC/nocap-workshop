@@ -15,6 +15,7 @@
     - Top listing on the website, linked to your site
     - Mention in the announcement emails
     - Logo in every recording
+    - Name in the description of every recording
   sponsors:
     - name: "Chainguard"
       url: "https://www.chainguard.dev/"
@@ -28,6 +29,7 @@
     - Listing on the website, linked to your site
     - Mention in the announcement emails
     - Logo in every recording
+    - Name in the description of every recording
   sponsors: []
 - tier: Silver
   price: 2500
@@ -35,6 +37,7 @@
   benefits:
     - Small logo on the opening card of every session
     - Listing on the website, linked to your site
+    - Name in the description of every recording
   sponsors: []
 - tier: Community
   price: 500
