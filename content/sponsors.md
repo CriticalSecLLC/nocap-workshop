@@ -53,4 +53,4 @@ Write to us and we will confirm the tier, the date for your logo, and the invoic
 
 [Become a sponsor →](mailto:sponsorship@nocap-workshop.com?subject=Sponsoring%20No-CAP%20Workshop)
 
-Need something to share internally? [Download the one-page sponsor summary (PDF)](/nocap-sponsor-summary.pdf). Ready to sign? [Download the sponsorship agreement (PDF)](/nocap-sponsorship-agreement.pdf) or the [Word version](/nocap-sponsorship-agreement.docx).
+The [one-page sponsor summary (PDF)](/nocap-sponsor-summary.pdf) covers the tiers, benefits, and dates on this page. The [sponsorship agreement (PDF)](/nocap-sponsorship-agreement.pdf), also available as a [Word file](/nocap-sponsorship-agreement.docx), is the contract a sponsor signs, with the full terms and the benefits for each tier.
