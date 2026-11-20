@@ -1,1 +1,3 @@
-<p class="note flux">Session times in flux, guaranteed to shift.</p>
+{{- $feed := absURL "sessions/index.ics" -}}
+{{- $webcal := replaceRE "^https?://" "webcal://" $feed -}}
+<p class="note flux">Session times in flux, guaranteed to shift. <a href="{{ $webcal | safeURL }}">Subscribe to the schedule</a> and your calendar moves with it (<a href="https://calendar.google.com/calendar/render?cid={{ $webcal | urlquery }}">Google Calendar</a>, <a href="{{ $feed }}">.ics file</a>).</p>
