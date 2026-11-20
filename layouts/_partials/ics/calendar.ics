@@ -1,0 +1,11 @@
+{{- /* A VCALENDAR around the given session pages. Context: dict "name" <calendar name> "pages" <session pages>. */ -}}
+{{- partial "ics/line.ics" "BEGIN:VCALENDAR" -}}
+{{- partial "ics/line.ics" "VERSION:2.0" -}}
+{{- partial "ics/line.ics" "PRODID:-//No-CAP Workshop//Schedule//EN" -}}
+{{- partial "ics/line.ics" "CALSCALE:GREGORIAN" -}}
+{{- partial "ics/line.ics" "METHOD:PUBLISH" -}}
+{{- partial "ics/line.ics" (printf "X-WR-CALNAME:%s" (partial "ics/text.ics" .name)) -}}
+{{- partial "ics/line.ics" "REFRESH-INTERVAL;VALUE=DURATION:PT6H" -}}
+{{- partial "ics/line.ics" "X-PUBLISHED-TTL:PT6H" -}}
+{{- range .pages }}{{ partial "ics/event.ics" . }}{{ end -}}
+{{- partial "ics/line.ics" "END:VCALENDAR" -}}

@@ -1,0 +1,1 @@
+{{- partial "ics/calendar.ics" (dict "name" "No-CAP Workshop" "pages" (sort .Pages "Params.start")) -}}

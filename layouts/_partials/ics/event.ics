@@ -1,0 +1,23 @@
+{{- /* One session as a VEVENT. Context: a session page. The UID comes from the file name, so moving a session's time updates the same event in subscribed calendars; renaming the file makes a new one. */ -}}
+{{- $p := . -}}
+{{- $names := slice -}}
+{{- range partial "lead-ids.html" $p.Params.leads -}}{{ $id := . }}{{ range where hugo.Data.leads "id" $id }}{{ $names = $names | append (printf "%s, %s" .name .org) }}{{ end }}{{ end -}}
+{{- $desc := "" -}}
+{{- with $p.Params.tagline }}{{ $desc = printf "%s\n\n" . }}{{ end -}}
+{{- with $names }}{{ $desc = printf "%sLed by %s\n\n" $desc (delimit . "; ") }}{{ end -}}
+{{- $desc = printf "%sSession page, with the join link once it is posted: %s" $desc $p.Permalink -}}
+{{- $fmt := "20060102T150405Z" -}}
+{{- partial "ics/line.ics" "BEGIN:VEVENT" -}}
+{{- partial "ics/line.ics" (printf "UID:%s@nocap-workshop.com" $p.File.ContentBaseName) -}}
+{{- partial "ics/line.ics" (printf "DTSTAMP:%s" (now.UTC.Format $fmt)) -}}
+{{- partial "ics/line.ics" (printf "LAST-MODIFIED:%s" ($p.Lastmod.UTC.Format $fmt)) -}}
+{{- partial "ics/line.ics" (printf "SEQUENCE:%d" $p.Lastmod.Unix) -}}
+{{- partial "ics/line.ics" (printf "DTSTART:%s" (($p.Params.start | time.AsTime).UTC.Format $fmt)) -}}
+{{- partial "ics/line.ics" (printf "DTEND:%s" (($p.Params.end | time.AsTime).UTC.Format $fmt)) -}}
+{{- partial "ics/line.ics" (printf "SUMMARY:%s" (partial "ics/text.ics" (printf "No-CAP Workshop: %s" $p.Title))) -}}
+{{- partial "ics/line.ics" (printf "DESCRIPTION:%s" (partial "ics/text.ics" $desc)) -}}
+{{- partial "ics/line.ics" (printf "LOCATION:%s" (partial "ics/text.ics" (printf "Online: %s" $p.Permalink))) -}}
+{{- partial "ics/line.ics" (printf "URL:%s" $p.Permalink) -}}
+{{- partial "ics/line.ics" (printf "STATUS:%s" (cond (eq $p.Params.placeholder true) "TENTATIVE" "CONFIRMED")) -}}
+{{- partial "ics/line.ics" "TRANSP:OPAQUE" -}}
+{{- partial "ics/line.ics" "END:VEVENT" -}}

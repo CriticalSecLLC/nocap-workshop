@@ -1,0 +1,3 @@
+{{- /* One iCalendar content line, folded at 60 characters as RFC 5545 asks (continuation lines start with a space), ending in CRLF. Context: the full line, e.g. "SUMMARY:Title". */ -}}
+{{- $s := . -}}
+{{- range $i := seq 0 60 (sub (strings.RuneCount $s) 1) -}}{{ if ne $i 0 }} {{ end }}{{ substr $s $i 60 }}{{ "\r\n" }}{{- end -}}
