@@ -5,8 +5,6 @@ noindex: true
 sitemap:
   disable: true
 ---
-Everything here is copy-and-paste ready. Use it as written or trim it to fit.
-
 ## The Facts
 
 | | |
